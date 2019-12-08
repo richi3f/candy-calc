@@ -1,0 +1,23 @@
+\* Problem: candy *\
+
+Minimize
+obj: + 101 x1 + 801 x2 + 3001 x3 + 10001 x4 + 30001 x5
+
+Subject To
+cap: + 100 x1 + 800 x2 + 3000 x3 + 10000 x4 + 30000 x5 >= 156250
+
+Bounds
+0 <= x1 <= 999
+0 <= x2 <= 999
+0 <= x3 <= 999
+0 <= x4 <= 999
+0 <= x5 <= 999
+
+Generals
+x1
+x2
+x3
+x4
+x5
+
+End
