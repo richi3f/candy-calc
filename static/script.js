@@ -52,14 +52,20 @@ function log( mssg = false ) {
 }
 
 function validate() {
-    var disable = false;
+    var currentLv, targetLv, disable = false;
     $( 'form [id^=result]' ).each(function() {
         $(this).val('-');
     });
     if ( !( $( 'input[name=curve]' ).val().length ) ) {
         disable = 'Fill out the Pokémon species field.';
-    } else if ( parseInt( $( 'input[name=target]' ).val() ) < parseInt( $( 'input[name=current]' ).val() ) ) {
-        disable = 'Current Level cannot exceed Target Level.';
+    } else {
+        currentLv = parseInt( $( 'input[name=current]' ).val() ),
+        targetLv = parseInt( $( 'input[name=target]' ).val() );
+        if ( currentLv == targetLv ) {
+            disable = 'Current Level cannot be equal to Target Level.';
+        } else if ( currentLv > targetLv ) {
+            disable = 'Current Level cannot exceed Target Level.';
+        }
     }
     log( disable );
     $( '[type=submit]' ).prop( 'disabled', disable.length > 0 );
@@ -105,7 +111,7 @@ $( document ).ready(function() {
     var i, len, target, template, $template;
 
     // read candy MILP problem
-    $.get('problem.txt', function( problemTemplate ) {
+    $.get('https://richi3f.github.io/candy-calc/problem.txt', function( problemTemplate ) {
 
         // read Pokémon names and experience curves
         $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
@@ -127,17 +133,28 @@ $( document ).ready(function() {
             
             // show the experience curve when a Pokémon name is typed
             $( '#pokemon' ).on( 'input', function() {
-                var value;
+                var value, $match;
                 value = this.value;
-                if ( $( 'datalist option' ).filter(function() {
+                $match = $( 'datalist option' ).filter(function() {
                     return this.value.toUpperCase() == value.toUpperCase();
-                }).length ) {
-                    value = $( 'datalist option[value="' + value + '"]' ).attr( 'data-exp-curve' );
+                });
+                if ( $match.length ) {
+                    value = $( 'datalist option[value="' + $match.val() + '"]' ).attr( 'data-exp-curve' );
                     $( 'input[name=curve]' ).val( value );
                 } else {
                     $( 'input[name=curve]' ).val( '' );
                 }
                 validate();
+            });
+
+            // clear input on select
+            $('#pokemon').click(function() {
+                var $curve = $( 'input[name=curve]' );
+                if ( $curve.val() ) {
+                    $(this).val('');
+                    $curve.val('');
+                    validate();
+                }
             });
         });
 
@@ -198,7 +215,7 @@ $( document ).ready(function() {
             expDiff = expCurrent - expDiff;
             
             if ( expDiff > 0 ) {
-                log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp Points.' );
+                log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp. Points.' );
             } else if ( expDiff == 0 ) {
                 log( 'Optimal solution found! ' )
                     .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {

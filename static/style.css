@@ -181,8 +181,7 @@ input {
 
 .input dt, .input dd,
 .math dt, .math dd {
-  float: left;
-  display: inline-block
+  float: left
 }
 
 .input dt {
@@ -267,9 +266,11 @@ tr th[rowspan] {
 }
 
 #calc table label {
-  text-indent: 2.5em;
+  text-indent: 2.25em;
   display: inline-block;
-  background: url(candy.png) no-repeat
+  background: url(candy.png) no-repeat;
+  height: 2em;
+  overflow: hidden
 }
 
 #calc table label[for$=-s] {
