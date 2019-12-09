@@ -216,7 +216,7 @@ tr th[rowspan] {
   padding: 0 .5em;
 }
 
-tr th[rowspan] input {
+[type=submit] {
   height: 4em;
   background: #333;
   color: #fefefe;
@@ -227,9 +227,18 @@ tr th[rowspan] input {
   margin: 6.5em auto;
 }
 
-tr th[rowspan] input:hover,
-tr th[rowspan] input:focus {
+[type=submit]:hover,
+[type=submit]:focus {
   background: #000
+}
+
+[type=submit]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed
+}
+
+[type=submit]:hover:disabled {
+  background: #333
 }
 
 #calc table label {
@@ -237,15 +246,19 @@ tr th[rowspan] input:focus {
   display: inline-block;
   background: url(candy.png) no-repeat
 }
+
 #calc table label[for$=-s] {
   background-position: 0 -32px
 }
+
 #calc table label[for$=-m] {
   background-position: 0 -64px
 }
+
 #calc table label[for$=-l] {
   background-position: 0 -96px
 }
+
 #calc table label[for$=-xl] {
   background-position: 0 -128px
 }
@@ -260,6 +273,7 @@ tr th[rowspan] input:focus {
   max-width: 50em;
   margin: 2em auto
 }
+
 #faq h2 {
   background: #333;
   color: #fefefe;
@@ -267,11 +281,13 @@ tr th[rowspan] input:focus {
   padding: .5em;
   margin: 0 auto .8333333em;
 }
+
 h2:after {
   left: 0;
   border-bottom: 2.5em solid transparent;
   border-left: 1em solid #2c2125  
 }
+
 h2:before {
   right: 0;
   border-top: 2.5em solid transparent;
@@ -281,18 +297,23 @@ h2:before {
 #faq table {
   width: 16em
 }
+
 #faq table th, #faq table td {
   padding: .5em;
 }
+
 #faq table th {
   border-bottom: 2px solid #ddd
 }
+
 #faq table td {
   border-bottom: 1px solid #ddd
 }
+
 #faq tbody tr:nth-of-type(2n+1) {
   background: #f9f9f9
 }
+
 #faq table tr *:nth-child(2) {
   text-align: center;
   width: 8em
@@ -301,6 +322,7 @@ h2:before {
 #faq dl dt {
   font-weight: 700
 }
+
 #faq .math dt {
   font-weight: 400
 }
@@ -314,9 +336,16 @@ footer {
   #calc, #faq {
     width: 30em;
   }
+
   #calc .input {
     margin: 0 1em 2em;
   }
+
+  #calc table label {
+    background: none;
+    text-indent: 0
+  }
+
   .math dd:last-child {
     margin-left: 8em
   }
