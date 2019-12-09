@@ -1,0 +1,323 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 16px/1.5 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  margin: 0;
+}
+
+a {
+  background-color: transparent;
+  color: #000;
+}
+a:hover {
+  font-weight: 700
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: none;
+  cursor: help
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+button, input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+  width: inherit;
+  box-sizing: border-box;
+  text-align: center;
+  border-color: transparent;
+}
+
+button, [type=submit] {
+  -webkit-appearance: button;
+}
+
+[type=number] {
+  -moz-appearance: textfield;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+template, [hidden] {
+  display: none;
+}
+
+input[readonly] {
+  cursor: default
+}
+
+.var {
+  font-style: italic 
+}
+
+main {
+  margin: 2em auto;
+  min-width: 28em;
+  display: block
+}
+
+h1 {
+  font-size: 2em;
+  width: 40%;
+  margin: 0.625em auto;
+  padding: .25em;
+}
+
+h1, h1 + p {
+  text-align: center
+}
+
+h1, input[readonly], #calc #log {
+  background: #d4558c;
+  color: #fefefe
+}
+
+h1, h2 {
+  text-align: center;
+  position: relative;
+}
+
+h1:after, h1:before,
+h2:after, h2:before {
+  content: '';
+  width: 0;
+  height: 0; 
+  position: absolute;
+  top: 0;
+}
+
+h1:after {
+  right: -1em;
+  border-bottom: 2em solid transparent;
+  border-left: 1em solid #d4558c
+}
+
+h1:before {
+  left: -1em;
+  border-top: 2em solid transparent;
+  border-right: 1em solid #d4558c
+}
+
+#calc {
+  max-width: 50em;
+  padding: 1.5em 2.5em 3em;
+  margin: 0 auto;
+  background: #dc6a9d;
+  box-shadow: 0 0 .75em 0 rgba(0,0,0,0.25);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 0 0;
+  line-height: 2;
+}
+
+input {
+  background: #e579ad;
+  border-radius: 1em;
+}
+
+.input {
+  width: 18em;
+  margin: 2em 2em 0 0;
+}
+.input dt, .input dd {
+  margin: .5em 0
+}
+
+.input dt, .input dd,
+.math dt, .math dd {
+  float: left;
+  display: inline-block
+}
+
+.input dt {
+  width: 8em
+}
+
+.input dd {
+  width: 10em
+}
+
+.math dt, .math dd {
+  width: 6em
+}
+
+.input dt, .math dt {
+  clear: left;
+}
+
+.math dd {
+  margin: 0 0 0 2em
+}
+
+.math dd:last-child {
+  width: 12em;
+  margin: 0 0 0 2em;
+}
+
+.input:after, .math:after {
+  content: '';
+  display: block;
+  clear: left
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 30em;
+  margin: 0 auto;
+}
+
+th {
+  padding: 0;
+  vertical-align: bottom
+}
+
+td {
+  padding: 0.5em;
+  width: 4em;
+  vertical-align: middle;
+}
+
+tr th:nth-child(1),
+tr td:nth-child(1),
+tr th[rowspan] {
+  width: 9em;
+  padding: 0 .5em;
+}
+
+tr th[rowspan] input {
+  height: 4em;
+  background: #333;
+  color: #fefefe;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: 0 0 .25em 0 rgba(0,0,0,0.25);
+  margin: 6.5em auto;
+}
+
+tr th[rowspan] input:hover,
+tr th[rowspan] input:focus {
+  background: #000
+}
+
+#calc table label {
+  text-indent: 2.5em;
+  display: inline-block;
+  background: url(candy.png) no-repeat
+}
+#calc table label[for$=-s] {
+  background-position: 0 -32px
+}
+#calc table label[for$=-m] {
+  background-position: 0 -64px
+}
+#calc table label[for$=-l] {
+  background-position: 0 -96px
+}
+#calc table label[for$=-xl] {
+  background-position: 0 -128px
+}
+
+#calc #log {
+  text-align: center;
+  padding: 0.5em;
+  
+}
+
+#faq {
+  max-width: 50em;
+  margin: 2em auto
+}
+#faq h2 {
+  background: #333;
+  color: #fefefe;
+  width: 8em;
+  padding: .5em;
+  margin: 0 auto .8333333em;
+}
+h2:after {
+  left: 0;
+  border-bottom: 2.5em solid transparent;
+  border-left: 1em solid #2c2125  
+}
+h2:before {
+  right: 0;
+  border-top: 2.5em solid transparent;
+  border-right: 1em solid #2c2125  
+}
+
+#faq table {
+  width: 16em
+}
+#faq table th, #faq table td {
+  padding: .5em;
+}
+#faq table th {
+  border-bottom: 2px solid #ddd
+}
+#faq table td {
+  border-bottom: 1px solid #ddd
+}
+#faq tbody tr:nth-of-type(2n+1) {
+  background: #f9f9f9
+}
+#faq table tr *:nth-child(2) {
+  text-align: center;
+  width: 8em
+}
+
+#faq dl dt {
+  font-weight: 700
+}
+#faq .math dt {
+  font-weight: 400
+}
+
+footer {
+  font-size: .75em;
+  text-align: center
+}
+
+@media only screen and (max-width: 60em) {
+  #calc, #faq {
+    width: 30em;
+  }
+  #calc .input {
+    margin: 0 1em 2em;
+  }
+  .math dd:last-child {
+    margin-left: 8em
+  }
+}
