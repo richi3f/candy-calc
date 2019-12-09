@@ -31,7 +31,6 @@ curves = {
     },
     fluctuating: function( n ) {
         if ( n < 15 ) {
-            console.log( Math.floor( Math.pow( n, 3 ) * ( 73 + n ) / 150 ) );
             return Math.floor( Math.pow( n, 3 ) * ( 73 + n ) / 150 );
         } else if ( 15 <= n && n < 36 ) {
             return Math.floor( Math.pow( n, 3 ) * ( 14 + n ) / 50 );
