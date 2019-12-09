@@ -3,7 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="A calculator for Exp. Candy in Pokémon Sword &amp; Shield.">
+    <meta name="description" content="A calculator for Exp. Candy optimization in Pokémon Sword &amp; Shield.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/style.css">
     <title>Candy Calc</title>
 </head>
 
@@ -13,7 +15,7 @@
     <section id="calc">
         <h1>Candy Calc</h1>
 
-        <p>This calculator is for <abbr title="Experience">Exp.</abbr> Candy optimization in Pokémon Sword &amp; Shield. Read the <a href="/faq.html">FAQ</a> for more information.</p>
+        <p>A calculator for <abbr title="Experience">Exp.</abbr> Candy optimization in Pokémon Sword &amp; Shield. Read the <a href="#faq">FAQ</a> for more information.</p>
 
         <form>
             <dl class="input">
@@ -27,31 +29,30 @@
                 <dd><input id="curve" name="curve" type="text" readonly tabindex="-1"></dd>
 
                 <dt><label for="current">Current Level</label></dt>
-                <dd><input id="current" name="current" type="number" pattern="\d+" min="1" max="99" value="1"></dd>
+                <dd><input id="current" name="current" type="number" pattern="\d*" min="1" max="99" value="1"></dd>
 
                 <dt><label for="target">Target Level</label></dt>
                 <dd><input id="target" name="target" type="number" min="1" max="100" value="50"></dd>
             </dl>
             <table>
-                <thead>
+                <tbody>
                     <tr>
                         <th>Candy</th>
                         <th>In Bag</th>
+                        <th rowspan="6"><input type="submit" style="" value="Calculate"></th>
                         <th>Required</th>
                     </tr>
-                </thead>
-                <tbody></tbody>
+                </tbody>
             </table>
-            <template id="candyrow">
+            <template data-target="#calc table tbody">
                 <tr>
                     <td><label>Exp. Candy </label></td>
-                    <td><input type="number" min="0" max="999" value="999"></td>
-                    <td><input type="text" readonly tabindex="-1"></td>
+                    <td><input type="number" pattern="\d*" min="0" max="999" value="999"></td>
+                    <td><input type="text" readonly tabindex="-1" value="-"></td>
                 </tr>
             </template>
-
-            <input type="submit" disabled>
         </form>
+        <p id="log" hidden></p>
     </section>
     <section id="faq">
         <h2>FAQ</h2>
@@ -68,7 +69,7 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>Item</th>
+                            <th>Candy</th>
                             <th>Exp. Yield</th>
                         </tr>
                     </thead>
@@ -96,6 +97,9 @@
                     </tbody>
                 </table>
             </dd>
+            
+            <dt><p>How do you use this calculator?</p></dt>
+            <dt><p>Enter the species of your Pokémon (the Experience Curve is auto-completed), its current level, and the target level you want it to reach. Additionally, you may indicate how many candies of each type are left in your Bag. Then, click "Calculate" and voil&agrave;!</p>
 
             <dt><p>Where do you find Exp. Candy?</p></dt>
             <dd>
@@ -120,9 +124,15 @@
             
             <dt><p>What about Rare Candy?</p><dt>
             <dd>
-                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience. This means that consuming a Rare Candy at Lv. 1 does not equate consuming a Rare Candy at Lv. 99. Conversely, an Exp. Candy XL grants the same amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
+                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience as level increases. This means that consuming a Rare Candy at <abbr title="Level 1">Lv. 1</abbr> does not equate consuming a Rare Candy at <abbr title="Level 99">Lv. 99</abbr>. Conversely, an Exp. Candy XL grants the same amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
                 <p>If you want to take Rare Candies into consideration, lower the target level by the amount of candy you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the Exp. Candy.</p>
             </dd>
+            
+            <dt><p>What about other modifiers?</p></dt>
+            <dd><p>The yield of Exp. Candies is not modified by other factors such as holding a Lucky Egg.</p></dt>
+        
+            <dt><p>I have feedback/questions/bug report.</p></dt>
+            <dd><p>Contact me on <a href="http://twitter.com/richi3f">Twitter</a> or <a href="https://github.com/richi3f/candy-calc/issues/new">open an Issue</a> in the project's repository.</p></dt>
         </dl>
 
     </section>
