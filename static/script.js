@@ -40,29 +40,32 @@ curves = {
         }
     }
 }
+    
+function log( mssg = false ) {
+    var $log = $( '#log' );
+    if ( mssg ) {
+        $log.removeAttr( 'hidden' )
+            .text( mssg );
+    } else {
+        $log.attr( 'hidden', '' );
+    }
+    return $log;
+}
 
 function validate() {
-    var $log, disable = false;
-    $log = $( '#log' )
-        .attr( 'hidden', '' );
-    
+    var disable = false;
     $( 'form [id^=result]' ).each(function() {
         $(this).val('-');
     });
-    
     if ( !( $( 'input[name=curve]' ).val().length ) ) {
-        disable = true;
-        $log.text( 'Fill out the Pokémon species field.' );
+        disable = 'Fill out the Pokémon species field.';
     } else if ( parseInt( $( 'input[name=target]' ).val() ) < parseInt( $( 'input[name=current]' ).val() ) ) {
-        disable = true;
-        $log.text( 'Current Level cannot exceed Target Level.' );
+        disable = 'Current Level cannot exceed Target Level.';
     }
-    if ( disable ) {
-        $log.removeAttr( 'hidden' );
-    }
-    $( '[type=submit]' ).prop( 'disabled', disable );
+    log( disable );
+    $( '[type=submit]' ).prop( 'disabled', disable.length > 0 );
 }
-
+    
 function testTimeout( start ) {
     var d, now = new Date();
     d = ( now.getTime() - start.getTime() ) / 1000;
@@ -70,10 +73,8 @@ function testTimeout( start ) {
 }
 
 function optimize( problem ) {
-    var $log, lp, iocp, start, colname, colval, objval;
+    var lp, iocp, start, colname, colval, objval;
     
-    $log = $( '#log' );
-
     start = new Date();
 
     lp = glp_create_prob();
@@ -89,8 +90,7 @@ function optimize( problem ) {
         testTimeout( start );
 
         if ( objval < 0 ) {
-            $log.removeAttr( 'hidden' )
-                .text( 'No feasible solution found! Check if there is enough candy.' );
+            log( 'No feasible solution found! Check if there is enough candy.' );
         }
         for( let i = 1; i <= glp_get_num_cols( lp ); i++ ){
             colname = glp_get_col_name( lp, i ),
@@ -99,21 +99,9 @@ function optimize( problem ) {
             $( '#result-exp-candy-' + colname ).val( colval );
             objval -= colval;
         }
-        if ( objval > 0 ) {
-            $log.removeAttr( 'hidden' )
-                .text( 'Solution found with a surplus of ' + fmtNum( objval ) + ' Exp Points.' );
-        } else {
-            $log.removeAttr( 'hidden' )
-                .text( 'Optimal solution found! ' )
-                .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {
-                    evt.preventDefault();
-                    $( '#calc form' ).trigger( 'reset' );
-                }) );
-        }
         return objval;
     } catch ( err ) {
-        $log.removeAttr( 'hidden' )
-            .text( 'Timed out looking for a solution.' );
+        log( 'Timed out looking for a solution.' );
     }
 }
 
@@ -211,8 +199,17 @@ $( document ).ready(function() {
             }
 
             expCurrent = optimize( problem );
-            expDiff = expCurrent - expTarget;
-            console.log( 'surplus = ' + expDiff );
+            expDiff = expDiff - expCurrent;
+            
+            if ( expDiff > 0 ) {
+                log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp Points.' );
+            } else if ( expDiff == 0 ) {
+                log( 'Optimal solution found! ' )
+                    .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {
+                        evt.preventDefault();
+                        $( '#calc form' ).trigger( 'reset' );
+                    }) );
+            }
         });
 
         validate();
