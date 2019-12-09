@@ -40,7 +40,7 @@
                     <tr>
                         <th>Candy</th>
                         <th>In Bag</th>
-                        <th rowspan="6"><input type="submit" style="" value="Calculate"></th>
+                        <th rowspan="6"><input type="submit" value="Calculate"></th>
                         <th>Required</th>
                     </tr>
                 </tbody>
@@ -100,7 +100,7 @@
             </dd>
             
             <dt><p>How do you use this calculator?</p></dt>
-            <dd><p>Enter the species of your Pokémon (the Experience Curve is auto-completed), its current level, and the target level you want it to reach. Additionally, you may indicate how many candies of each type are left in your Bag. Then, click "Calculate" and voil&agrave;!</p></dd>
+            <dd><p>Enter the species of your Pokémon (the Experience Curve will be auto-completed), its current level, and the target level you want it to reach. Additionally, you may indicate how many candies of each type are left in your Bag. Then, click "Calculate" and voil&agrave;!</p></dd>
 
             <dt><p>Where do you find Exp. Candy?</p></dt>
             <dd>
@@ -117,7 +117,7 @@
                         <dt>minimize</dt>
                         <dd>Σ(<abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> + 1) <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
                         <dt>subject to</dt>
-                        <dd><abbr class="var" title="Exp. Points">E</abbr> ≤ <abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
+                        <dd><abbr class="var" title="Exp. Points">E</abbr> ≤ Σ <abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
                         <dd>∀ <abbr class="var">i</abbr> ∈ { XS, S, M, L, XL }</dd>
                     </dl>
                 </figure>
@@ -125,15 +125,15 @@
             
             <dt><p>What about Rare Candy?</p><dt>
             <dd>
-                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience as level increases. This means that consuming a Rare Candy at <abbr title="Level 1">Lv. 1</abbr> does not equate consuming a Rare Candy at <abbr title="Level 99">Lv. 99</abbr>. Conversely, an Exp. Candy XL grants the same amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
-                <p>If you want to take Rare Candies into consideration, lower the target level by the amount of candy you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the Exp. Candy.</p>
+                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience as level increases. This means that consuming a Rare Candy at <abbr title="Level 1">Lv. 1</abbr> does not equate consuming a Rare Candy at <abbr title="Level 99">Lv. 99</abbr>. Conversely, an Exp. Candy XL grants a fixed amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
+                <p>If you want to take Rare Candies into consideration, lower the target level by the amount of Rare Candies you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the Exp. Candy.</p>
             </dd>
             
             <dt><p>What about other modifiers?</p></dt>
             <dd><p>The yield of Exp. Candies is not modified by other factors such as holding a Lucky Egg.</p></dt>
         
             <dt><p>I have feedback/questions/bug report.</p></dt>
-            <dd><p>Contact me on <a href="http://twitter.com/richi3f">Twitter</a> or <a href="https://github.com/richi3f/candy-calc/issues/new">open an Issue</a> in the project's repository.</p></dt>
+            <dd><p>Contact me on <a href="http://twitter.com/richi3f">Twitter</a> or <a href="https://github.com/richi3f/candy-calc/issues/new">open an Issue</a> in <a href="https://github.com/richi3f/candy-calc">this project's repository</a>.</p></dt>
         </dl>
 
     </section>
