@@ -1,8 +1,9 @@
 (function(){
 var curves;
 const CANDY_SIZES = [ 'XS', 'S', 'M', 'L', 'XL' ];
-const calcExpToLvl = ( curve, n ) => ( n <= 1 ) ? 0 : curves[ curve ]( n );
+const calcExpToLv = ( curve, n ) => ( n <= 1 ) ? 0 : curves[ curve ]( n );
 const clamp = ( num, lb, ub ) => Math.max( lb, Math.min( num, ub ) );
+const fmtNum = ( num ) => num.toString().replace( /\B(?=(\d{3})+(?!\d))/g, ',' );
 const toCamel = ( str ) => str.toLowerCase().replace( /\s+([a-z])/g, ( _, chr ) => chr.toUpperCase() );
 
 curves = {
@@ -43,7 +44,12 @@ curves = {
 function validate() {
     var $log, disable = false;
     $log = $( '#log' )
-        .removeAttr( 'hidden' );
+        .attr( 'hidden', '' );
+    
+    $( 'form [id^=result]' ).each(function() {
+        $(this).val('-');
+    });
+    
     if ( !( $( 'input[name=curve]' ).val().length ) ) {
         disable = true;
         $log.text( 'Fill out the Pokémon species field.' );
@@ -52,20 +58,21 @@ function validate() {
         $log.text( 'Current Level cannot exceed Target Level.' );
     }
     if ( disable ) {
-        $log.attr( 'hidden', '' );
+        $log.removeAttr( 'hidden' );
     }
     $( '[type=submit]' ).prop( 'disabled', disable );
 }
 
-function output( value, start ) {
-    var now = new Date();
-    var d = ( now.getTime() - start.getTime() ) / 1000;
+function testTimeout( start ) {
+    var d, now = new Date();
+    d = ( now.getTime() - start.getTime() ) / 1000;
     if ( d > 60 ) throw new Error( 'timeout' );
-    console.log( value );
 }
 
 function optimize( problem ) {
-    var lp, iocp, start, colname, colval, objval;
+    var $log, lp, iocp, start, colname, colval, objval;
+    
+    $log = $( '#log' );
 
     start = new Date();
 
@@ -77,16 +84,37 @@ function optimize( problem ) {
     iocp = new IOCP( { presolve: GLP_ON } );
     glp_intopt( lp, iocp );
 
-    objval = glp_mip_obj_val( lp );
-    output( 'obj: ' + objval, start );
-    for( let i = 1; i <= glp_get_num_cols( lp ); i++ ){
-        colname = glp_get_col_name( lp, i ),
-        colval = glp_mip_col_val( lp, i );
-        output( colname  + ' = ' + colval, start );
-        $( '#result-exp-candy-' + colname ).val( colval );
-        objval -= colval;
+    try {
+        objval = glp_mip_obj_val( lp );
+        testTimeout( start );
+
+        if ( objval < 0 ) {
+            $log.removeAttr( 'hidden' )
+                .text( 'No feasible solution found! Check if there is enough candy.' );
+        }
+        for( let i = 1; i <= glp_get_num_cols( lp ); i++ ){
+            colname = glp_get_col_name( lp, i ),
+            colval = glp_mip_col_val( lp, i );
+            testTimeout( start );
+            $( '#result-exp-candy-' + colname ).val( colval );
+            objval -= colval;
+        }
+        if ( objval > 0 ) {
+            $log.removeAttr( 'hidden' )
+                .text( 'Solution found with a surplus of ' + fmtNum( objval ) + ' Exp Points.' );
+        } else {
+            $log.removeAttr( 'hidden' )
+                .text( 'Optimal solution found! ' )
+                .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {
+                    evt.preventDefault();
+                    $( '#calc form' ).trigger( 'reset' );
+                }) );
+        }
+        return objval;
+    } catch ( err ) {
+        $log.removeAttr( 'hidden' )
+            .text( 'Timed out looking for a solution.' );
     }
-    return objval;
 }
 
 $( document ).ready(function() {
@@ -171,8 +199,8 @@ $( document ).ready(function() {
                 values[ field.name ] = field.value;
             });
             curve = toCamel( values.curve );
-            expCurrent = calcExpToLvl( curve, values.current );
-            expTarget = calcExpToLvl( curve, values.target );
+            expCurrent = calcExpToLv( curve, values.current );
+            expTarget = calcExpToLv( curve, values.target );
             expDiff = expTarget - expCurrent;
             
             problem = problemTemplate.replace( /{exp}/g, expDiff );
