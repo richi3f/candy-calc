@@ -290,8 +290,11 @@ tr th[rowspan] {
 
 #calc #log {
   text-align: center;
-  padding: 0.5em;
-  
+  padding: 0.5em; 
+}
+
+#calc #log a {
+  color: #fefefe
 }
 
 #faq {
