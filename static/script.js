@@ -105,7 +105,7 @@ $( document ).ready(function() {
     var i, len, target, template, $template;
 
     // read candy MILP problem
-    $.get('problem.txt', function( problemTemplate ) {
+    $.get('../problem.txt', function( problemTemplate ) {
 
         // read Pokémon names and experience curves
         $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
