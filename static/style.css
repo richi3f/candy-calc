@@ -78,8 +78,9 @@ input[readonly] {
 }
 
 main {
+  min-width: 35em;
   margin: 2em auto;
-  min-width: 28em;
+  padding: 0 2em;
   display: block
 }
 
@@ -123,6 +124,30 @@ h1:before {
   left: -1em;
   border-top: 2em solid transparent;
   border-right: 1em solid #d4558c
+}
+
+section {
+  position: relative
+}
+
+#calc:before, #faq:after {
+  content: '';
+  width: 6.25em;
+  height: 6.25em;
+  display: inline-block;
+  position: absolute;
+  background: url(bg.png) no-repeat
+}
+
+#calc:before {
+  top: 1em;
+  left: 1.5em
+}
+
+#faq:after {
+  top: 0;
+  right: 0;
+  transform: scaleX(-1)
 }
 
 #calc {
@@ -224,7 +249,7 @@ tr th[rowspan] {
   cursor: pointer;
   border-radius: 0;
   box-shadow: 0 0 .25em 0 rgba(0,0,0,0.25);
-  margin: 6.5em auto;
+  margin: 0 auto 5.5em;
 }
 
 [type=submit]:hover,
