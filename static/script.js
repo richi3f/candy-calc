@@ -26,18 +26,17 @@ curves = {
             return Math.floor( Math.pow( n, 3 ) * ( 150 - n ) / 100 );
         } else if ( 68 < n && n < 98 ) {
             return Math.floor( Math.pow( n, 3 ) * ( 1911 - n * 10 ) / 1500 );
-        } else {
-            return Math.floor( Math.pow( n, 3 ) * ( 160 - n ) / 100 );
         }
+        return Math.floor( Math.pow( n, 3 ) * ( 160 - n ) / 100 );
     },
     fluctuating: function( n ) {
         if ( n < 15 ) {
+            console.log( Math.floor( Math.pow( n, 3 ) * ( 73 + n ) / 150 ) );
             return Math.floor( Math.pow( n, 3 ) * ( 73 + n ) / 150 );
         } else if ( 15 <= n && n < 36 ) {
             return Math.floor( Math.pow( n, 3 ) * ( 14 + n ) / 50 );
-        } else {
-            return Math.floor( Math.pow( n, 3 ) * ( 64 + n ) / 100 );
         }
+        return Math.floor( Math.pow( n, 3 ) * ( 64 + n ) / 100 );
     }
 }
     
@@ -184,8 +183,8 @@ $( document ).ready(function() {
                 values[ field.name ] = field.value;
             });
             curve = toCamel( values.curve );
-            expCurrent = calcExpToLv( curve, values.current );
-            expTarget = calcExpToLv( curve, values.target );
+            expCurrent = calcExpToLv( curve, parseInt( values.current ) );
+            expTarget = calcExpToLv( curve, parseInt( values.target ) );
             expDiff = expTarget - expCurrent;
             
             problem = problemTemplate.replace( /{exp}/g, expDiff );
