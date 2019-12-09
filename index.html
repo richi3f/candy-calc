@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="A calculator for Exp. Candy in Pokémon Sword &amp; Shield.">
     <title>Candy Calc</title>
 </head>
 
@@ -10,25 +11,27 @@
 
 <main>
     <section id="calc">
-        <h1 class="header center">Candy Calc</h1>
+        <h1>Candy Calc</h1>
 
         <p>This calculator is for <abbr title="Experience">Exp.</abbr> Candy optimization in Pokémon Sword &amp; Shield. Read the <a href="/faq.html">FAQ</a> for more information.</p>
 
         <form>
-            <div class="container">
-                <label for="pokemon">Pokémon</label>
-                <input id="pokemon" name="pokemon" list="pokemon-list">
-                <datalist id="pokemon-list"></datalist>
+            <dl class="input">
+                <dt><label for="pokemon">Pokémon</label></dt>
+                <dd>
+                    <input id="pokemon" name="pokemon" list="pokemon-list">
+                    <datalist id="pokemon-list"></datalist>
+                </dd>
+                
+                <dt><label for="curve">Experience Curve</label></dt>
+                <dd><input id="curve" name="curve" type="text" readonly tabindex="-1"></dd>
 
-                <label for="curve">Experience Curve</label>
-                <input id="curve" name="curve" type="text" readonly>
+                <dt><label for="current">Current Level</label></dt>
+                <dd><input id="current" name="current" type="number" pattern="\d+" min="1" max="99" value="1"></dd>
 
-                <label for="current">Current Level</label>
-                <input id="current" name="current" type="number" min="1" max="99" value="1">
-
-                <label for="target">Target Level</label>
-                <input id="target" name="target" type="number" min="1" max="100" value="50">
-            </div>
+                <dt><label for="target">Target Level</label></dt>
+                <dd><input id="target" name="target" type="number" min="1" max="100" value="50"></dd>
+            </dl>
             <table>
                 <thead>
                     <tr>
@@ -43,7 +46,7 @@
                 <tr>
                     <td><label>Exp. Candy </label></td>
                     <td><input type="number" min="0" max="999" value="999"></td>
-                    <td><input type="text" readonly></td>
+                    <td><input type="text" readonly tabindex="-1"></td>
                 </tr>
             </template>
 
@@ -54,11 +57,14 @@
         <h2>FAQ</h2>
         <dl>
             <dt><p>What does this calculator do?</p></dt>
-            <dd><p>It calculates the optimal candy distribution that satisfies the user input. In other words, it tells you how many candy you should feed your Pokémon to reach a certain level.</p></dd>
+            <dd>
+                <p>It calculates the optimal amount of candy you should feed your Pokémon to reach a certain level.</p>
+                <p>This can be useful for Hyper Training, evolving, or teaching a level-up move to a Pokémon.</p>
+            </dd>
 
             <dt><p>What are Exp. Candy?</p></dt>
             <dd>
-                <p>Exp. Candy are items introduced in Pokémon Sword &amp; Shield that grant Exp. Points when consumed by Pokémon. There are 5 varieties, each with a different yield as shown in the following table:</p>
+                <p>Exp. Candy are a new kind of item introduced in Pokémon Sword &amp; Shield. These grant Exp. Points when consumed by Pokémon. As shown below, there are 5 sizes, each with a different Experience yield:</p>
                 <table>
                     <thead>
                         <tr>
@@ -94,23 +100,39 @@
             <dt><p>Where do you find Exp. Candy?</p></dt>
             <dd>
                 <p>These items are drop rewards from Max Raid Battles. Raids with a higher number of stars will output larger candy.</p>
-                <p>Additionally, hikers spread throughout the Wild Area may hand out candy in exchange for Watts.</p>
+                <p>Additionally, hikers spread throughout the Wild Area may hand out candy in exchange for Watts and you may also receive them as prizes from the Battle Cafés. However, farming candy through these methods is less efficient than raids.</p>
             </dd>
 
             <dt><p>What does optimal mean?</p></dt>
             <dd>
-                <p>In a perfect world, candy is an unlimited resource that streams directly from your pockets into the bellies of your dearest battle companions. Since this is not the case, it is wise to carefully allocate the candy in order to maximize its usefulness. Surely, there is nothing stopping you from randomly feeding candy to your Pokémon and stopping when you feel like it.</p>
+                <p>In a perfect world, candy is an unlimited resource that streams directly into the bellies of your dearest battle companions. Since this is not the case, it is wise to carefully allocate your candy in order to maximize their usefulness and prevent any waste of resources.</p>
+                <p>To calculate the optimal distribution of candy, this calculator solves a <a href="https://en.wikipedia.org/wiki/Integer_programming">mixed-integer linear programming</a> problem. In this problem, the objective function is set to minimize the number of candy required (<abbr class="var" title="Candy Number">c<sub>i</sub></abbr>) to meet certain Experience (<abbr class="var" title="Exp. Points">E</abbr>). At the same time, the surplus of Exp. Points is also minimized by taking into account the yields of each candy variant (<abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr>). In mathematical notation, this is represented as follows:</p>
                 <figure>
-                        <!--\begin{array}{lll}
-                \text{minimize}  & \sum (Y_i + 1) c_i & \\
-                \text{subject to}& E \leq \sum Y_i c_i & \forall \, i \in \{ \text{XS}, \text{S}, \text{M}, \text{L}, \text{XL} \}
-                \end{array}-->
-                    <img src="https://quicklatex.com/cache3/8f/ql_b48e1e8763844002e3a1b9ba2bf8d68f_l3.png" alt="">
+                    <dl class="math">
+                        <dt>minimize</dt>
+                        <dd>Σ(<abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> + 1) <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
+                        <dt>subject to</dt>
+                        <dd><abbr class="var" title="Exp. Points">E</abbr> ≤ <abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
+                        <dd>∀ <abbr class="var">i</abbr> ∈ { XS, S, M, L, XL }</dd>
+                    </dl>
                 </figure>
+            </dd>
+            
+            <dt><p>What about Rare Candy?</p><dt>
+            <dd>
+                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience. This means that consuming a Rare Candy at Lv. 1 does not equate consuming a Rare Candy at Lv. 99. Conversely, an Exp. Candy XL grants the same amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
+                <p>If you want to take Rare Candies into consideration, lower the target level by the amount of candy you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the Exp. Candy.</p>
             </dd>
         </dl>
 
     </section>
+    
+    <footer>
+        <p>
+            © of <a href="http://twitter.com/richi3f">richi3f</a>, <time datetime="2019">2019</time><br>
+            Pokémon is © of Nintendo, <time datetime="1995">1995</time>-<time datetime="2019">2019</time>
+        </p>
+    </footer>
 
 </main>
 
