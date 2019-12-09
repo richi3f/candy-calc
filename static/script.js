@@ -41,11 +41,18 @@ curves = {
 }
 
 function validate() {
-    var disable = false;
+    var $log, disable = false;
+    $log = $( '#log' )
+        .removeAttr( 'hidden' );
     if ( !( $( 'input[name=curve]' ).val().length ) ) {
         disable = true;
+        $log.text( 'Fill out the Pokémon species field.' );
     } else if ( parseInt( $( 'input[name=target]' ).val() ) < parseInt( $( 'input[name=current]' ).val() ) ) {
         disable = true;
+        $log.text( 'Current Level cannot exceed Target Level.' );
+    }
+    if ( disable ) {
+        $log.attr( 'hidden', '' );
     }
     $( '[type=submit]' ).prop( 'disabled', disable );
 }
@@ -83,10 +90,10 @@ function optimize( problem ) {
 }
 
 $( document ).ready(function() {
-    var i, len, template, $template;
+    var i, len, target, template, $template;
 
     // read candy MILP problem
-    $.get('https://raw.githubusercontent.com/richi3f/candy-calc/master/candy.txt', function( problemTemplate ) {
+    $.get('https://richi3f.github.io/candy-calc/candy.txt', function( problemTemplate ) {
 
         // read Pokémon names and experience curves
         $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
@@ -123,7 +130,9 @@ $( document ).ready(function() {
         });
 
         // create rows for candy in bag
-        template = $('#candyrow').html().trim();
+        $template = $('#calc template');
+        target = $template.attr('data-target');
+        template = $template.html().trim();
         len = CANDY_SIZES.length;
         for ( i = 0; i < len; i++ ) {
             let slug = 'exp-candy-' + CANDY_SIZES[ i ].toLowerCase();
@@ -136,7 +145,7 @@ $( document ).ready(function() {
                 .attr( 'name', slug );
             $template.find( 'input[readonly]' )
                     .attr( 'id', 'result-' + slug );
-            $template.appendTo( 'form table tbody' );
+            $template.appendTo( target );
         }
 
         // limit numerical input
