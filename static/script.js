@@ -1,9 +1,9 @@
 (function(){
 var curves;
 const CANDY_SIZES = [ 'XS', 'S', 'M', 'L', 'XL' ];
-const toCamel = ( str ) => str.toLowerCase().replace( /\s+([a-z])/g, ( _, chr ) => chr.toUpperCase() );
 const calcExpToLvl = ( curve, n ) => ( n <= 1 ) ? 0 : curves[ curve ]( n );
 const clamp = ( num, lb, ub ) => Math.max( lb, Math.min( num, ub ) );
+const toCamel = ( str ) => str.toLowerCase().replace( /\s+([a-z])/g, ( _, chr ) => chr.toUpperCase() );
 
 curves = {
     fast: function( n ) {
@@ -57,7 +57,7 @@ function output( value, start ) {
     console.log( value );
 }
 
-function optimize(problem) {
+function optimize( problem ) {
     var lp, iocp, start, colname, colval, objval;
 
     start = new Date();
@@ -82,27 +82,27 @@ function optimize(problem) {
     return objval;
 }
 
-$(document).ready(function() {
+$( document ).ready(function() {
     var i, len, template, $template;
 
-    // read candy MILP
-    $.get('https://raw.githubusercontent.com/richi3f/candy-calc/master/candy.txt', function(problemTemplate) {
+    // read candy MILP problem
+    $.get('https://raw.githubusercontent.com/richi3f/candy-calc/master/candy.txt', function( problemTemplate ) {
 
         // read Pokémon names and experience curves
-        $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function(pokemonData) {
+        $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
             // add an option to the datalist for each Pokémon
             slugs = Object.keys( pokemonData );
             len = slugs.length;
             for ( i = 0; i < len; i++ ) {
-                slug = slugs[i];
-                if (pokemonData[slug].dex.swsh == 999) {
+                slug = slugs[ i ];
+                if ( pokemonData[ slug ].dex.swsh == 999 ) {
                     continue;
                 }
                 $( '<option>' )
-                    .attr( 'value', pokemonData[slug].name )
-                    .attr( 'data-exp-curve', pokemonData[slug].exp )
+                    .attr( 'value', pokemonData[ slug ].name )
+                    .attr( 'data-exp-curve', pokemonData[ slug ].exp )
                     .appendTo( 'datalist' );
             }
             
@@ -114,9 +114,9 @@ $(document).ready(function() {
                     return this.value.toUpperCase() == value.toUpperCase();
                 }).length ) {
                     value = $( 'datalist option[value="' + value + '"]' ).attr( 'data-exp-curve' );
-                    $( 'input[name=curve]' ).val(value);
+                    $( 'input[name=curve]' ).val( value );
                 } else {
-                    $( 'input[name=curve]' ).val('');
+                    $( 'input[name=curve]' ).val( '' );
                 }
                 validate();
             });
@@ -126,11 +126,11 @@ $(document).ready(function() {
         template = $('#candyrow').html().trim();
         len = CANDY_SIZES.length;
         for ( i = 0; i < len; i++ ) {
-            let slug = 'exp-candy-' + CANDY_SIZES[i].toLowerCase();
+            let slug = 'exp-candy-' + CANDY_SIZES[ i ].toLowerCase();
             $template = $( template );
             $template.find( 'label' )
                 .attr( 'for', slug )
-                .text( 'Exp. Candy ' + CANDY_SIZES[i] );
+                .text( 'Exp. Candy ' + CANDY_SIZES[ i ] );
             $template.find( 'input[type=number]' )
                 .attr( 'id', slug )
                 .attr( 'name', slug );
@@ -142,9 +142,9 @@ $(document).ready(function() {
         // limit numerical input
         $( 'input[type=number]' ).on( 'change', function() {
             var value, $this;
-            value = parseInt(this.value);
-            $this = $(this);
-            if ( !isNaN(value) ) {
+            value = parseInt( this.value );
+            $this = $( this );
+            if ( !isNaN( value ) ) {
                 value = clamp( value, $this.attr('min'), $this.attr('max') );
                 $this.val( value );
             } else {
@@ -159,9 +159,9 @@ $(document).ready(function() {
             values = {};
             evt.preventDefault();
             $.each( $( 'form' ).serializeArray(), function( _, field ) {
-                values[field.name] = field.value;
+                values[ field.name ] = field.value;
             });
-            curve = toCamel(values.curve);
+            curve = toCamel( values.curve );
             expCurrent = calcExpToLvl( curve, values.current );
             expTarget = calcExpToLvl( curve, values.target );
             expDiff = expTarget - expCurrent;
@@ -169,7 +169,7 @@ $(document).ready(function() {
             problem = problemTemplate.replace( /{exp}/g, expDiff );
             len = CANDY_SIZES.length;
             for ( i = 0; i < len; i++ ) {
-                let size = CANDY_SIZES[i].toLowerCase();
+                let size = CANDY_SIZES[ i ].toLowerCase();
                 problem = problem.replace( RegExp( '{' + size + '}' ), values[ 'exp-candy-' + size ]);
             }
 
