@@ -88,10 +88,7 @@ function optimize( problem ) {
     try {
         objval = glp_mip_obj_val( lp );
         testTimeout( start );
-
-        if ( objval < 0 ) {
-            log( 'No feasible solution found! Check if there is enough candy.' );
-        }
+        
         for( let i = 1; i <= glp_get_num_cols( lp ); i++ ){
             colname = glp_get_col_name( lp, i ),
             colval = glp_mip_col_val( lp, i );
@@ -199,7 +196,7 @@ $( document ).ready(function() {
             }
 
             expCurrent = optimize( problem );
-            expDiff = expDiff - expCurrent;
+            expDiff = expCurrent - expDiff;
             
             if ( expDiff > 0 ) {
                 log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp Points.' );
@@ -208,7 +205,10 @@ $( document ).ready(function() {
                     .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {
                         evt.preventDefault();
                         $( '#calc form' ).trigger( 'reset' );
+                        log();
                     }) );
+            } else {
+                log( 'No feasible solution found! Check if there is enough candy.' );
             }
         });
 
