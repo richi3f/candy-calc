@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Candy Calc</title>
+</head>
+
+<body>
+
+<main>
+    <section id="calc">
+        <h1 class="header center">Candy Calc</h1>
+
+        <p>This calculator is for <abbr title="Experience">Exp.</abbr> Candy optimization in Pokémon Sword &amp; Shield. Read the <a href="/faq.html">FAQ</a> for more information.</p>
+
+        <form>
+            <div class="container">
+                <label for="pokemon">Pokémon</label>
+                <input id="pokemon" name="pokemon" list="pokemon-list">
+                <datalist id="pokemon-list"></datalist>
+
+                <label for="curve">Experience Curve</label>
+                <input id="curve" name="curve" type="text" readonly>
+
+                <label for="current">Current Level</label>
+                <input id="current" name="current" type="number" min="1" max="99" value="1">
+
+                <label for="target">Target Level</label>
+                <input id="target" name="target" type="number" min="1" max="100" value="50">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Candy</th>
+                        <th>In Bag</th>
+                        <th>Required</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <template id="candyrow">
+                <tr>
+                    <td><label>Exp. Candy </label></td>
+                    <td><input type="number" min="0" max="999" value="999"></td>
+                    <td><input type="text" readonly></td>
+                </tr>
+            </template>
+
+            <input type="submit" disabled>
+        </form>
+    </section>
+    <section id="faq">
+        <h2>FAQ</h2>
+        <dl>
+            <dt><p>What does this calculator do?</p></dt>
+            <dd><p>It calculates the optimal candy distribution that satisfies the user input. In other words, it tells you how many candy you should feed your Pokémon to reach a certain level.</p></dd>
+
+            <dt><p>What are Exp. Candy?</p></dt>
+            <dd>
+                <p>Exp. Candy are items introduced in Pokémon Sword &amp; Shield that grant Exp. Points when consumed by Pokémon. There are 5 varieties, each with a different yield as shown in the following table:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Exp. Yield</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Exp. Candy XS</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>Exp. Candy S</td>
+                            <td>800</td>
+                        </tr>
+                        <tr>
+                            <td>Exp. Candy M</td>
+                            <td>3,000</td>
+                        </tr>
+                        <tr>
+                            <td>Exp. Candy L</td>
+                            <td>10,000</td>
+                        </tr>
+                        <tr>
+                            <td>Exp. Candy XL</td>
+                            <td>30,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </dd>
+
+            <dt><p>Where do you find Exp. Candy?</p></dt>
+            <dd>
+                <p>These items are drop rewards from Max Raid Battles. Raids with a higher number of stars will output larger candy.</p>
+                <p>Additionally, hikers spread throughout the Wild Area may hand out candy in exchange for Watts.</p>
+            </dd>
+
+            <dt><p>What does optimal mean?</p></dt>
+            <dd>
+                <p>In a perfect world, candy is an unlimited resource that streams directly from your pockets into the bellies of your dearest battle companions. Since this is not the case, it is wise to carefully allocate the candy in order to maximize its usefulness. Surely, there is nothing stopping you from randomly feeding candy to your Pokémon and stopping when you feel like it.</p>
+                <figure>
+                        <!--\begin{array}{lll}
+                \text{minimize}  & \sum (Y_i + 1) c_i & \\
+                \text{subject to}& E \leq \sum Y_i c_i & \forall \, i \in \{ \text{XS}, \text{S}, \text{M}, \text{L}, \text{XL} \}
+                \end{array}-->
+                    <img src="https://quicklatex.com/cache3/8f/ql_b48e1e8763844002e3a1b9ba2bf8d68f_l3.png" alt="">
+                </figure>
+            </dd>
+        </dl>
+
+    </section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/glpk.min.js"></script>
+<script src="static/script.js"></script>
+</body>
+</html>
