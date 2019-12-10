@@ -173,7 +173,7 @@ $( document ).ready( function() {
                     .append(
                         $( '<abbr></abbr>' )
                             .attr( 'title', SIZE_TITLES[ i ] + ' Experience Candy' )
-                            .text( 'Exp. Candy' + CANDY_SIZES[ i ] )
+                            .text( 'Exp. Candy ' + CANDY_SIZES[ i ] )
                     );
                 $template.find( 'input[type=number]' )
                     .attr( 'id', slug )
