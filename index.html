@@ -13,10 +13,11 @@
 <body>
 
 <main>
+
     <section id="calc">
         <h1>Candy Calc</h1>
 
-        <p>A calculator for <abbr title="Experience">Exp.</abbr> Candy optimization in Pokémon Sword &amp; Shield. Read the <a href="#faq">FAQ</a> for more information.</p>
+        <p>A calculator for <abbr title="Experience Candy">Exp. Candy</abbr> optimization in Pokémon Sword &amp; Shield. Read the <a href="#faq">FAQ</a> for more information.</p>
 
         <form autocomplete="off">
             <dl class="input">
@@ -26,14 +27,14 @@
                     <datalist id="pokemon-list"></datalist>
                 </dd>
                 
-                <dt><label for="curve">Experience Curve</label></dt>
+                <dt><label for="curve"><abbr title="Experience">Exp.</abbr> Curve</label></dt>
                 <dd><input id="curve" name="curve" type="text" readonly tabindex="-1"></dd>
 
                 <dt><label for="current">Current Level</label></dt>
                 <dd><input id="current" name="current" type="number" pattern="\d*" min="1" max="99" value="1"></dd>
 
                 <dt><label for="target">Target Level</label></dt>
-                <dd><input id="target" name="target" type="number" pattern="\d*" min="1" max="100" value="50"></dd>
+                <dd><input id="target" name="target" type="number" pattern="\d*" min="2" max="100" value="50"></dd>
             </dl>
             <table>
                 <tbody>
@@ -47,12 +48,13 @@
             </table>
             <template data-target="#calc table tbody">
                 <tr>
-                    <td><label>Exp. Candy </label></td>
+                    <td><label></label></td>
                     <td><input type="number" pattern="\d*" min="0" max="999" value="999"></td>
                     <td><input type="text" readonly tabindex="-1" value="-"></td>
                 </tr>
             </template>
         </form>
+
         <p id="log" hidden></p>
     </section>
     <section id="faq">
@@ -64,45 +66,45 @@
                 <p>This can be useful for Hyper Training, evolving, or teaching a level-up move to a Pokémon.</p>
             </dd>
 
-            <dt><p>What are Exp. Candy?</p></dt>
+            <dt><p>What are <abbr title="Experience Candies">Exp. Candies</abbr>?</p></dt>
             <dd>
-                <p>Exp. Candy are a new kind of item introduced in Pokémon Sword &amp; Shield. These grant Exp. Points when consumed by Pokémon. As shown below, there are 5 sizes, each with a different Experience yield:</p>
+                <p>An <abbr title="Experience Candy">Exp. Candy</abbr> is a new kind of item introduced in Pokémon Sword &amp; Shield. These grant <abbr title="Experience">Exp.</abbr> Points when consumed by Pokémon. As shown below, there are 5 sizes, each with a different Experience yield:</p>
                 <table>
                     <thead>
                         <tr>
                             <th>Candy</th>
-                            <th>Exp. Yield</th>
+                            <th><abbr title="Experience">Exp.</abbr> Yield</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Exp. Candy XS</td>
+                            <td><abbr title="Extra Small Experience Candy">Exp. Candy XS</abbr></td>
                             <td>100</td>
                         </tr>
                         <tr>
-                            <td>Exp. Candy S</td>
+                            <td><abbr title="Small Experience Candy">Exp. Candy S</abbr></td>
                             <td>800</td>
                         </tr>
                         <tr>
-                            <td>Exp. Candy M</td>
+                            <td><abbr title="Medium Experience Candy">Exp. Candy M</abbr></td>
                             <td>3,000</td>
                         </tr>
                         <tr>
-                            <td>Exp. Candy L</td>
+                            <td><abbr title="Large Experience Candy">Exp. Candy L</abbr></td>
                             <td>10,000</td>
                         </tr>
                         <tr>
-                            <td>Exp. Candy XL</td>
+                            <td><abbr title="Extra Large Experience Candy">Exp. Candy XL</abbr></td>
                             <td>30,000</td>
                         </tr>
                     </tbody>
                 </table>
             </dd>
-            
+
             <dt><p>How do you use this calculator?</p></dt>
             <dd><p>Enter the species of your Pokémon (the Experience Curve will be auto-completed), its current level, and the target level you want it to reach. Additionally, you may indicate how many candies of each type are left in your Bag. Then, click "Calculate" and voil&agrave;!</p></dd>
 
-            <dt><p>Where do you find Exp. Candy?</p></dt>
+            <dt><p>Where do you find <abbr title="Experience Candy">Exp. Candy</abbr>?</p></dt>
             <dd>
                 <p>These items are drop rewards from Max Raid Battles. Raids with a higher number of stars will output larger candy.</p>
                 <p>Additionally, hikers spread throughout the Wild Area may hand out candy in exchange for Watts and you may also receive them as prizes from the Battle Cafés. However, farming candy through these methods is less efficient than raids.</p>
@@ -111,29 +113,29 @@
             <dt><p>What does optimal mean?</p></dt>
             <dd>
                 <p>In a perfect world, candy is an unlimited resource that streams directly into the bellies of your dearest battle companions. Since this is not the case, it is wise to carefully allocate your candy in order to maximize their usefulness and prevent any waste of resources.</p>
-                <p>To calculate the optimal distribution of candy, this calculator solves a <a href="https://en.wikipedia.org/wiki/Integer_programming">mixed-integer linear programming</a> problem. In this problem, the objective function is set to minimize the number of candy required (<abbr class="var" title="Candy Number">c<sub>i</sub></abbr>) to meet certain Experience (<abbr class="var" title="Exp. Points">E</abbr>). At the same time, the surplus of Exp. Points is also minimized by taking into account the yields of each candy variant (<abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr>). In mathematical notation, this is represented as follows:</p>
+                <p>To calculate the optimal distribution of candy, this calculator solves a <a href="https://en.wikipedia.org/wiki/Integer_programming">mixed-integer linear programming</a> problem. In this problem, the objective function is set to minimize the number of candy required (<abbr class="var" title="Candy Number">c<sub>i</sub></abbr>) to meet certain Experience (<abbr class="var" title="Experience Points">E</abbr>). At the same time, the surplus of <abbr title="Experience">Exp.</abbr> Points is also minimized by taking into account the yields of each candy variant (<abbr class="var" title="Experience Yield">Y<sub>i</sub></abbr>). In mathematical notation, this is represented as follows:</p>
                 <figure>
                     <dl class="math">
                         <dt>minimize</dt>
-                        <dd>Σ(<abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> + 1) <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
+                        <dd>Σ(<abbr class="var" title="Experience Yield">Y<sub>i</sub></abbr> + 1) <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
                         <dt>subject to</dt>
-                        <dd><abbr class="var" title="Exp. Points">E</abbr> ≤ Σ <abbr class="var" title="Exp. Yield">Y<sub>i</sub></abbr> <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
+                        <dd><abbr class="var" title="Experience Points">E</abbr> ≤ Σ <abbr class="var" title="Experience Yield">Y<sub>i</sub></abbr> <abbr class="var" title="Candy Number">c<sub>i</sub></abbr></dd>
                         <dd>∀ <abbr class="var">i</abbr> ∈ { XS, S, M, L, XL }</dd>
                     </dl>
                 </figure>
             </dd>
-            
+
             <dt><p>What about Rare Candy?</p><dt>
             <dd>
-                <p>Unlike Exp. Candy, Rare Candy yield an exponential amount of Experience as level increases. This means that consuming a Rare Candy at <abbr title="Level 1">Lv. 1</abbr> does not equate consuming a Rare Candy at <abbr title="Level 99">Lv. 99</abbr>. Conversely, an Exp. Candy XL grants a fixed amount of Exp. Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
-                <p>If you want to take Rare Candies into consideration, lower the target level by the amount of Rare Candies you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the Exp. Candy.</p>
+                <p>Unlike <abbr title="Experience Candy">Exp. Candy</abbr>, Rare Candy yield an exponential amount of Experience as level increases. This means that consuming a Rare Candy at <abbr title="Level 1">Lv. 1</abbr> does not equate consuming a Rare Candy at <abbr title="Level 99">Lv. 99</abbr>. Conversely, an <abbr title="Extra Large Experience Candy">Exp. Candy XL</abbr> grants a fixed amount of <abbr title="Experience">Exp.</abbr> Points regardless of level. Since the candy distribution problem has been posed as a linear problem, Rare Candies are not factored in.</p>
+                <p>If you want to take Rare Candies into consideration, lower the target level by the amount of Rare Candies you want to feed your Pokémon and remember that these should be applied <strong>after</strong> the <abbr title="Experience Candy">Exp. Candy</abbr>.</p>
             </dd>
-            
+
             <dt><p>What about other modifiers?</p></dt>
-            <dd><p>The yield of Exp. Candies is not modified by other factors such as holding a Lucky Egg.</p></dt>
-        
+            <dd><p>The yield of <abbr title="Experience Candies">Exp. Candies</abbr> is not modified by other factors such as holding a Lucky Egg.</p></dd>
+
             <dt><p>I have feedback/questions/bug report.</p></dt>
-            <dd><p>Contact me on <a href="http://twitter.com/richi3f">Twitter</a> or <a href="https://github.com/richi3f/candy-calc/issues/new">open an Issue</a> in <a href="https://github.com/richi3f/candy-calc">this project's repository</a>.</p></dt>
+            <dd><p>Contact me on <a href="http://twitter.com/richi3f">Twitter</a> or <a href="https://github.com/richi3f/candy-calc/issues/new">open an Issue</a> in <a href="https://github.com/richi3f/candy-calc">this project's repository</a>.</p></dd>
         </dl>
 
     </section>
