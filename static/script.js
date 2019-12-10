@@ -1,6 +1,7 @@
-(function(){
+( () => {
 var curves;
 const CANDY_SIZES = [ 'XS', 'S', 'M', 'L', 'XL' ];
+const SIZE_TITLES = [ 'Extra Small', 'Small', 'Medium', 'Large', 'Extra Large' ];
 const calcExpToLv = ( curve, n ) => ( n <= 1 ) ? 0 : curves[ curve ]( n );
 const clamp = ( num, lb, ub ) => Math.max( lb, Math.min( num, ub ) );
 const fmtNum = ( num ) => num.toString().replace( /\B(?=(\d{3})+(?!\d))/g, ',' );
@@ -52,14 +53,14 @@ function log( mssg = false ) {
 
 function validate() {
     var currentLv, targetLv, disable = false;
-    $( 'form [id^=result]' ).each(function() {
-        $(this).val('-');
-    });
-    if ( !( $( 'input[name=curve]' ).val().length ) ) {
+    $( 'form [id^=result]' ).each( function() {
+        $( this ).val( '-' );
+    } );
+    if ( !( $( '#curve' ).val().length ) ) {
         disable = 'Fill out the Pokémon species field.';
     } else {
-        currentLv = parseInt( $( 'input[name=current]' ).val() ),
-        targetLv = parseInt( $( 'input[name=target]' ).val() );
+        currentLv = parseInt( $( '#current' ).val() ),
+        targetLv = parseInt( $( '#target' ).val() );
         if ( currentLv == targetLv ) {
             disable = 'Current Level cannot be equal to Target Level.';
         } else if ( currentLv > targetLv ) {
@@ -106,21 +107,21 @@ function optimize( problem ) {
     }
 }
 
-$( document ).ready(function() {
-    var i, len, target, template, $template;
-
+$( document ).ready( function() {
     // read candy MILP problem
-    $.get('https://richi3f.github.io/candy-calc/problem.txt', function( problemTemplate ) {
-
+    $.get( 'https://richi3f.github.io/candy-calc/problem.txt', function( problemTemplate ) {
+        var i, len;
+        
         // read Pokémon names and experience curves
         $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
-            // add an option to the datalist for each Pokémon
+            // add each Pokémon to the datalist 
             slugs = Object.keys( pokemonData );
             len = slugs.length;
             for ( i = 0; i < len; i++ ) {
                 slug = slugs[ i ];
+                // ignore currently unobtainable Pokémon
                 if ( pokemonData[ slug ].dex.swsh == 999 ) {
                     continue;
                 }
@@ -134,102 +135,113 @@ $( document ).ready(function() {
             $( '#pokemon' ).on( 'input', function() {
                 var value, $match;
                 value = this.value;
-                $match = $( 'datalist option' ).filter(function() {
+                $match = $( 'datalist option' ).filter( function() {
                     return this.value.toUpperCase() == value.toUpperCase();
-                });
+                } );
                 if ( $match.length ) {
                     value = $( 'datalist option[value="' + $match.val() + '"]' ).attr( 'data-exp-curve' );
-                    $( 'input[name=curve]' ).val( value );
+                    $( '#curve' ).val( value );
                 } else {
-                    $( 'input[name=curve]' ).val( '' );
+                    $( '#curve' ).val( '' );
                 }
                 validate();
-            });
+            } );
 
             // clear input on select
-            $('#pokemon').click(function() {
-                var $curve = $( 'input[name=curve]' );
+            $( '#pokemon' ).click( function() {
+                var $curve = $( '#curve' );
                 if ( $curve.val() ) {
-                    $(this).val('');
-                    $curve.val('');
+                    $( this ).val( '' );
+                    $curve.val( '' );
                     validate();
                 }
-            });
-        });
+            } );
+        } );
 
         // create rows for candy in bag
-        $template = $('#calc template');
-        target = $template.attr('data-target');
-        template = $template.html().trim();
-        len = CANDY_SIZES.length;
-        for ( i = 0; i < len; i++ ) {
-            let slug = 'exp-candy-' + CANDY_SIZES[ i ].toLowerCase();
-            $template = $( template );
-            $template.find( 'label' )
-                .attr( 'for', slug )
-                .text( 'Exp. Candy ' + CANDY_SIZES[ i ] );
-            $template.find( 'input[type=number]' )
-                .attr( 'id', slug )
-                .attr( 'name', slug );
-            $template.find( 'input[readonly]' )
-                    .attr( 'id', 'result-' + slug );
-            $template.appendTo( target );
-        }
-
-        // limit numerical input
-        $( 'input[type=number]' ).on( 'change', function() {
-            var value, $this;
-            value = parseInt( this.value );
-            $this = $( this );
-            if ( !isNaN( value ) ) {
-                value = clamp( value, $this.attr('min'), $this.attr('max') );
-                $this.val( value );
-            } else {
-                $this.val( $this.attr('min') );
-            }
-            validate();
-        });
-
-        // calculate optimal candy distribution
-        $( 'form' ).on( 'submit', function( evt ) {
-            var expDiff, expCurrent, expTarget, curve, values, problem;
-            values = {};
-            evt.preventDefault();
-            $.each( $( 'form' ).serializeArray(), function( _, field ) {
-                values[ field.name ] = field.value;
-            });
-            curve = toCamel( values.curve );
-            expCurrent = calcExpToLv( curve, parseInt( values.current ) );
-            expTarget = calcExpToLv( curve, parseInt( values.target ) );
-            expDiff = expTarget - expCurrent;
-            
-            problem = problemTemplate.replace( /{exp}/g, expDiff );
+        ( () => {
+            var slug, target, template, $template;
+            $template = $('#calc template');
+            target = $template.attr('data-target');
+            template = $template.html().trim();
             len = CANDY_SIZES.length;
             for ( i = 0; i < len; i++ ) {
-                let size = CANDY_SIZES[ i ].toLowerCase();
-                problem = problem.replace( RegExp( '{' + size + '}' ), values[ 'exp-candy-' + size ]);
+                slug = 'exp-candy-' + CANDY_SIZES[ i ].toLowerCase();
+                $template = $( template );
+                $template.find( 'label' )
+                    .attr( 'for', slug )
+                    .append(
+                        $( '<abbr></abbr>' )
+                            .attr( 'title', SIZE_TITLES[ i ] + ' Experience Candy' )
+                            .text( 'Exp. Candy' + CANDY_SIZES[ i ] )
+                    );
+                $template.find( 'input[type=number]' )
+                    .attr( 'id', slug )
+                    .attr( 'name', slug );
+                $template.find( 'input[readonly]' )
+                        .attr( 'id', 'result-' + slug );
+                $template.appendTo( target );
             }
+        } )();
+        
+        // restrict numerical input
+        ( () => {
+            $( 'input[type=number]' ).on( 'change', function() {
+                var value, $this;
+                value = parseInt( this.value );
+                $this = $( this );
+                if ( !isNaN( value ) ) {
+                    value = clamp( value, $this.attr( 'min' ), $this.attr( 'max' ) );
+                    $this.val( value );
+                } else {
+                    $this.val( $this.attr( 'min' ) );
+                }
+                validate();
+            } );
+        } )();
 
-            expCurrent = optimize( problem );
-            expDiff = expCurrent - expDiff;
-            
-            if ( expDiff > 0 ) {
-                log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp. Points.' );
-            } else if ( expDiff == 0 ) {
-                log( 'Optimal solution found! ' )
-                    .append( $( '<a href="#">Click here to reset.</a>' ).click(function(evt) {
-                        evt.preventDefault();
-                        $( '#calc form' ).trigger( 'reset' );
-                        log();
-                    }) );
-            } else {
-                log( 'No feasible solution found! Check if there is enough candy.' );
-            }
-        });
+        // calculate optimal candy distribution
+        ( () => {
+            $( 'form' ).on( 'submit', function( evt ) {
+                var expDiff, expCurrent, expTarget, curve, values, problem;
+                values = {};
+                evt.preventDefault();
+                $.each( $( 'form' ).serializeArray(), function( _, field ) {
+                    values[ field.name ] = field.value;
+                } );
+                curve = toCamel( values.curve );
+                expCurrent = calcExpToLv( curve, parseInt( values.current ) );
+                expTarget = calcExpToLv( curve, parseInt( values.target ) );
+                expDiff = expTarget - expCurrent;
+
+                problem = problemTemplate.replace( /{exp}/g, expDiff );
+                len = CANDY_SIZES.length;
+                for ( i = 0; i < len; i++ ) {
+                    let size = CANDY_SIZES[ i ].toLowerCase();
+                    problem = problem.replace( RegExp( '{' + size + '}' ), values[ 'exp-candy-' + size ] );
+                }
+
+                expCurrent = optimize( problem );
+                expDiff = expCurrent - expDiff;
+
+                if ( expDiff > 0 ) {
+                    log( 'Solution found with a surplus of ' + fmtNum( expDiff ) + ' Exp. Points.' );
+                } else if ( expDiff == 0 ) {
+                    log( 'Optimal solution found! ' )
+                        .append( $( '<a href="#">Click here to reset.</a>' ).click( function( evt ) {
+                            evt.preventDefault();
+                            $( '#calc form' ).trigger( 'reset' );
+                            log();
+                        } ) );
+                } else {
+                    log( 'No feasible solution found! Check if there is enough candy.' );
+                }
+            } );
+        } )();
 
         validate();
 
-    }, 'text');
-});
+    }, 'text' );
+} );
 
-})();
+} )();
