@@ -265,6 +265,10 @@ tr th[rowspan] {
   background: #333
 }
 
+#calc table td {
+  vertical-align: bottom;
+}
+
 #calc table label {
   text-indent: 2.25em;
   display: inline-block;
