@@ -121,10 +121,6 @@ $( document ).ready( function() {
             len = slugs.length;
             for ( i = 0; i < len; i++ ) {
                 slug = slugs[ i ];
-                // ignore currently unobtainable Pokémon
-                if ( pokemonData[ slug ].dex.swsh == 999 ) {
-                    continue;
-                }
                 $( '<option>' )
                     .attr( 'value', pokemonData[ slug ].name )
                     .attr( 'data-exp-curve', pokemonData[ slug ].exp )
