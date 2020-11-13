@@ -113,7 +113,7 @@ $( document ).ready( function() {
         var i, len;
         
         // read Pokémon names and experience curves
-        $.getJSON( 'https://plan.pokemonteams.io/static/pokemon.json', function( pokemonData ) {
+        $.getJSON( 'https://richi3f.github.io/plan-pokemonteams/static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
             // add each Pokémon to the datalist 
