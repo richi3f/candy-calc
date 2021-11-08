@@ -113,7 +113,7 @@ $( document ).ready( function() {
         var i, len;
         
         // read Pokémon names and experience curves
-        $.getJSON( 'https://richi3f.github.io/plan-pokemonteams/static/pokemon.json', function( pokemonData ) {
+        $.getJSON( 'https://richi3f.github.io/candy-calc/static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
             // add each Pokémon to the datalist 
@@ -157,8 +157,8 @@ $( document ).ready( function() {
         // create rows for candy in bag
         ( () => {
             var slug, target, template, $template;
-            $template = $('#calc template');
-            target = $template.attr('data-target');
+            $template = $( '#calc template' );
+            target = $template.attr( 'data-target' );
             template = $template.html().trim();
             len = CANDY_SIZES.length;
             for ( i = 0; i < len; i++ ) {
