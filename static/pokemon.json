@@ -1,1 +1,4446 @@
-{"bulbasaur": {"name": "Bulbasaur", "exp": "Medium Slow"}, "ivysaur": {"name": "Ivysaur", "exp": "Medium Slow"}, "venusaur": {"name": "Venusaur", "exp": "Medium Slow"}, "charmander": {"name": "Charmander", "exp": "Medium Slow"}, "charmeleon": {"name": "Charmeleon", "exp": "Medium Slow"}, "charizard": {"name": "Charizard", "exp": "Medium Slow"}, "squirtle": {"name": "Squirtle", "exp": "Medium Slow"}, "wartortle": {"name": "Wartortle", "exp": "Medium Slow"}, "blastoise": {"name": "Blastoise", "exp": "Medium Slow"}, "caterpie": {"name": "Caterpie", "exp": "Medium Fast"}, "metapod": {"name": "Metapod", "exp": "Medium Fast"}, "butterfree": {"name": "Butterfree", "exp": "Medium Fast"}, "pikachu": {"name": "Pikachu", "exp": "Medium Fast"}, "raichu": {"name": "Raichu", "exp": "Medium Fast"}, "raichu-alola": {"name": "Alolan Raichu", "exp": "Medium Fast"}, "sandshrew": {"name": "Sandshrew", "exp": "Medium Fast"}, "sandshrew-alola": {"name": "Alolan Sandshrew", "exp": "Medium Fast"}, "sandslash": {"name": "Sandslash", "exp": "Medium Fast"}, "sandslash-alola": {"name": "Alolan Sandslash", "exp": "Medium Fast"}, "nidoran-female": {"name": "Nidoran\u2640", "exp": "Medium Slow"}, "nidorina": {"name": "Nidorina", "exp": "Medium Slow"}, "nidoqueen": {"name": "Nidoqueen", "exp": "Medium Slow"}, "nidoran-male": {"name": "Nidoran\u2642", "exp": "Medium Slow"}, "nidorino": {"name": "Nidorino", "exp": "Medium Slow"}, "nidoking": {"name": "Nidoking", "exp": "Medium Slow"}, "clefairy": {"name": "Clefairy", "exp": "Fast"}, "clefable": {"name": "Clefable", "exp": "Fast"}, "vulpix": {"name": "Vulpix", "exp": "Medium Fast"}, "vulpix-alola": {"name": "Alolan Vulpix", "exp": "Medium Fast"}, "ninetales": {"name": "Ninetales", "exp": "Medium Fast"}, "ninetales-alola": {"name": "Alolan Ninetales", "exp": "Medium Fast"}, "jigglypuff": {"name": "Jigglypuff", "exp": "Fast"}, "wigglytuff": {"name": "Wigglytuff", "exp": "Fast"}, "zubat": {"name": "Zubat", "exp": "Medium Fast"}, "golbat": {"name": "Golbat", "exp": "Medium Fast"}, "oddish": {"name": "Oddish", "exp": "Medium Slow"}, "gloom": {"name": "Gloom", "exp": "Medium Slow"}, "vileplume": {"name": "Vileplume", "exp": "Medium Slow"}, "diglett": {"name": "Diglett", "exp": "Medium Fast"}, "diglett-alola": {"name": "Alolan Diglett", "exp": "Medium Fast"}, "dugtrio": {"name": "Dugtrio", "exp": "Medium Fast"}, "dugtrio-alola": {"name": "Alolan Dugtrio", "exp": "Medium Fast"}, "meowth": {"name": "Meowth", "exp": "Medium Fast"}, "meowth-alola": {"name": "Alolan Meowth", "exp": "Medium Fast"}, "meowth-galar": {"name": "Galarian Meowth", "exp": "Medium Fast"}, "persian": {"name": "Persian", "exp": "Medium Fast"}, "persian-alola": {"name": "Alolan Persian", "exp": "Medium Fast"}, "psyduck": {"name": "Psyduck", "exp": "Medium Fast"}, "golduck": {"name": "Golduck", "exp": "Medium Fast"}, "growlithe": {"name": "Growlithe", "exp": "Slow"}, "arcanine": {"name": "Arcanine", "exp": "Slow"}, "poliwag": {"name": "Poliwag", "exp": "Medium Slow"}, "poliwhirl": {"name": "Poliwhirl", "exp": "Medium Slow"}, "poliwrath": {"name": "Poliwrath", "exp": "Medium Slow"}, "abra": {"name": "Abra", "exp": "Medium Slow"}, "kadabra": {"name": "Kadabra", "exp": "Medium Slow"}, "alakazam": {"name": "Alakazam", "exp": "Medium Slow"}, "machop": {"name": "Machop", "exp": "Medium Slow"}, "machoke": {"name": "Machoke", "exp": "Medium Slow"}, "machamp": {"name": "Machamp", "exp": "Medium Slow"}, "tentacool": {"name": "Tentacool", "exp": "Slow"}, "tentacruel": {"name": "Tentacruel", "exp": "Slow"}, "ponyta": {"name": "Ponyta", "exp": "Medium Fast"}, "ponyta-galar": {"name": "Galarian Ponyta", "exp": "Medium Fast"}, "rapidash": {"name": "Rapidash", "exp": "Medium Fast"}, "rapidash-galar": {"name": "Galarian Rapidash", "exp": "Medium Fast"}, "slowpoke": {"name": "Slowpoke", "exp": "Medium Fast"}, "slowpoke-galar": {"name": "Galarian Slowpoke", "exp": "Medium Fast"}, "slowbro": {"name": "Slowbro", "exp": "Medium Fast"}, "slowbro-galar": {"name": "Galarian Slowbro", "exp": "Medium Fast"}, "magnemite": {"name": "Magnemite", "exp": "Medium Fast"}, "magneton": {"name": "Magneton", "exp": "Medium Fast"}, "farfetchd": {"name": "Farfetch\u2019d", "exp": "Medium Fast"}, "farfetchd-galar": {"name": "Galarian Farfetch\u2019d", "exp": "Medium Fast"}, "shellder": {"name": "Shellder", "exp": "Slow"}, "cloyster": {"name": "Cloyster", "exp": "Slow"}, "gastly": {"name": "Gastly", "exp": "Medium Slow"}, "haunter": {"name": "Haunter", "exp": "Medium Slow"}, "gengar": {"name": "Gengar", "exp": "Medium Slow"}, "onix": {"name": "Onix", "exp": "Medium Fast"}, "krabby": {"name": "Krabby", "exp": "Medium Fast"}, "kingler": {"name": "Kingler", "exp": "Medium Fast"}, "exeggcute": {"name": "Exeggcute", "exp": "Slow"}, "exeggutor": {"name": "Exeggutor", "exp": "Slow"}, "exeggutor-alola": {"name": "Alolan Exeggutor", "exp": "Slow"}, "cubone": {"name": "Cubone", "exp": "Medium Fast"}, "marowak": {"name": "Marowak", "exp": "Medium Fast"}, "marowak-alola": {"name": "Alolan Marowak", "exp": "Medium Fast"}, "hitmonlee": {"name": "Hitmonlee", "exp": "Medium Fast"}, "hitmonchan": {"name": "Hitmonchan", "exp": "Medium Fast"}, "lickitung": {"name": "Lickitung", "exp": "Medium Fast"}, "koffing": {"name": "Koffing", "exp": "Medium Fast"}, "weezing": {"name": "Weezing", "exp": "Medium Fast"}, "weezing-galar": {"name": "Galarian Weezing", "exp": "Medium Fast"}, "rhyhorn": {"name": "Rhyhorn", "exp": "Slow"}, "rhydon": {"name": "Rhydon", "exp": "Slow"}, "chansey": {"name": "Chansey", "exp": "Fast"}, "tangela": {"name": "Tangela", "exp": "Medium Fast"}, "kangaskhan": {"name": "Kangaskhan", "exp": "Medium Fast"}, "horsea": {"name": "Horsea", "exp": "Medium Fast"}, "seadra": {"name": "Seadra", "exp": "Medium Fast"}, "goldeen": {"name": "Goldeen", "exp": "Medium Fast"}, "seaking": {"name": "Seaking", "exp": "Medium Fast"}, "staryu": {"name": "Staryu", "exp": "Slow"}, "starmie": {"name": "Starmie", "exp": "Slow"}, "mr-mime": {"name": "Mr. Mime", "exp": "Medium Fast"}, "mr-mime-galar": {"name": "Galarian Mr. Mime", "exp": "Medium Fast"}, "scyther": {"name": "Scyther", "exp": "Medium Fast"}, "jynx": {"name": "Jynx", "exp": "Medium Fast"}, "electabuzz": {"name": "Electabuzz", "exp": "Medium Fast"}, "magmar": {"name": "Magmar", "exp": "Medium Fast"}, "pinsir": {"name": "Pinsir", "exp": "Slow"}, "tauros": {"name": "Tauros", "exp": "Slow"}, "magikarp": {"name": "Magikarp", "exp": "Slow"}, "gyarados": {"name": "Gyarados", "exp": "Slow"}, "lapras": {"name": "Lapras", "exp": "Slow"}, "ditto": {"name": "Ditto", "exp": "Medium Fast"}, "eevee": {"name": "Eevee", "exp": "Medium Fast"}, "vaporeon": {"name": "Vaporeon", "exp": "Medium Fast"}, "jolteon": {"name": "Jolteon", "exp": "Medium Fast"}, "flareon": {"name": "Flareon", "exp": "Medium Fast"}, "porygon": {"name": "Porygon", "exp": "Medium Fast"}, "omanyte": {"name": "Omanyte", "exp": "Medium Fast"}, "omastar": {"name": "Omastar", "exp": "Medium Fast"}, "kabuto": {"name": "Kabuto", "exp": "Medium Fast"}, "kabutops": {"name": "Kabutops", "exp": "Medium Fast"}, "aerodactyl": {"name": "Aerodactyl", "exp": "Slow"}, "snorlax": {"name": "Snorlax", "exp": "Slow"}, "articuno": {"name": "Articuno", "exp": "Slow"}, "articuno-galar": {"name": "Galarian Articuno", "exp": "Slow"}, "zapdos": {"name": "Zapdos", "exp": "Slow"}, "zapdos-galar": {"name": "Galarian Zapdos", "exp": "Slow"}, "moltres": {"name": "Moltres", "exp": "Slow"}, "moltres-galar": {"name": "Galarian Moltres", "exp": "Slow"}, "dratini": {"name": "Dratini", "exp": "Slow"}, "dragonair": {"name": "Dragonair", "exp": "Slow"}, "dragonite": {"name": "Dragonite", "exp": "Slow"}, "mewtwo": {"name": "Mewtwo", "exp": "Slow"}, "mew": {"name": "Mew", "exp": "Medium Slow"}, "hoothoot": {"name": "Hoothoot", "exp": "Medium Fast"}, "noctowl": {"name": "Noctowl", "exp": "Medium Fast"}, "crobat": {"name": "Crobat", "exp": "Medium Fast"}, "chinchou": {"name": "Chinchou", "exp": "Slow"}, "lanturn": {"name": "Lanturn", "exp": "Slow"}, "pichu": {"name": "Pichu", "exp": "Medium Fast"}, "cleffa": {"name": "Cleffa", "exp": "Fast"}, "igglybuff": {"name": "Igglybuff", "exp": "Fast"}, "togepi": {"name": "Togepi", "exp": "Fast"}, "togetic": {"name": "Togetic", "exp": "Fast"}, "natu": {"name": "Natu", "exp": "Medium Fast"}, "xatu": {"name": "Xatu", "exp": "Medium Fast"}, "bellossom": {"name": "Bellossom", "exp": "Medium Slow"}, "marill": {"name": "Marill", "exp": "Fast"}, "azumarill": {"name": "Azumarill", "exp": "Fast"}, "sudowoodo": {"name": "Sudowoodo", "exp": "Medium Fast"}, "politoed": {"name": "Politoed", "exp": "Medium Slow"}, "wooper": {"name": "Wooper", "exp": "Medium Fast"}, "quagsire": {"name": "Quagsire", "exp": "Medium Fast"}, "espeon": {"name": "Espeon", "exp": "Medium Fast"}, "umbreon": {"name": "Umbreon", "exp": "Medium Fast"}, "slowking": {"name": "Slowking", "exp": "Medium Fast"}, "slowking-galar": {"name": "Galarian Slowking", "exp": "Medium Fast"}, "wobbuffet": {"name": "Wobbuffet", "exp": "Medium Fast"}, "dunsparce": {"name": "Dunsparce", "exp": "Medium Fast"}, "steelix": {"name": "Steelix", "exp": "Medium Fast"}, "qwilfish": {"name": "Qwilfish", "exp": "Medium Fast"}, "scizor": {"name": "Scizor", "exp": "Medium Fast"}, "shuckle": {"name": "Shuckle", "exp": "Medium Slow"}, "heracross": {"name": "Heracross", "exp": "Slow"}, "sneasel": {"name": "Sneasel", "exp": "Medium Slow"}, "swinub": {"name": "Swinub", "exp": "Slow"}, "piloswine": {"name": "Piloswine", "exp": "Slow"}, "corsola": {"name": "Corsola", "exp": "Fast"}, "corsola-galar": {"name": "Galarian Corsola", "exp": "Fast"}, "remoraid": {"name": "Remoraid", "exp": "Medium Fast"}, "octillery": {"name": "Octillery", "exp": "Medium Fast"}, "delibird": {"name": "Delibird", "exp": "Fast"}, "mantine": {"name": "Mantine", "exp": "Slow"}, "skarmory": {"name": "Skarmory", "exp": "Slow"}, "kingdra": {"name": "Kingdra", "exp": "Medium Fast"}, "porygon2": {"name": "Porygon2", "exp": "Medium Fast"}, "tyrogue": {"name": "Tyrogue", "exp": "Medium Fast"}, "hitmontop": {"name": "Hitmontop", "exp": "Medium Fast"}, "smoochum": {"name": "Smoochum", "exp": "Medium Fast"}, "elekid": {"name": "Elekid", "exp": "Medium Fast"}, "magby": {"name": "Magby", "exp": "Medium Fast"}, "miltank": {"name": "Miltank", "exp": "Slow"}, "blissey": {"name": "Blissey", "exp": "Fast"}, "raikou": {"name": "Raikou", "exp": "Slow"}, "entei": {"name": "Entei", "exp": "Slow"}, "suicune": {"name": "Suicune", "exp": "Slow"}, "larvitar": {"name": "Larvitar", "exp": "Slow"}, "pupitar": {"name": "Pupitar", "exp": "Slow"}, "tyranitar": {"name": "Tyranitar", "exp": "Slow"}, "lugia": {"name": "Lugia", "exp": "Slow"}, "ho-oh": {"name": "Ho-Oh", "exp": "Slow"}, "celebi": {"name": "Celebi", "exp": "Medium Slow"}, "treecko": {"name": "Treecko", "exp": "Medium Slow"}, "grovyle": {"name": "Grovyle", "exp": "Medium Slow"}, "sceptile": {"name": "Sceptile", "exp": "Medium Slow"}, "torchic": {"name": "Torchic", "exp": "Medium Slow"}, "combusken": {"name": "Combusken", "exp": "Medium Slow"}, "blaziken": {"name": "Blaziken", "exp": "Medium Slow"}, "mudkip": {"name": "Mudkip", "exp": "Medium Slow"}, "marshtomp": {"name": "Marshtomp", "exp": "Medium Slow"}, "swampert": {"name": "Swampert", "exp": "Medium Slow"}, "zigzagoon": {"name": "Zigzagoon", "exp": "Medium Fast"}, "zigzagoon-galar": {"name": "Galarian Zigzagoon", "exp": "Medium Fast"}, "linoone": {"name": "Linoone", "exp": "Medium Fast"}, "linoone-galar": {"name": "Galarian Linoone", "exp": "Medium Fast"}, "lotad": {"name": "Lotad", "exp": "Medium Slow"}, "lombre": {"name": "Lombre", "exp": "Medium Slow"}, "ludicolo": {"name": "Ludicolo", "exp": "Medium Slow"}, "seedot": {"name": "Seedot", "exp": "Medium Slow"}, "nuzleaf": {"name": "Nuzleaf", "exp": "Medium Slow"}, "shiftry": {"name": "Shiftry", "exp": "Medium Slow"}, "wingull": {"name": "Wingull", "exp": "Medium Fast"}, "pelipper": {"name": "Pelipper", "exp": "Medium Fast"}, "ralts": {"name": "Ralts", "exp": "Slow"}, "kirlia": {"name": "Kirlia", "exp": "Slow"}, "gardevoir": {"name": "Gardevoir", "exp": "Slow"}, "nincada": {"name": "Nincada", "exp": "Erratic"}, "ninjask": {"name": "Ninjask", "exp": "Erratic"}, "shedinja": {"name": "Shedinja", "exp": "Erratic"}, "whismur": {"name": "Whismur", "exp": "Medium Slow"}, "loudred": {"name": "Loudred", "exp": "Medium Slow"}, "exploud": {"name": "Exploud", "exp": "Medium Slow"}, "azurill": {"name": "Azurill", "exp": "Fast"}, "sableye": {"name": "Sableye", "exp": "Medium Slow"}, "mawile": {"name": "Mawile", "exp": "Fast"}, "aron": {"name": "Aron", "exp": "Slow"}, "lairon": {"name": "Lairon", "exp": "Slow"}, "aggron": {"name": "Aggron", "exp": "Slow"}, "electrike": {"name": "Electrike", "exp": "Slow"}, "manectric": {"name": "Manectric", "exp": "Slow"}, "roselia": {"name": "Roselia", "exp": "Medium Slow"}, "carvanha": {"name": "Carvanha", "exp": "Slow"}, "sharpedo": {"name": "Sharpedo", "exp": "Slow"}, "wailmer": {"name": "Wailmer", "exp": "Fluctuating"}, "wailord": {"name": "Wailord", "exp": "Fluctuating"}, "torkoal": {"name": "Torkoal", "exp": "Medium Fast"}, "trapinch": {"name": "Trapinch", "exp": "Medium Slow"}, "vibrava": {"name": "Vibrava", "exp": "Medium Slow"}, "flygon": {"name": "Flygon", "exp": "Medium Slow"}, "swablu": {"name": "Swablu", "exp": "Erratic"}, "altaria": {"name": "Altaria", "exp": "Erratic"}, "lunatone": {"name": "Lunatone", "exp": "Fast"}, "solrock": {"name": "Solrock", "exp": "Fast"}, "barboach": {"name": "Barboach", "exp": "Medium Fast"}, "whiscash": {"name": "Whiscash", "exp": "Medium Fast"}, "corphish": {"name": "Corphish", "exp": "Fluctuating"}, "crawdaunt": {"name": "Crawdaunt", "exp": "Fluctuating"}, "baltoy": {"name": "Baltoy", "exp": "Medium Fast"}, "claydol": {"name": "Claydol", "exp": "Medium Fast"}, "lileep": {"name": "Lileep", "exp": "Erratic"}, "cradily": {"name": "Cradily", "exp": "Erratic"}, "anorith": {"name": "Anorith", "exp": "Erratic"}, "armaldo": {"name": "Armaldo", "exp": "Erratic"}, "feebas": {"name": "Feebas", "exp": "Erratic"}, "milotic": {"name": "Milotic", "exp": "Erratic"}, "duskull": {"name": "Duskull", "exp": "Fast"}, "dusclops": {"name": "Dusclops", "exp": "Fast"}, "absol": {"name": "Absol", "exp": "Medium Slow"}, "wynaut": {"name": "Wynaut", "exp": "Medium Fast"}, "snorunt": {"name": "Snorunt", "exp": "Medium Fast"}, "glalie": {"name": "Glalie", "exp": "Medium Fast"}, "spheal": {"name": "Spheal", "exp": "Medium Slow"}, "sealeo": {"name": "Sealeo", "exp": "Medium Slow"}, "walrein": {"name": "Walrein", "exp": "Medium Slow"}, "relicanth": {"name": "Relicanth", "exp": "Slow"}, "bagon": {"name": "Bagon", "exp": "Slow"}, "shelgon": {"name": "Shelgon", "exp": "Slow"}, "salamence": {"name": "Salamence", "exp": "Slow"}, "beldum": {"name": "Beldum", "exp": "Slow"}, "metang": {"name": "Metang", "exp": "Slow"}, "metagross": {"name": "Metagross", "exp": "Slow"}, "regirock": {"name": "Regirock", "exp": "Slow"}, "regice": {"name": "Regice", "exp": "Slow"}, "registeel": {"name": "Registeel", "exp": "Slow"}, "latias": {"name": "Latias", "exp": "Slow"}, "latios": {"name": "Latios", "exp": "Slow"}, "kyogre": {"name": "Kyogre", "exp": "Slow"}, "groudon": {"name": "Groudon", "exp": "Slow"}, "rayquaza": {"name": "Rayquaza", "exp": "Slow"}, "jirachi": {"name": "Jirachi", "exp": "Slow"}, "shinx": {"name": "Shinx", "exp": "Medium Slow"}, "luxio": {"name": "Luxio", "exp": "Medium Slow"}, "luxray": {"name": "Luxray", "exp": "Medium Slow"}, "budew": {"name": "Budew", "exp": "Medium Slow"}, "roserade": {"name": "Roserade", "exp": "Medium Slow"}, "combee": {"name": "Combee", "exp": "Medium Slow"}, "vespiquen": {"name": "Vespiquen", "exp": "Medium Slow"}, "cherubi": {"name": "Cherubi", "exp": "Medium Fast"}, "cherrim": {"name": "Cherrim", "exp": "Medium Fast"}, "shellos": {"name": "Shellos", "exp": "Medium Fast"}, "shellos-east": {"name": "East Shellos", "exp": "Medium Fast"}, "gastrodon": {"name": "Gastrodon", "exp": "Medium Fast"}, "gastrodon-east": {"name": "East Gastrodon", "exp": "Medium Fast"}, "drifloon": {"name": "Drifloon", "exp": "Fluctuating"}, "drifblim": {"name": "Drifblim", "exp": "Fluctuating"}, "buneary": {"name": "Buneary", "exp": "Medium Fast"}, "lopunny": {"name": "Lopunny", "exp": "Medium Fast"}, "stunky": {"name": "Stunky", "exp": "Medium Fast"}, "skuntank": {"name": "Skuntank", "exp": "Medium Fast"}, "bronzor": {"name": "Bronzor", "exp": "Medium Fast"}, "bronzong": {"name": "Bronzong", "exp": "Medium Fast"}, "bonsly": {"name": "Bonsly", "exp": "Medium Fast"}, "mime-jr": {"name": "Mime Jr.", "exp": "Medium Fast"}, "happiny": {"name": "Happiny", "exp": "Fast"}, "spiritomb": {"name": "Spiritomb", "exp": "Medium Fast"}, "gible": {"name": "Gible", "exp": "Slow"}, "gabite": {"name": "Gabite", "exp": "Slow"}, "garchomp": {"name": "Garchomp", "exp": "Slow"}, "munchlax": {"name": "Munchlax", "exp": "Slow"}, "riolu": {"name": "Riolu", "exp": "Medium Slow"}, "lucario": {"name": "Lucario", "exp": "Medium Slow"}, "hippopotas": {"name": "Hippopotas", "exp": "Slow"}, "hippowdon": {"name": "Hippowdon", "exp": "Slow"}, "skorupi": {"name": "Skorupi", "exp": "Slow"}, "drapion": {"name": "Drapion", "exp": "Slow"}, "croagunk": {"name": "Croagunk", "exp": "Medium Fast"}, "toxicroak": {"name": "Toxicroak", "exp": "Medium Fast"}, "mantyke": {"name": "Mantyke", "exp": "Slow"}, "snover": {"name": "Snover", "exp": "Slow"}, "abomasnow": {"name": "Abomasnow", "exp": "Slow"}, "weavile": {"name": "Weavile", "exp": "Medium Slow"}, "magnezone": {"name": "Magnezone", "exp": "Medium Fast"}, "lickilicky": {"name": "Lickilicky", "exp": "Medium Fast"}, "rhyperior": {"name": "Rhyperior", "exp": "Slow"}, "tangrowth": {"name": "Tangrowth", "exp": "Medium Fast"}, "electivire": {"name": "Electivire", "exp": "Medium Fast"}, "magmortar": {"name": "Magmortar", "exp": "Medium Fast"}, "togekiss": {"name": "Togekiss", "exp": "Fast"}, "leafeon": {"name": "Leafeon", "exp": "Medium Fast"}, "glaceon": {"name": "Glaceon", "exp": "Medium Fast"}, "mamoswine": {"name": "Mamoswine", "exp": "Slow"}, "porygon-z": {"name": "Porygon-Z", "exp": "Medium Fast"}, "gallade": {"name": "Gallade", "exp": "Slow"}, "dusknoir": {"name": "Dusknoir", "exp": "Fast"}, "froslass": {"name": "Froslass", "exp": "Medium Fast"}, "rotom": {"name": "Rotom", "exp": "Medium Fast"}, "rotom-heat": {"name": "Heat Rotom", "exp": "Medium Fast"}, "rotom-wash": {"name": "Wash Rotom", "exp": "Medium Fast"}, "rotom-frost": {"name": "Frost Rotom", "exp": "Medium Fast"}, "rotom-fan": {"name": "Fan Rotom", "exp": "Medium Fast"}, "rotom-mow": {"name": "Mow Rotom", "exp": "Medium Fast"}, "uxie": {"name": "Uxie", "exp": "Slow"}, "mesprit": {"name": "Mesprit", "exp": "Slow"}, "azelf": {"name": "Azelf", "exp": "Slow"}, "dialga": {"name": "Dialga", "exp": "Slow"}, "palkia": {"name": "Palkia", "exp": "Slow"}, "heatran": {"name": "Heatran", "exp": "Slow"}, "regigigas": {"name": "Regigigas", "exp": "Slow"}, "giratina": {"name": "Giratina", "exp": "Slow"}, "cresselia": {"name": "Cresselia", "exp": "Slow"}, "victini": {"name": "Victini", "exp": "Slow"}, "lillipup": {"name": "Lillipup", "exp": "Medium Slow"}, "herdier": {"name": "Herdier", "exp": "Medium Slow"}, "stoutland": {"name": "Stoutland", "exp": "Medium Slow"}, "purrloin": {"name": "Purrloin", "exp": "Medium Fast"}, "liepard": {"name": "Liepard", "exp": "Medium Fast"}, "munna": {"name": "Munna", "exp": "Fast"}, "musharna": {"name": "Musharna", "exp": "Fast"}, "pidove": {"name": "Pidove", "exp": "Medium Slow"}, "tranquill": {"name": "Tranquill", "exp": "Medium Slow"}, "unfezant": {"name": "Unfezant", "exp": "Medium Slow"}, "roggenrola": {"name": "Roggenrola", "exp": "Medium Slow"}, "boldore": {"name": "Boldore", "exp": "Medium Slow"}, "gigalith": {"name": "Gigalith", "exp": "Medium Slow"}, "woobat": {"name": "Woobat", "exp": "Medium Fast"}, "swoobat": {"name": "Swoobat", "exp": "Medium Fast"}, "drilbur": {"name": "Drilbur", "exp": "Medium Fast"}, "excadrill": {"name": "Excadrill", "exp": "Medium Fast"}, "audino": {"name": "Audino", "exp": "Fast"}, "timburr": {"name": "Timburr", "exp": "Medium Slow"}, "gurdurr": {"name": "Gurdurr", "exp": "Medium Slow"}, "conkeldurr": {"name": "Conkeldurr", "exp": "Medium Slow"}, "tympole": {"name": "Tympole", "exp": "Medium Slow"}, "palpitoad": {"name": "Palpitoad", "exp": "Medium Slow"}, "seismitoad": {"name": "Seismitoad", "exp": "Medium Slow"}, "throh": {"name": "Throh", "exp": "Medium Fast"}, "sawk": {"name": "Sawk", "exp": "Medium Fast"}, "venipede": {"name": "Venipede", "exp": "Medium Slow"}, "whirlipede": {"name": "Whirlipede", "exp": "Medium Slow"}, "scolipede": {"name": "Scolipede", "exp": "Medium Slow"}, "cottonee": {"name": "Cottonee", "exp": "Medium Fast"}, "whimsicott": {"name": "Whimsicott", "exp": "Medium Fast"}, "petilil": {"name": "Petilil", "exp": "Medium Fast"}, "lilligant": {"name": "Lilligant", "exp": "Medium Fast"}, "basculin": {"name": "Basculin", "exp": "Medium Fast"}, "basculin-blue-striped": {"name": "Blue-Striped Basculin", "exp": "Medium Fast"}, "sandile": {"name": "Sandile", "exp": "Medium Slow"}, "krokorok": {"name": "Krokorok", "exp": "Medium Slow"}, "krookodile": {"name": "Krookodile", "exp": "Medium Slow"}, "darumaka": {"name": "Darumaka", "exp": "Medium Slow"}, "darumaka-galar": {"name": "Galarian Darumaka", "exp": "Medium Slow"}, "darmanitan": {"name": "Darmanitan", "exp": "Medium Slow"}, "darmanitan-galar": {"name": "Galarian Darmanitan", "exp": "Medium Slow"}, "maractus": {"name": "Maractus", "exp": "Medium Fast"}, "dwebble": {"name": "Dwebble", "exp": "Medium Fast"}, "crustle": {"name": "Crustle", "exp": "Medium Fast"}, "scraggy": {"name": "Scraggy", "exp": "Medium Fast"}, "scrafty": {"name": "Scrafty", "exp": "Medium Fast"}, "sigilyph": {"name": "Sigilyph", "exp": "Medium Fast"}, "yamask": {"name": "Yamask", "exp": "Medium Fast"}, "yamask-galar": {"name": "Galarian Yamask", "exp": "Medium Fast"}, "cofagrigus": {"name": "Cofagrigus", "exp": "Medium Fast"}, "tirtouga": {"name": "Tirtouga", "exp": "Medium Fast"}, "carracosta": {"name": "Carracosta", "exp": "Medium Fast"}, "archen": {"name": "Archen", "exp": "Medium Fast"}, "archeops": {"name": "Archeops", "exp": "Medium Fast"}, "trubbish": {"name": "Trubbish", "exp": "Medium Fast"}, "garbodor": {"name": "Garbodor", "exp": "Medium Fast"}, "zorua": {"name": "Zorua", "exp": "Medium Slow"}, "zoroark": {"name": "Zoroark", "exp": "Medium Slow"}, "minccino": {"name": "Minccino", "exp": "Fast"}, "cinccino": {"name": "Cinccino", "exp": "Fast"}, "gothita": {"name": "Gothita", "exp": "Medium Slow"}, "gothorita": {"name": "Gothorita", "exp": "Medium Slow"}, "gothitelle": {"name": "Gothitelle", "exp": "Medium Slow"}, "solosis": {"name": "Solosis", "exp": "Medium Slow"}, "duosion": {"name": "Duosion", "exp": "Medium Slow"}, "reuniclus": {"name": "Reuniclus", "exp": "Medium Slow"}, "vanillite": {"name": "Vanillite", "exp": "Slow"}, "vanillish": {"name": "Vanillish", "exp": "Slow"}, "vanilluxe": {"name": "Vanilluxe", "exp": "Slow"}, "emolga": {"name": "Emolga", "exp": "Medium Fast"}, "karrablast": {"name": "Karrablast", "exp": "Medium Fast"}, "escavalier": {"name": "Escavalier", "exp": "Medium Fast"}, "foongus": {"name": "Foongus", "exp": "Medium Fast"}, "amoonguss": {"name": "Amoonguss", "exp": "Medium Fast"}, "frillish": {"name": "Frillish", "exp": "Medium Fast"}, "jellicent": {"name": "Jellicent", "exp": "Medium Fast"}, "joltik": {"name": "Joltik", "exp": "Medium Fast"}, "galvantula": {"name": "Galvantula", "exp": "Medium Fast"}, "ferroseed": {"name": "Ferroseed", "exp": "Medium Fast"}, "ferrothorn": {"name": "Ferrothorn", "exp": "Medium Fast"}, "klink": {"name": "Klink", "exp": "Medium Slow"}, "klang": {"name": "Klang", "exp": "Medium Slow"}, "klinklang": {"name": "Klinklang", "exp": "Medium Slow"}, "elgyem": {"name": "Elgyem", "exp": "Medium Fast"}, "beheeyem": {"name": "Beheeyem", "exp": "Medium Fast"}, "litwick": {"name": "Litwick", "exp": "Medium Slow"}, "lampent": {"name": "Lampent", "exp": "Medium Slow"}, "chandelure": {"name": "Chandelure", "exp": "Medium Slow"}, "axew": {"name": "Axew", "exp": "Slow"}, "fraxure": {"name": "Fraxure", "exp": "Slow"}, "haxorus": {"name": "Haxorus", "exp": "Slow"}, "cubchoo": {"name": "Cubchoo", "exp": "Medium Fast"}, "beartic": {"name": "Beartic", "exp": "Medium Fast"}, "cryogonal": {"name": "Cryogonal", "exp": "Medium Fast"}, "shelmet": {"name": "Shelmet", "exp": "Medium Fast"}, "accelgor": {"name": "Accelgor", "exp": "Medium Fast"}, "stunfisk": {"name": "Stunfisk", "exp": "Medium Fast"}, "stunfisk-galar": {"name": "Galarian Stunfisk", "exp": "Medium Fast"}, "mienfoo": {"name": "Mienfoo", "exp": "Medium Slow"}, "mienshao": {"name": "Mienshao", "exp": "Medium Slow"}, "druddigon": {"name": "Druddigon", "exp": "Medium Fast"}, "golett": {"name": "Golett", "exp": "Medium Fast"}, "golurk": {"name": "Golurk", "exp": "Medium Fast"}, "pawniard": {"name": "Pawniard", "exp": "Medium Fast"}, "bisharp": {"name": "Bisharp", "exp": "Medium Fast"}, "bouffalant": {"name": "Bouffalant", "exp": "Medium Fast"}, "rufflet": {"name": "Rufflet", "exp": "Slow"}, "braviary": {"name": "Braviary", "exp": "Slow"}, "vullaby": {"name": "Vullaby", "exp": "Slow"}, "mandibuzz": {"name": "Mandibuzz", "exp": "Slow"}, "heatmor": {"name": "Heatmor", "exp": "Medium Fast"}, "durant": {"name": "Durant", "exp": "Medium Fast"}, "deino": {"name": "Deino", "exp": "Slow"}, "zweilous": {"name": "Zweilous", "exp": "Slow"}, "hydreigon": {"name": "Hydreigon", "exp": "Slow"}, "larvesta": {"name": "Larvesta", "exp": "Slow"}, "volcarona": {"name": "Volcarona", "exp": "Slow"}, "cobalion": {"name": "Cobalion", "exp": "Slow"}, "terrakion": {"name": "Terrakion", "exp": "Slow"}, "virizion": {"name": "Virizion", "exp": "Slow"}, "tornadus": {"name": "Tornadus", "exp": "Slow"}, "thundurus": {"name": "Thundurus", "exp": "Slow"}, "reshiram": {"name": "Reshiram", "exp": "Slow"}, "zekrom": {"name": "Zekrom", "exp": "Slow"}, "landorus": {"name": "Landorus", "exp": "Slow"}, "kyurem": {"name": "Kyurem", "exp": "Slow"}, "kyurem-white": {"name": "White Kyurem", "exp": "Slow"}, "kyurem-black": {"name": "Black Kyurem", "exp": "Slow"}, "keldeo": {"name": "Keldeo", "exp": "Slow"}, "genesect": {"name": "Genesect", "exp": "Slow"}, "bunnelby": {"name": "Bunnelby", "exp": "Medium Fast"}, "diggersby": {"name": "Diggersby", "exp": "Medium Fast"}, "fletchling": {"name": "Fletchling", "exp": "Medium Slow"}, "fletchinder": {"name": "Fletchinder", "exp": "Medium Slow"}, "talonflame": {"name": "Talonflame", "exp": "Medium Slow"}, "pancham": {"name": "Pancham", "exp": "Medium Fast"}, "pangoro": {"name": "Pangoro", "exp": "Medium Fast"}, "espurr": {"name": "Espurr", "exp": "Medium Fast"}, "meowstic": {"name": "Meowstic", "exp": "Medium Fast"}, "honedge": {"name": "Honedge", "exp": "Medium Fast"}, "doublade": {"name": "Doublade", "exp": "Medium Fast"}, "aegislash": {"name": "Aegislash", "exp": "Medium Fast"}, "spritzee": {"name": "Spritzee", "exp": "Medium Fast"}, "aromatisse": {"name": "Aromatisse", "exp": "Medium Fast"}, "swirlix": {"name": "Swirlix", "exp": "Medium Fast"}, "slurpuff": {"name": "Slurpuff", "exp": "Medium Fast"}, "inkay": {"name": "Inkay", "exp": "Medium Fast"}, "malamar": {"name": "Malamar", "exp": "Medium Fast"}, "binacle": {"name": "Binacle", "exp": "Medium Fast"}, "barbaracle": {"name": "Barbaracle", "exp": "Medium Fast"}, "skrelp": {"name": "Skrelp", "exp": "Medium Fast"}, "dragalge": {"name": "Dragalge", "exp": "Medium Fast"}, "clauncher": {"name": "Clauncher", "exp": "Slow"}, "clawitzer": {"name": "Clawitzer", "exp": "Slow"}, "helioptile": {"name": "Helioptile", "exp": "Medium Fast"}, "heliolisk": {"name": "Heliolisk", "exp": "Medium Fast"}, "tyrunt": {"name": "Tyrunt", "exp": "Medium Fast"}, "tyrantrum": {"name": "Tyrantrum", "exp": "Medium Fast"}, "amaura": {"name": "Amaura", "exp": "Medium Fast"}, "aurorus": {"name": "Aurorus", "exp": "Medium Fast"}, "sylveon": {"name": "Sylveon", "exp": "Medium Fast"}, "hawlucha": {"name": "Hawlucha", "exp": "Medium Fast"}, "dedenne": {"name": "Dedenne", "exp": "Medium Fast"}, "carbink": {"name": "Carbink", "exp": "Slow"}, "goomy": {"name": "Goomy", "exp": "Slow"}, "sliggoo": {"name": "Sliggoo", "exp": "Slow"}, "goodra": {"name": "Goodra", "exp": "Slow"}, "klefki": {"name": "Klefki", "exp": "Fast"}, "phantump": {"name": "Phantump", "exp": "Medium Fast"}, "trevenant": {"name": "Trevenant", "exp": "Medium Fast"}, "pumpkaboo": {"name": "Pumpkaboo", "exp": "Medium Fast"}, "gourgeist": {"name": "Gourgeist", "exp": "Medium Fast"}, "bergmite": {"name": "Bergmite", "exp": "Medium Fast"}, "avalugg": {"name": "Avalugg", "exp": "Medium Fast"}, "noibat": {"name": "Noibat", "exp": "Medium Fast"}, "noivern": {"name": "Noivern", "exp": "Medium Fast"}, "xerneas": {"name": "Xerneas", "exp": "Slow"}, "yveltal": {"name": "Yveltal", "exp": "Slow"}, "zygarde": {"name": "Zygarde", "exp": "Slow"}, "diancie": {"name": "Diancie", "exp": "Slow"}, "volcanion": {"name": "Volcanion", "exp": "Slow"}, "rowlet": {"name": "Rowlet", "exp": "Medium Slow"}, "dartrix": {"name": "Dartrix", "exp": "Medium Slow"}, "decidueye": {"name": "Decidueye", "exp": "Medium Slow"}, "litten": {"name": "Litten", "exp": "Medium Slow"}, "torracat": {"name": "Torracat", "exp": "Medium Slow"}, "incineroar": {"name": "Incineroar", "exp": "Medium Slow"}, "popplio": {"name": "Popplio", "exp": "Medium Slow"}, "brionne": {"name": "Brionne", "exp": "Medium Slow"}, "primarina": {"name": "Primarina", "exp": "Medium Slow"}, "grubbin": {"name": "Grubbin", "exp": "Medium Fast"}, "charjabug": {"name": "Charjabug", "exp": "Medium Fast"}, "vikavolt": {"name": "Vikavolt", "exp": "Medium Fast"}, "cutiefly": {"name": "Cutiefly", "exp": "Medium Fast"}, "ribombee": {"name": "Ribombee", "exp": "Medium Fast"}, "rockruff": {"name": "Rockruff", "exp": "Medium Fast"}, "lycanroc": {"name": "Lycanroc", "exp": "Medium Fast"}, "wishiwashi": {"name": "Wishiwashi", "exp": "Fast"}, "mareanie": {"name": "Mareanie", "exp": "Medium Fast"}, "toxapex": {"name": "Toxapex", "exp": "Medium Fast"}, "mudbray": {"name": "Mudbray", "exp": "Medium Fast"}, "mudsdale": {"name": "Mudsdale", "exp": "Medium Fast"}, "dewpider": {"name": "Dewpider", "exp": "Medium Fast"}, "araquanid": {"name": "Araquanid", "exp": "Medium Fast"}, "fomantis": {"name": "Fomantis", "exp": "Medium Fast"}, "lurantis": {"name": "Lurantis", "exp": "Medium Fast"}, "morelull": {"name": "Morelull", "exp": "Medium Fast"}, "shiinotic": {"name": "Shiinotic", "exp": "Medium Fast"}, "salandit": {"name": "Salandit", "exp": "Medium Fast"}, "salazzle": {"name": "Salazzle", "exp": "Medium Fast"}, "stufful": {"name": "Stufful", "exp": "Medium Fast"}, "bewear": {"name": "Bewear", "exp": "Medium Fast"}, "bounsweet": {"name": "Bounsweet", "exp": "Medium Slow"}, "steenee": {"name": "Steenee", "exp": "Medium Slow"}, "tsareena": {"name": "Tsareena", "exp": "Medium Slow"}, "comfey": {"name": "Comfey", "exp": "Fast"}, "oranguru": {"name": "Oranguru", "exp": "Slow"}, "passimian": {"name": "Passimian", "exp": "Slow"}, "wimpod": {"name": "Wimpod", "exp": "Medium Fast"}, "golisopod": {"name": "Golisopod", "exp": "Medium Fast"}, "sandygast": {"name": "Sandygast", "exp": "Medium Fast"}, "palossand": {"name": "Palossand", "exp": "Medium Fast"}, "pyukumuku": {"name": "Pyukumuku", "exp": "Fast"}, "type-null": {"name": "Type: Null", "exp": "Slow"}, "silvally": {"name": "Silvally", "exp": "Slow"}, "turtonator": {"name": "Turtonator", "exp": "Medium Fast"}, "togedemaru": {"name": "Togedemaru", "exp": "Medium Fast"}, "mimikyu": {"name": "Mimikyu", "exp": "Medium Fast"}, "drampa": {"name": "Drampa", "exp": "Medium Fast"}, "dhelmise": {"name": "Dhelmise", "exp": "Medium Fast"}, "jangmo-o": {"name": "Jangmo-o", "exp": "Slow"}, "hakamo-o": {"name": "Hakamo-o", "exp": "Slow"}, "kommo-o": {"name": "Kommo-o", "exp": "Slow"}, "tapu-koko": {"name": "Tapu Koko", "exp": "Slow"}, "tapu-lele": {"name": "Tapu Lele", "exp": "Slow"}, "tapu-bulu": {"name": "Tapu Bulu", "exp": "Slow"}, "tapu-fini": {"name": "Tapu Fini", "exp": "Slow"}, "cosmog": {"name": "Cosmog", "exp": "Slow"}, "cosmoem": {"name": "Cosmoem", "exp": "Slow"}, "solgaleo": {"name": "Solgaleo", "exp": "Slow"}, "lunala": {"name": "Lunala", "exp": "Slow"}, "nihilego": {"name": "Nihilego", "exp": "Slow"}, "buzzwole": {"name": "Buzzwole", "exp": "Slow"}, "pheromosa": {"name": "Pheromosa", "exp": "Slow"}, "xurkitree": {"name": "Xurkitree", "exp": "Slow"}, "celesteela": {"name": "Celesteela", "exp": "Slow"}, "kartana": {"name": "Kartana", "exp": "Slow"}, "guzzlord": {"name": "Guzzlord", "exp": "Slow"}, "necrozma": {"name": "Necrozma", "exp": "Slow"}, "necrozma-dusk-mane": {"name": "Dusk Mane Necrozma", "exp": "Slow"}, "necrozma-dawn-wings": {"name": "Dawn Wings Necrozma", "exp": "Slow"}, "magearna": {"name": "Magearna", "exp": "Slow"}, "marshadow": {"name": "Marshadow", "exp": "Slow"}, "poipole": {"name": "Poipole", "exp": "Slow"}, "naganadel": {"name": "Naganadel", "exp": "Slow"}, "stakataka": {"name": "Stakataka", "exp": "Slow"}, "blacephalon": {"name": "Blacephalon", "exp": "Slow"}, "zeraora": {"name": "Zeraora", "exp": "Slow"}, "meltan": {"name": "Meltan", "exp": "Slow"}, "melmetal": {"name": "Melmetal", "exp": "Slow"}, "grookey": {"name": "Grookey", "exp": "Medium Slow"}, "thwackey": {"name": "Thwackey", "exp": "Medium Slow"}, "rillaboom": {"name": "Rillaboom", "exp": "Medium Slow"}, "scorbunny": {"name": "Scorbunny", "exp": "Medium Slow"}, "raboot": {"name": "Raboot", "exp": "Medium Slow"}, "cinderace": {"name": "Cinderace", "exp": "Medium Slow"}, "sobble": {"name": "Sobble", "exp": "Medium Slow"}, "drizzile": {"name": "Drizzile", "exp": "Medium Slow"}, "inteleon": {"name": "Inteleon", "exp": "Medium Slow"}, "skwovet": {"name": "Skwovet", "exp": "Medium Fast"}, "greedent": {"name": "Greedent", "exp": "Medium Fast"}, "rookidee": {"name": "Rookidee", "exp": "Medium Slow"}, "corvisquire": {"name": "Corvisquire", "exp": "Medium Slow"}, "corviknight": {"name": "Corviknight", "exp": "Medium Slow"}, "blipbug": {"name": "Blipbug", "exp": "Medium Fast"}, "dottler": {"name": "Dottler", "exp": "Medium Fast"}, "orbeetle": {"name": "Orbeetle", "exp": "Medium Fast"}, "nickit": {"name": "Nickit", "exp": "Fast"}, "thievul": {"name": "Thievul", "exp": "Fast"}, "gossifleur": {"name": "Gossifleur", "exp": "Medium Fast"}, "eldegoss": {"name": "Eldegoss", "exp": "Medium Fast"}, "wooloo": {"name": "Wooloo", "exp": "Medium Fast"}, "dubwool": {"name": "Dubwool", "exp": "Medium Fast"}, "chewtle": {"name": "Chewtle", "exp": "Medium Fast"}, "drednaw": {"name": "Drednaw", "exp": "Medium Fast"}, "yamper": {"name": "Yamper", "exp": "Fast"}, "boltund": {"name": "Boltund", "exp": "Fast"}, "rolycoly": {"name": "Rolycoly", "exp": "Medium Slow"}, "carkol": {"name": "Carkol", "exp": "Medium Slow"}, "coalossal": {"name": "Coalossal", "exp": "Medium Slow"}, "applin": {"name": "Applin", "exp": "Erratic"}, "flapple": {"name": "Flapple", "exp": "Erratic"}, "appletun": {"name": "Appletun", "exp": "Erratic"}, "silicobra": {"name": "Silicobra", "exp": "Medium Fast"}, "sandaconda": {"name": "Sandaconda", "exp": "Medium Fast"}, "cramorant": {"name": "Cramorant", "exp": "Medium Fast"}, "arrokuda": {"name": "Arrokuda", "exp": "Slow"}, "barraskewda": {"name": "Barraskewda", "exp": "Slow"}, "toxel": {"name": "Toxel", "exp": "Medium Slow"}, "toxtricity": {"name": "Toxtricity", "exp": "Medium Slow"}, "sizzlipede": {"name": "Sizzlipede", "exp": "Medium Fast"}, "centiskorch": {"name": "Centiskorch", "exp": "Medium Fast"}, "clobbopus": {"name": "Clobbopus", "exp": "Medium Slow"}, "grapploct": {"name": "Grapploct", "exp": "Medium Slow"}, "sinistea": {"name": "Sinistea", "exp": "Medium Fast"}, "polteageist": {"name": "Polteageist", "exp": "Medium Fast"}, "hatenna": {"name": "Hatenna", "exp": "Slow"}, "hattrem": {"name": "Hattrem", "exp": "Slow"}, "hatterene": {"name": "Hatterene", "exp": "Slow"}, "impidimp": {"name": "Impidimp", "exp": "Medium Fast"}, "morgrem": {"name": "Morgrem", "exp": "Medium Fast"}, "grimmsnarl": {"name": "Grimmsnarl", "exp": "Medium Fast"}, "obstagoon": {"name": "Obstagoon", "exp": "Medium Fast"}, "perrserker": {"name": "Perrserker", "exp": "Medium Fast"}, "cursola": {"name": "Cursola", "exp": "Fast"}, "sirfetchd": {"name": "Sirfetch\u2019d", "exp": "Medium Fast"}, "mr-rime": {"name": "Mr. Rime", "exp": "Medium Fast"}, "runerigus": {"name": "Runerigus", "exp": "Medium Fast"}, "milcery": {"name": "Milcery", "exp": "Medium Fast"}, "alcremie": {"name": "Alcremie", "exp": "Medium Fast"}, "falinks": {"name": "Falinks", "exp": "Medium Fast"}, "pincurchin": {"name": "Pincurchin", "exp": "Medium Fast"}, "snom": {"name": "Snom", "exp": "Medium Fast"}, "frosmoth": {"name": "Frosmoth", "exp": "Medium Fast"}, "stonjourner": {"name": "Stonjourner", "exp": "Slow"}, "eiscue": {"name": "Eiscue", "exp": "Slow"}, "indeedee": {"name": "Indeedee", "exp": "Fast"}, "morpeko": {"name": "Morpeko", "exp": "Medium Fast"}, "cufant": {"name": "Cufant", "exp": "Medium Fast"}, "copperajah": {"name": "Copperajah", "exp": "Medium Fast"}, "dracozolt": {"name": "Dracozolt", "exp": "Slow"}, "arctozolt": {"name": "Arctozolt", "exp": "Slow"}, "dracovish": {"name": "Dracovish", "exp": "Slow"}, "arctovish": {"name": "Arctovish", "exp": "Slow"}, "duraludon": {"name": "Duraludon", "exp": "Medium Fast"}, "dreepy": {"name": "Dreepy", "exp": "Slow"}, "drakloak": {"name": "Drakloak", "exp": "Slow"}, "dragapult": {"name": "Dragapult", "exp": "Slow"}, "zacian": {"name": "Zacian", "exp": "Slow"}, "zamazenta": {"name": "Zamazenta", "exp": "Slow"}, "eternatus": {"name": "Eternatus", "exp": "Slow"}, "kubfu": {"name": "Kubfu", "exp": "Slow"}, "urshifu": {"name": "Urshifu", "exp": "Slow"}, "zarude": {"name": "Zarude", "exp": "Slow"}, "regieleki": {"name": "Regieleki", "exp": "Slow"}, "regidrago": {"name": "Regidrago", "exp": "Slow"}, "glastrier": {"name": "Glastrier", "exp": "Slow"}, "spectrier": {"name": "Spectrier", "exp": "Slow"}, "calyrex": {"name": "Calyrex", "exp": "Slow"}, "calyrex-ice-rider": {"name": "Ice Rider Calyrex", "exp": "Slow"}, "calyrex-shadow-rider": {"name": "Shadow Rider Calyrex", "exp": "Slow"}}
+{
+    "bulbasaur": {
+        "name": "Bulbasaur",
+        "experience_group": "Medium Slow"
+    },
+    "ivysaur": {
+        "name": "Ivysaur",
+        "experience_group": "Medium Slow"
+    },
+    "venusaur": {
+        "name": "Venusaur",
+        "experience_group": "Medium Slow"
+    },
+    "charmander": {
+        "name": "Charmander",
+        "experience_group": "Medium Slow"
+    },
+    "charmeleon": {
+        "name": "Charmeleon",
+        "experience_group": "Medium Slow"
+    },
+    "charizard": {
+        "name": "Charizard",
+        "experience_group": "Medium Slow"
+    },
+    "squirtle": {
+        "name": "Squirtle",
+        "experience_group": "Medium Slow"
+    },
+    "wartortle": {
+        "name": "Wartortle",
+        "experience_group": "Medium Slow"
+    },
+    "blastoise": {
+        "name": "Blastoise",
+        "experience_group": "Medium Slow"
+    },
+    "caterpie": {
+        "name": "Caterpie",
+        "experience_group": "Medium Fast"
+    },
+    "metapod": {
+        "name": "Metapod",
+        "experience_group": "Medium Fast"
+    },
+    "butterfree": {
+        "name": "Butterfree",
+        "experience_group": "Medium Fast"
+    },
+    "weedle": {
+        "name": "Weedle",
+        "experience_group": "Medium Fast"
+    },
+    "kakuna": {
+        "name": "Kakuna",
+        "experience_group": "Medium Fast"
+    },
+    "beedrill": {
+        "name": "Beedrill",
+        "experience_group": "Medium Fast"
+    },
+    "pidgey": {
+        "name": "Pidgey",
+        "experience_group": "Medium Slow"
+    },
+    "pidgeotto": {
+        "name": "Pidgeotto",
+        "experience_group": "Medium Slow"
+    },
+    "pidgeot": {
+        "name": "Pidgeot",
+        "experience_group": "Medium Slow"
+    },
+    "rattata": {
+        "name": "Rattata",
+        "experience_group": "Medium Fast"
+    },
+    "rattata-alola": {
+        "name": "Rattata (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "raticate": {
+        "name": "Raticate",
+        "experience_group": "Medium Fast"
+    },
+    "raticate-alola": {
+        "name": "Raticate (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "spearow": {
+        "name": "Spearow",
+        "experience_group": "Medium Fast"
+    },
+    "fearow": {
+        "name": "Fearow",
+        "experience_group": "Medium Fast"
+    },
+    "ekans": {
+        "name": "Ekans",
+        "experience_group": "Medium Fast"
+    },
+    "arbok": {
+        "name": "Arbok",
+        "experience_group": "Medium Fast"
+    },
+    "pikachu": {
+        "name": "Pikachu",
+        "experience_group": "Medium Fast"
+    },
+    "raichu": {
+        "name": "Raichu",
+        "experience_group": "Medium Fast"
+    },
+    "raichu-alola": {
+        "name": "Raichu (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "sandshrew": {
+        "name": "Sandshrew",
+        "experience_group": "Medium Fast"
+    },
+    "sandshrew-alola": {
+        "name": "Sandshrew (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "sandslash": {
+        "name": "Sandslash",
+        "experience_group": "Medium Fast"
+    },
+    "sandslash-alola": {
+        "name": "Sandslash (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "nidoran-f": {
+        "name": "Nidoran♀",
+        "experience_group": "Medium Slow"
+    },
+    "nidorina": {
+        "name": "Nidorina",
+        "experience_group": "Medium Slow"
+    },
+    "nidoqueen": {
+        "name": "Nidoqueen",
+        "experience_group": "Medium Slow"
+    },
+    "nidoran-m": {
+        "name": "Nidoran♂",
+        "experience_group": "Medium Slow"
+    },
+    "nidorino": {
+        "name": "Nidorino",
+        "experience_group": "Medium Slow"
+    },
+    "nidoking": {
+        "name": "Nidoking",
+        "experience_group": "Medium Slow"
+    },
+    "clefairy": {
+        "name": "Clefairy",
+        "experience_group": "Fast"
+    },
+    "clefable": {
+        "name": "Clefable",
+        "experience_group": "Fast"
+    },
+    "vulpix": {
+        "name": "Vulpix",
+        "experience_group": "Medium Fast"
+    },
+    "vulpix-alola": {
+        "name": "Vulpix (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "ninetales": {
+        "name": "Ninetales",
+        "experience_group": "Medium Fast"
+    },
+    "ninetales-alola": {
+        "name": "Ninetales (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "jigglypuff": {
+        "name": "Jigglypuff",
+        "experience_group": "Fast"
+    },
+    "wigglytuff": {
+        "name": "Wigglytuff",
+        "experience_group": "Fast"
+    },
+    "zubat": {
+        "name": "Zubat",
+        "experience_group": "Medium Fast"
+    },
+    "golbat": {
+        "name": "Golbat",
+        "experience_group": "Medium Fast"
+    },
+    "oddish": {
+        "name": "Oddish",
+        "experience_group": "Medium Slow"
+    },
+    "gloom": {
+        "name": "Gloom",
+        "experience_group": "Medium Slow"
+    },
+    "vileplume": {
+        "name": "Vileplume",
+        "experience_group": "Medium Slow"
+    },
+    "paras": {
+        "name": "Paras",
+        "experience_group": "Medium Fast"
+    },
+    "parasect": {
+        "name": "Parasect",
+        "experience_group": "Medium Fast"
+    },
+    "venonat": {
+        "name": "Venonat",
+        "experience_group": "Medium Fast"
+    },
+    "venomoth": {
+        "name": "Venomoth",
+        "experience_group": "Medium Fast"
+    },
+    "diglett": {
+        "name": "Diglett",
+        "experience_group": "Medium Fast"
+    },
+    "diglett-alola": {
+        "name": "Diglett (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "dugtrio": {
+        "name": "Dugtrio",
+        "experience_group": "Medium Fast"
+    },
+    "dugtrio-alola": {
+        "name": "Dugtrio (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "meowth": {
+        "name": "Meowth",
+        "experience_group": "Medium Fast"
+    },
+    "meowth-alola": {
+        "name": "Meowth (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "meowth-galar": {
+        "name": "Meowth (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "persian": {
+        "name": "Persian",
+        "experience_group": "Medium Fast"
+    },
+    "persian-alola": {
+        "name": "Persian (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "psyduck": {
+        "name": "Psyduck",
+        "experience_group": "Medium Fast"
+    },
+    "golduck": {
+        "name": "Golduck",
+        "experience_group": "Medium Fast"
+    },
+    "mankey": {
+        "name": "Mankey",
+        "experience_group": "Medium Fast"
+    },
+    "primeape": {
+        "name": "Primeape",
+        "experience_group": "Medium Fast"
+    },
+    "growlithe": {
+        "name": "Growlithe",
+        "experience_group": "Slow"
+    },
+    "growlithe-hisui": {
+        "name": "Growlithe (Hisuian Form)",
+        "experience_group": "Slow"
+    },
+    "arcanine": {
+        "name": "Arcanine",
+        "experience_group": "Slow"
+    },
+    "arcanine-hisui": {
+        "name": "Arcanine (Hisuian Form)",
+        "experience_group": "Slow"
+    },
+    "poliwag": {
+        "name": "Poliwag",
+        "experience_group": "Medium Slow"
+    },
+    "poliwhirl": {
+        "name": "Poliwhirl",
+        "experience_group": "Medium Slow"
+    },
+    "poliwrath": {
+        "name": "Poliwrath",
+        "experience_group": "Medium Slow"
+    },
+    "abra": {
+        "name": "Abra",
+        "experience_group": "Medium Slow"
+    },
+    "kadabra": {
+        "name": "Kadabra",
+        "experience_group": "Medium Slow"
+    },
+    "alakazam": {
+        "name": "Alakazam",
+        "experience_group": "Medium Slow"
+    },
+    "machop": {
+        "name": "Machop",
+        "experience_group": "Medium Slow"
+    },
+    "machoke": {
+        "name": "Machoke",
+        "experience_group": "Medium Slow"
+    },
+    "machamp": {
+        "name": "Machamp",
+        "experience_group": "Medium Slow"
+    },
+    "bellsprout": {
+        "name": "Bellsprout",
+        "experience_group": "Medium Slow"
+    },
+    "weepinbell": {
+        "name": "Weepinbell",
+        "experience_group": "Medium Slow"
+    },
+    "victreebel": {
+        "name": "Victreebel",
+        "experience_group": "Medium Slow"
+    },
+    "tentacool": {
+        "name": "Tentacool",
+        "experience_group": "Slow"
+    },
+    "tentacruel": {
+        "name": "Tentacruel",
+        "experience_group": "Slow"
+    },
+    "geodude": {
+        "name": "Geodude",
+        "experience_group": "Medium Slow"
+    },
+    "geodude-alola": {
+        "name": "Geodude (Alolan Form)",
+        "experience_group": "Medium Slow"
+    },
+    "graveler": {
+        "name": "Graveler",
+        "experience_group": "Medium Slow"
+    },
+    "graveler-alola": {
+        "name": "Graveler (Alolan Form)",
+        "experience_group": "Medium Slow"
+    },
+    "golem": {
+        "name": "Golem",
+        "experience_group": "Medium Slow"
+    },
+    "golem-alola": {
+        "name": "Golem (Alolan Form)",
+        "experience_group": "Medium Slow"
+    },
+    "ponyta": {
+        "name": "Ponyta",
+        "experience_group": "Medium Fast"
+    },
+    "ponyta-galar": {
+        "name": "Ponyta (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "rapidash": {
+        "name": "Rapidash",
+        "experience_group": "Medium Fast"
+    },
+    "rapidash-galar": {
+        "name": "Rapidash (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "slowpoke": {
+        "name": "Slowpoke",
+        "experience_group": "Medium Fast"
+    },
+    "slowpoke-galar": {
+        "name": "Slowpoke (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "slowbro": {
+        "name": "Slowbro",
+        "experience_group": "Medium Fast"
+    },
+    "slowbro-galar": {
+        "name": "Slowbro (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "magnemite": {
+        "name": "Magnemite",
+        "experience_group": "Medium Fast"
+    },
+    "magneton": {
+        "name": "Magneton",
+        "experience_group": "Medium Fast"
+    },
+    "farfetchd": {
+        "name": "Farfetch'd",
+        "experience_group": "Medium Fast"
+    },
+    "farfetchd-galar": {
+        "name": "Farfetch'd (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "doduo": {
+        "name": "Doduo",
+        "experience_group": "Medium Fast"
+    },
+    "dodrio": {
+        "name": "Dodrio",
+        "experience_group": "Medium Fast"
+    },
+    "seel": {
+        "name": "Seel",
+        "experience_group": "Medium Fast"
+    },
+    "dewgong": {
+        "name": "Dewgong",
+        "experience_group": "Medium Fast"
+    },
+    "grimer": {
+        "name": "Grimer",
+        "experience_group": "Medium Fast"
+    },
+    "grimer-alola": {
+        "name": "Grimer (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "muk": {
+        "name": "Muk",
+        "experience_group": "Medium Fast"
+    },
+    "muk-alola": {
+        "name": "Muk (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "shellder": {
+        "name": "Shellder",
+        "experience_group": "Slow"
+    },
+    "cloyster": {
+        "name": "Cloyster",
+        "experience_group": "Slow"
+    },
+    "gastly": {
+        "name": "Gastly",
+        "experience_group": "Medium Slow"
+    },
+    "haunter": {
+        "name": "Haunter",
+        "experience_group": "Medium Slow"
+    },
+    "gengar": {
+        "name": "Gengar",
+        "experience_group": "Medium Slow"
+    },
+    "onix": {
+        "name": "Onix",
+        "experience_group": "Medium Fast"
+    },
+    "drowzee": {
+        "name": "Drowzee",
+        "experience_group": "Medium Fast"
+    },
+    "hypno": {
+        "name": "Hypno",
+        "experience_group": "Medium Fast"
+    },
+    "krabby": {
+        "name": "Krabby",
+        "experience_group": "Medium Fast"
+    },
+    "kingler": {
+        "name": "Kingler",
+        "experience_group": "Medium Fast"
+    },
+    "voltorb": {
+        "name": "Voltorb",
+        "experience_group": "Medium Fast"
+    },
+    "voltorb-hisui": {
+        "name": "Voltorb (Hisuian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "electrode": {
+        "name": "Electrode",
+        "experience_group": "Medium Fast"
+    },
+    "electrode-hisui": {
+        "name": "Electrode (Hisuian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "exeggcute": {
+        "name": "Exeggcute",
+        "experience_group": "Slow"
+    },
+    "exeggutor": {
+        "name": "Exeggutor",
+        "experience_group": "Slow"
+    },
+    "exeggutor-alola": {
+        "name": "Exeggutor (Alolan Form)",
+        "experience_group": "Slow"
+    },
+    "cubone": {
+        "name": "Cubone",
+        "experience_group": "Medium Fast"
+    },
+    "marowak": {
+        "name": "Marowak",
+        "experience_group": "Medium Fast"
+    },
+    "marowak-alola": {
+        "name": "Marowak (Alolan Form)",
+        "experience_group": "Medium Fast"
+    },
+    "hitmonlee": {
+        "name": "Hitmonlee",
+        "experience_group": "Medium Fast"
+    },
+    "hitmonchan": {
+        "name": "Hitmonchan",
+        "experience_group": "Medium Fast"
+    },
+    "lickitung": {
+        "name": "Lickitung",
+        "experience_group": "Medium Fast"
+    },
+    "koffing": {
+        "name": "Koffing",
+        "experience_group": "Medium Fast"
+    },
+    "weezing": {
+        "name": "Weezing",
+        "experience_group": "Medium Fast"
+    },
+    "weezing-galar": {
+        "name": "Weezing (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "rhyhorn": {
+        "name": "Rhyhorn",
+        "experience_group": "Slow"
+    },
+    "rhydon": {
+        "name": "Rhydon",
+        "experience_group": "Slow"
+    },
+    "chansey": {
+        "name": "Chansey",
+        "experience_group": "Fast"
+    },
+    "tangela": {
+        "name": "Tangela",
+        "experience_group": "Medium Fast"
+    },
+    "kangaskhan": {
+        "name": "Kangaskhan",
+        "experience_group": "Medium Fast"
+    },
+    "horsea": {
+        "name": "Horsea",
+        "experience_group": "Medium Fast"
+    },
+    "seadra": {
+        "name": "Seadra",
+        "experience_group": "Medium Fast"
+    },
+    "goldeen": {
+        "name": "Goldeen",
+        "experience_group": "Medium Fast"
+    },
+    "seaking": {
+        "name": "Seaking",
+        "experience_group": "Medium Fast"
+    },
+    "staryu": {
+        "name": "Staryu",
+        "experience_group": "Slow"
+    },
+    "starmie": {
+        "name": "Starmie",
+        "experience_group": "Slow"
+    },
+    "mr-mime": {
+        "name": "Mr. Mime",
+        "experience_group": "Medium Fast"
+    },
+    "mr-mime-galar": {
+        "name": "Mr. Mime (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "scyther": {
+        "name": "Scyther",
+        "experience_group": "Medium Fast"
+    },
+    "jynx": {
+        "name": "Jynx",
+        "experience_group": "Medium Fast"
+    },
+    "electabuzz": {
+        "name": "Electabuzz",
+        "experience_group": "Medium Fast"
+    },
+    "magmar": {
+        "name": "Magmar",
+        "experience_group": "Medium Fast"
+    },
+    "pinsir": {
+        "name": "Pinsir",
+        "experience_group": "Slow"
+    },
+    "tauros": {
+        "name": "Tauros",
+        "experience_group": "Slow"
+    },
+    "tauros-paldea": {
+        "name": "Tauros (Paldean Form)",
+        "experience_group": "Slow"
+    },
+    "tauros-paldea-blaze": {
+        "name": "Tauros (Paldean Form)",
+        "experience_group": "Slow"
+    },
+    "tauros-paldea-aqua": {
+        "name": "Tauros (Paldean Form)",
+        "experience_group": "Slow"
+    },
+    "magikarp": {
+        "name": "Magikarp",
+        "experience_group": "Slow"
+    },
+    "gyarados": {
+        "name": "Gyarados",
+        "experience_group": "Slow"
+    },
+    "lapras": {
+        "name": "Lapras",
+        "experience_group": "Slow"
+    },
+    "ditto": {
+        "name": "Ditto",
+        "experience_group": "Medium Fast"
+    },
+    "eevee": {
+        "name": "Eevee",
+        "experience_group": "Medium Fast"
+    },
+    "vaporeon": {
+        "name": "Vaporeon",
+        "experience_group": "Medium Fast"
+    },
+    "jolteon": {
+        "name": "Jolteon",
+        "experience_group": "Medium Fast"
+    },
+    "flareon": {
+        "name": "Flareon",
+        "experience_group": "Medium Fast"
+    },
+    "porygon": {
+        "name": "Porygon",
+        "experience_group": "Medium Fast"
+    },
+    "omanyte": {
+        "name": "Omanyte",
+        "experience_group": "Medium Fast"
+    },
+    "omastar": {
+        "name": "Omastar",
+        "experience_group": "Medium Fast"
+    },
+    "kabuto": {
+        "name": "Kabuto",
+        "experience_group": "Medium Fast"
+    },
+    "kabutops": {
+        "name": "Kabutops",
+        "experience_group": "Medium Fast"
+    },
+    "aerodactyl": {
+        "name": "Aerodactyl",
+        "experience_group": "Slow"
+    },
+    "snorlax": {
+        "name": "Snorlax",
+        "experience_group": "Slow"
+    },
+    "articuno": {
+        "name": "Articuno",
+        "experience_group": "Slow"
+    },
+    "articuno-galar": {
+        "name": "Articuno (Galarian Form)",
+        "experience_group": "Slow"
+    },
+    "zapdos": {
+        "name": "Zapdos",
+        "experience_group": "Slow"
+    },
+    "zapdos-galar": {
+        "name": "Zapdos (Galarian Form)",
+        "experience_group": "Slow"
+    },
+    "moltres": {
+        "name": "Moltres",
+        "experience_group": "Slow"
+    },
+    "moltres-galar": {
+        "name": "Moltres (Galarian Form)",
+        "experience_group": "Slow"
+    },
+    "dratini": {
+        "name": "Dratini",
+        "experience_group": "Slow"
+    },
+    "dragonair": {
+        "name": "Dragonair",
+        "experience_group": "Slow"
+    },
+    "dragonite": {
+        "name": "Dragonite",
+        "experience_group": "Slow"
+    },
+    "mewtwo": {
+        "name": "Mewtwo",
+        "experience_group": "Slow"
+    },
+    "mew": {
+        "name": "Mew",
+        "experience_group": "Medium Slow"
+    },
+    "chikorita": {
+        "name": "Chikorita",
+        "experience_group": "Medium Slow"
+    },
+    "bayleef": {
+        "name": "Bayleef",
+        "experience_group": "Medium Slow"
+    },
+    "meganium": {
+        "name": "Meganium",
+        "experience_group": "Medium Slow"
+    },
+    "cyndaquil": {
+        "name": "Cyndaquil",
+        "experience_group": "Medium Slow"
+    },
+    "quilava": {
+        "name": "Quilava",
+        "experience_group": "Medium Slow"
+    },
+    "typhlosion": {
+        "name": "Typhlosion",
+        "experience_group": "Medium Slow"
+    },
+    "typhlosion-hisui": {
+        "name": "Typhlosion (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "totodile": {
+        "name": "Totodile",
+        "experience_group": "Medium Slow"
+    },
+    "croconaw": {
+        "name": "Croconaw",
+        "experience_group": "Medium Slow"
+    },
+    "feraligatr": {
+        "name": "Feraligatr",
+        "experience_group": "Medium Slow"
+    },
+    "sentret": {
+        "name": "Sentret",
+        "experience_group": "Medium Fast"
+    },
+    "furret": {
+        "name": "Furret",
+        "experience_group": "Medium Fast"
+    },
+    "hoothoot": {
+        "name": "Hoothoot",
+        "experience_group": "Medium Fast"
+    },
+    "noctowl": {
+        "name": "Noctowl",
+        "experience_group": "Medium Fast"
+    },
+    "ledyba": {
+        "name": "Ledyba",
+        "experience_group": "Fast"
+    },
+    "ledian": {
+        "name": "Ledian",
+        "experience_group": "Fast"
+    },
+    "spinarak": {
+        "name": "Spinarak",
+        "experience_group": "Fast"
+    },
+    "ariados": {
+        "name": "Ariados",
+        "experience_group": "Fast"
+    },
+    "crobat": {
+        "name": "Crobat",
+        "experience_group": "Medium Fast"
+    },
+    "chinchou": {
+        "name": "Chinchou",
+        "experience_group": "Slow"
+    },
+    "lanturn": {
+        "name": "Lanturn",
+        "experience_group": "Slow"
+    },
+    "pichu": {
+        "name": "Pichu",
+        "experience_group": "Medium Fast"
+    },
+    "cleffa": {
+        "name": "Cleffa",
+        "experience_group": "Fast"
+    },
+    "igglybuff": {
+        "name": "Igglybuff",
+        "experience_group": "Fast"
+    },
+    "togepi": {
+        "name": "Togepi",
+        "experience_group": "Fast"
+    },
+    "togetic": {
+        "name": "Togetic",
+        "experience_group": "Fast"
+    },
+    "natu": {
+        "name": "Natu",
+        "experience_group": "Medium Fast"
+    },
+    "xatu": {
+        "name": "Xatu",
+        "experience_group": "Medium Fast"
+    },
+    "mareep": {
+        "name": "Mareep",
+        "experience_group": "Medium Slow"
+    },
+    "flaaffy": {
+        "name": "Flaaffy",
+        "experience_group": "Medium Slow"
+    },
+    "ampharos": {
+        "name": "Ampharos",
+        "experience_group": "Medium Slow"
+    },
+    "bellossom": {
+        "name": "Bellossom",
+        "experience_group": "Medium Slow"
+    },
+    "marill": {
+        "name": "Marill",
+        "experience_group": "Fast"
+    },
+    "azumarill": {
+        "name": "Azumarill",
+        "experience_group": "Fast"
+    },
+    "sudowoodo": {
+        "name": "Sudowoodo",
+        "experience_group": "Medium Fast"
+    },
+    "politoed": {
+        "name": "Politoed",
+        "experience_group": "Medium Slow"
+    },
+    "hoppip": {
+        "name": "Hoppip",
+        "experience_group": "Medium Slow"
+    },
+    "skiploom": {
+        "name": "Skiploom",
+        "experience_group": "Medium Slow"
+    },
+    "jumpluff": {
+        "name": "Jumpluff",
+        "experience_group": "Medium Slow"
+    },
+    "aipom": {
+        "name": "Aipom",
+        "experience_group": "Fast"
+    },
+    "sunkern": {
+        "name": "Sunkern",
+        "experience_group": "Medium Slow"
+    },
+    "sunflora": {
+        "name": "Sunflora",
+        "experience_group": "Medium Slow"
+    },
+    "yanma": {
+        "name": "Yanma",
+        "experience_group": "Medium Fast"
+    },
+    "wooper": {
+        "name": "Wooper",
+        "experience_group": "Medium Fast"
+    },
+    "wooper-paldea": {
+        "name": "Wooper (Paldean Form)",
+        "experience_group": "Medium Fast"
+    },
+    "quagsire": {
+        "name": "Quagsire",
+        "experience_group": "Medium Fast"
+    },
+    "espeon": {
+        "name": "Espeon",
+        "experience_group": "Medium Fast"
+    },
+    "umbreon": {
+        "name": "Umbreon",
+        "experience_group": "Medium Fast"
+    },
+    "murkrow": {
+        "name": "Murkrow",
+        "experience_group": "Medium Slow"
+    },
+    "slowking": {
+        "name": "Slowking",
+        "experience_group": "Medium Fast"
+    },
+    "slowking-galar": {
+        "name": "Slowking (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "misdreavus": {
+        "name": "Misdreavus",
+        "experience_group": "Fast"
+    },
+    "unown": {
+        "name": "Unown",
+        "experience_group": "Medium Fast"
+    },
+    "wobbuffet": {
+        "name": "Wobbuffet",
+        "experience_group": "Medium Fast"
+    },
+    "girafarig": {
+        "name": "Girafarig",
+        "experience_group": "Medium Fast"
+    },
+    "pineco": {
+        "name": "Pineco",
+        "experience_group": "Medium Fast"
+    },
+    "forretress": {
+        "name": "Forretress",
+        "experience_group": "Medium Fast"
+    },
+    "dunsparce": {
+        "name": "Dunsparce",
+        "experience_group": "Medium Fast"
+    },
+    "gligar": {
+        "name": "Gligar",
+        "experience_group": "Medium Slow"
+    },
+    "steelix": {
+        "name": "Steelix",
+        "experience_group": "Medium Fast"
+    },
+    "snubbull": {
+        "name": "Snubbull",
+        "experience_group": "Fast"
+    },
+    "granbull": {
+        "name": "Granbull",
+        "experience_group": "Fast"
+    },
+    "qwilfish": {
+        "name": "Qwilfish",
+        "experience_group": "Medium Fast"
+    },
+    "qwilfish-hisui": {
+        "name": "Qwilfish (Hisuian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "scizor": {
+        "name": "Scizor",
+        "experience_group": "Medium Fast"
+    },
+    "shuckle": {
+        "name": "Shuckle",
+        "experience_group": "Medium Slow"
+    },
+    "heracross": {
+        "name": "Heracross",
+        "experience_group": "Slow"
+    },
+    "sneasel": {
+        "name": "Sneasel",
+        "experience_group": "Medium Slow"
+    },
+    "sneasel-hisui": {
+        "name": "Sneasel (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "teddiursa": {
+        "name": "Teddiursa",
+        "experience_group": "Medium Fast"
+    },
+    "ursaring": {
+        "name": "Ursaring",
+        "experience_group": "Medium Fast"
+    },
+    "slugma": {
+        "name": "Slugma",
+        "experience_group": "Medium Fast"
+    },
+    "magcargo": {
+        "name": "Magcargo",
+        "experience_group": "Medium Fast"
+    },
+    "swinub": {
+        "name": "Swinub",
+        "experience_group": "Slow"
+    },
+    "piloswine": {
+        "name": "Piloswine",
+        "experience_group": "Slow"
+    },
+    "corsola": {
+        "name": "Corsola",
+        "experience_group": "Fast"
+    },
+    "corsola-galar": {
+        "name": "Corsola (Galarian Form)",
+        "experience_group": "Fast"
+    },
+    "remoraid": {
+        "name": "Remoraid",
+        "experience_group": "Medium Fast"
+    },
+    "octillery": {
+        "name": "Octillery",
+        "experience_group": "Medium Fast"
+    },
+    "delibird": {
+        "name": "Delibird",
+        "experience_group": "Fast"
+    },
+    "mantine": {
+        "name": "Mantine",
+        "experience_group": "Slow"
+    },
+    "skarmory": {
+        "name": "Skarmory",
+        "experience_group": "Slow"
+    },
+    "houndour": {
+        "name": "Houndour",
+        "experience_group": "Slow"
+    },
+    "houndoom": {
+        "name": "Houndoom",
+        "experience_group": "Slow"
+    },
+    "kingdra": {
+        "name": "Kingdra",
+        "experience_group": "Medium Fast"
+    },
+    "phanpy": {
+        "name": "Phanpy",
+        "experience_group": "Medium Fast"
+    },
+    "donphan": {
+        "name": "Donphan",
+        "experience_group": "Medium Fast"
+    },
+    "porygon2": {
+        "name": "Porygon2",
+        "experience_group": "Medium Fast"
+    },
+    "stantler": {
+        "name": "Stantler",
+        "experience_group": "Slow"
+    },
+    "smeargle": {
+        "name": "Smeargle",
+        "experience_group": "Fast"
+    },
+    "tyrogue": {
+        "name": "Tyrogue",
+        "experience_group": "Medium Fast"
+    },
+    "hitmontop": {
+        "name": "Hitmontop",
+        "experience_group": "Medium Fast"
+    },
+    "smoochum": {
+        "name": "Smoochum",
+        "experience_group": "Medium Fast"
+    },
+    "elekid": {
+        "name": "Elekid",
+        "experience_group": "Medium Fast"
+    },
+    "magby": {
+        "name": "Magby",
+        "experience_group": "Medium Fast"
+    },
+    "miltank": {
+        "name": "Miltank",
+        "experience_group": "Slow"
+    },
+    "blissey": {
+        "name": "Blissey",
+        "experience_group": "Fast"
+    },
+    "raikou": {
+        "name": "Raikou",
+        "experience_group": "Slow"
+    },
+    "entei": {
+        "name": "Entei",
+        "experience_group": "Slow"
+    },
+    "suicune": {
+        "name": "Suicune",
+        "experience_group": "Slow"
+    },
+    "larvitar": {
+        "name": "Larvitar",
+        "experience_group": "Slow"
+    },
+    "pupitar": {
+        "name": "Pupitar",
+        "experience_group": "Slow"
+    },
+    "tyranitar": {
+        "name": "Tyranitar",
+        "experience_group": "Slow"
+    },
+    "lugia": {
+        "name": "Lugia",
+        "experience_group": "Slow"
+    },
+    "ho-oh": {
+        "name": "Ho-Oh",
+        "experience_group": "Slow"
+    },
+    "celebi": {
+        "name": "Celebi",
+        "experience_group": "Medium Slow"
+    },
+    "treecko": {
+        "name": "Treecko",
+        "experience_group": "Medium Slow"
+    },
+    "grovyle": {
+        "name": "Grovyle",
+        "experience_group": "Medium Slow"
+    },
+    "sceptile": {
+        "name": "Sceptile",
+        "experience_group": "Medium Slow"
+    },
+    "torchic": {
+        "name": "Torchic",
+        "experience_group": "Medium Slow"
+    },
+    "combusken": {
+        "name": "Combusken",
+        "experience_group": "Medium Slow"
+    },
+    "blaziken": {
+        "name": "Blaziken",
+        "experience_group": "Medium Slow"
+    },
+    "mudkip": {
+        "name": "Mudkip",
+        "experience_group": "Medium Slow"
+    },
+    "marshtomp": {
+        "name": "Marshtomp",
+        "experience_group": "Medium Slow"
+    },
+    "swampert": {
+        "name": "Swampert",
+        "experience_group": "Medium Slow"
+    },
+    "poochyena": {
+        "name": "Poochyena",
+        "experience_group": "Medium Fast"
+    },
+    "mightyena": {
+        "name": "Mightyena",
+        "experience_group": "Medium Fast"
+    },
+    "zigzagoon": {
+        "name": "Zigzagoon",
+        "experience_group": "Medium Fast"
+    },
+    "zigzagoon-galar": {
+        "name": "Zigzagoon (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "linoone": {
+        "name": "Linoone",
+        "experience_group": "Medium Fast"
+    },
+    "linoone-galar": {
+        "name": "Linoone (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "wurmple": {
+        "name": "Wurmple",
+        "experience_group": "Medium Fast"
+    },
+    "silcoon": {
+        "name": "Silcoon",
+        "experience_group": "Medium Fast"
+    },
+    "beautifly": {
+        "name": "Beautifly",
+        "experience_group": "Medium Fast"
+    },
+    "cascoon": {
+        "name": "Cascoon",
+        "experience_group": "Medium Fast"
+    },
+    "dustox": {
+        "name": "Dustox",
+        "experience_group": "Medium Fast"
+    },
+    "lotad": {
+        "name": "Lotad",
+        "experience_group": "Medium Slow"
+    },
+    "lombre": {
+        "name": "Lombre",
+        "experience_group": "Medium Slow"
+    },
+    "ludicolo": {
+        "name": "Ludicolo",
+        "experience_group": "Medium Slow"
+    },
+    "seedot": {
+        "name": "Seedot",
+        "experience_group": "Medium Slow"
+    },
+    "nuzleaf": {
+        "name": "Nuzleaf",
+        "experience_group": "Medium Slow"
+    },
+    "shiftry": {
+        "name": "Shiftry",
+        "experience_group": "Medium Slow"
+    },
+    "taillow": {
+        "name": "Taillow",
+        "experience_group": "Medium Slow"
+    },
+    "swellow": {
+        "name": "Swellow",
+        "experience_group": "Medium Slow"
+    },
+    "wingull": {
+        "name": "Wingull",
+        "experience_group": "Medium Fast"
+    },
+    "pelipper": {
+        "name": "Pelipper",
+        "experience_group": "Medium Fast"
+    },
+    "ralts": {
+        "name": "Ralts",
+        "experience_group": "Slow"
+    },
+    "kirlia": {
+        "name": "Kirlia",
+        "experience_group": "Slow"
+    },
+    "gardevoir": {
+        "name": "Gardevoir",
+        "experience_group": "Slow"
+    },
+    "surskit": {
+        "name": "Surskit",
+        "experience_group": "Medium Fast"
+    },
+    "masquerain": {
+        "name": "Masquerain",
+        "experience_group": "Medium Fast"
+    },
+    "shroomish": {
+        "name": "Shroomish",
+        "experience_group": "Fluctuating"
+    },
+    "breloom": {
+        "name": "Breloom",
+        "experience_group": "Fluctuating"
+    },
+    "slakoth": {
+        "name": "Slakoth",
+        "experience_group": "Slow"
+    },
+    "vigoroth": {
+        "name": "Vigoroth",
+        "experience_group": "Slow"
+    },
+    "slaking": {
+        "name": "Slaking",
+        "experience_group": "Slow"
+    },
+    "nincada": {
+        "name": "Nincada",
+        "experience_group": "Erratic"
+    },
+    "ninjask": {
+        "name": "Ninjask",
+        "experience_group": "Erratic"
+    },
+    "shedinja": {
+        "name": "Shedinja",
+        "experience_group": "Erratic"
+    },
+    "whismur": {
+        "name": "Whismur",
+        "experience_group": "Medium Slow"
+    },
+    "loudred": {
+        "name": "Loudred",
+        "experience_group": "Medium Slow"
+    },
+    "exploud": {
+        "name": "Exploud",
+        "experience_group": "Medium Slow"
+    },
+    "makuhita": {
+        "name": "Makuhita",
+        "experience_group": "Fluctuating"
+    },
+    "hariyama": {
+        "name": "Hariyama",
+        "experience_group": "Fluctuating"
+    },
+    "azurill": {
+        "name": "Azurill",
+        "experience_group": "Fast"
+    },
+    "nosepass": {
+        "name": "Nosepass",
+        "experience_group": "Medium Fast"
+    },
+    "skitty": {
+        "name": "Skitty",
+        "experience_group": "Fast"
+    },
+    "delcatty": {
+        "name": "Delcatty",
+        "experience_group": "Fast"
+    },
+    "sableye": {
+        "name": "Sableye",
+        "experience_group": "Medium Slow"
+    },
+    "mawile": {
+        "name": "Mawile",
+        "experience_group": "Fast"
+    },
+    "aron": {
+        "name": "Aron",
+        "experience_group": "Slow"
+    },
+    "lairon": {
+        "name": "Lairon",
+        "experience_group": "Slow"
+    },
+    "aggron": {
+        "name": "Aggron",
+        "experience_group": "Slow"
+    },
+    "meditite": {
+        "name": "Meditite",
+        "experience_group": "Medium Fast"
+    },
+    "medicham": {
+        "name": "Medicham",
+        "experience_group": "Medium Fast"
+    },
+    "electrike": {
+        "name": "Electrike",
+        "experience_group": "Slow"
+    },
+    "manectric": {
+        "name": "Manectric",
+        "experience_group": "Slow"
+    },
+    "plusle": {
+        "name": "Plusle",
+        "experience_group": "Medium Fast"
+    },
+    "minun": {
+        "name": "Minun",
+        "experience_group": "Medium Fast"
+    },
+    "volbeat": {
+        "name": "Volbeat",
+        "experience_group": "Erratic"
+    },
+    "illumise": {
+        "name": "Illumise",
+        "experience_group": "Fluctuating"
+    },
+    "roselia": {
+        "name": "Roselia",
+        "experience_group": "Medium Slow"
+    },
+    "gulpin": {
+        "name": "Gulpin",
+        "experience_group": "Fluctuating"
+    },
+    "swalot": {
+        "name": "Swalot",
+        "experience_group": "Fluctuating"
+    },
+    "carvanha": {
+        "name": "Carvanha",
+        "experience_group": "Slow"
+    },
+    "sharpedo": {
+        "name": "Sharpedo",
+        "experience_group": "Slow"
+    },
+    "wailmer": {
+        "name": "Wailmer",
+        "experience_group": "Fluctuating"
+    },
+    "wailord": {
+        "name": "Wailord",
+        "experience_group": "Fluctuating"
+    },
+    "numel": {
+        "name": "Numel",
+        "experience_group": "Medium Fast"
+    },
+    "camerupt": {
+        "name": "Camerupt",
+        "experience_group": "Medium Fast"
+    },
+    "torkoal": {
+        "name": "Torkoal",
+        "experience_group": "Medium Fast"
+    },
+    "spoink": {
+        "name": "Spoink",
+        "experience_group": "Fast"
+    },
+    "grumpig": {
+        "name": "Grumpig",
+        "experience_group": "Fast"
+    },
+    "spinda": {
+        "name": "Spinda",
+        "experience_group": "Fast"
+    },
+    "trapinch": {
+        "name": "Trapinch",
+        "experience_group": "Medium Slow"
+    },
+    "vibrava": {
+        "name": "Vibrava",
+        "experience_group": "Medium Slow"
+    },
+    "flygon": {
+        "name": "Flygon",
+        "experience_group": "Medium Slow"
+    },
+    "cacnea": {
+        "name": "Cacnea",
+        "experience_group": "Medium Slow"
+    },
+    "cacturne": {
+        "name": "Cacturne",
+        "experience_group": "Medium Slow"
+    },
+    "swablu": {
+        "name": "Swablu",
+        "experience_group": "Erratic"
+    },
+    "altaria": {
+        "name": "Altaria",
+        "experience_group": "Erratic"
+    },
+    "zangoose": {
+        "name": "Zangoose",
+        "experience_group": "Erratic"
+    },
+    "seviper": {
+        "name": "Seviper",
+        "experience_group": "Fluctuating"
+    },
+    "lunatone": {
+        "name": "Lunatone",
+        "experience_group": "Fast"
+    },
+    "solrock": {
+        "name": "Solrock",
+        "experience_group": "Fast"
+    },
+    "barboach": {
+        "name": "Barboach",
+        "experience_group": "Medium Fast"
+    },
+    "whiscash": {
+        "name": "Whiscash",
+        "experience_group": "Medium Fast"
+    },
+    "corphish": {
+        "name": "Corphish",
+        "experience_group": "Fluctuating"
+    },
+    "crawdaunt": {
+        "name": "Crawdaunt",
+        "experience_group": "Fluctuating"
+    },
+    "baltoy": {
+        "name": "Baltoy",
+        "experience_group": "Medium Fast"
+    },
+    "claydol": {
+        "name": "Claydol",
+        "experience_group": "Medium Fast"
+    },
+    "lileep": {
+        "name": "Lileep",
+        "experience_group": "Erratic"
+    },
+    "cradily": {
+        "name": "Cradily",
+        "experience_group": "Erratic"
+    },
+    "anorith": {
+        "name": "Anorith",
+        "experience_group": "Erratic"
+    },
+    "armaldo": {
+        "name": "Armaldo",
+        "experience_group": "Erratic"
+    },
+    "feebas": {
+        "name": "Feebas",
+        "experience_group": "Erratic"
+    },
+    "milotic": {
+        "name": "Milotic",
+        "experience_group": "Erratic"
+    },
+    "castform": {
+        "name": "Castform",
+        "experience_group": "Medium Fast"
+    },
+    "kecleon": {
+        "name": "Kecleon",
+        "experience_group": "Medium Slow"
+    },
+    "shuppet": {
+        "name": "Shuppet",
+        "experience_group": "Fast"
+    },
+    "banette": {
+        "name": "Banette",
+        "experience_group": "Fast"
+    },
+    "duskull": {
+        "name": "Duskull",
+        "experience_group": "Fast"
+    },
+    "dusclops": {
+        "name": "Dusclops",
+        "experience_group": "Fast"
+    },
+    "tropius": {
+        "name": "Tropius",
+        "experience_group": "Slow"
+    },
+    "chimecho": {
+        "name": "Chimecho",
+        "experience_group": "Fast"
+    },
+    "absol": {
+        "name": "Absol",
+        "experience_group": "Medium Slow"
+    },
+    "wynaut": {
+        "name": "Wynaut",
+        "experience_group": "Medium Fast"
+    },
+    "snorunt": {
+        "name": "Snorunt",
+        "experience_group": "Medium Fast"
+    },
+    "glalie": {
+        "name": "Glalie",
+        "experience_group": "Medium Fast"
+    },
+    "spheal": {
+        "name": "Spheal",
+        "experience_group": "Medium Slow"
+    },
+    "sealeo": {
+        "name": "Sealeo",
+        "experience_group": "Medium Slow"
+    },
+    "walrein": {
+        "name": "Walrein",
+        "experience_group": "Medium Slow"
+    },
+    "clamperl": {
+        "name": "Clamperl",
+        "experience_group": "Erratic"
+    },
+    "huntail": {
+        "name": "Huntail",
+        "experience_group": "Erratic"
+    },
+    "gorebyss": {
+        "name": "Gorebyss",
+        "experience_group": "Erratic"
+    },
+    "relicanth": {
+        "name": "Relicanth",
+        "experience_group": "Slow"
+    },
+    "luvdisc": {
+        "name": "Luvdisc",
+        "experience_group": "Fast"
+    },
+    "bagon": {
+        "name": "Bagon",
+        "experience_group": "Slow"
+    },
+    "shelgon": {
+        "name": "Shelgon",
+        "experience_group": "Slow"
+    },
+    "salamence": {
+        "name": "Salamence",
+        "experience_group": "Slow"
+    },
+    "beldum": {
+        "name": "Beldum",
+        "experience_group": "Slow"
+    },
+    "metang": {
+        "name": "Metang",
+        "experience_group": "Slow"
+    },
+    "metagross": {
+        "name": "Metagross",
+        "experience_group": "Slow"
+    },
+    "regirock": {
+        "name": "Regirock",
+        "experience_group": "Slow"
+    },
+    "regice": {
+        "name": "Regice",
+        "experience_group": "Slow"
+    },
+    "registeel": {
+        "name": "Registeel",
+        "experience_group": "Slow"
+    },
+    "latias": {
+        "name": "Latias",
+        "experience_group": "Slow"
+    },
+    "latios": {
+        "name": "Latios",
+        "experience_group": "Slow"
+    },
+    "kyogre": {
+        "name": "Kyogre",
+        "experience_group": "Slow"
+    },
+    "groudon": {
+        "name": "Groudon",
+        "experience_group": "Slow"
+    },
+    "rayquaza": {
+        "name": "Rayquaza",
+        "experience_group": "Slow"
+    },
+    "jirachi": {
+        "name": "Jirachi",
+        "experience_group": "Slow"
+    },
+    "deoxys": {
+        "name": "Deoxys",
+        "experience_group": "Slow"
+    },
+    "deoxys-attack": {
+        "name": "Deoxys (Attack Forme)",
+        "experience_group": "Slow"
+    },
+    "deoxys-defense": {
+        "name": "Deoxys (Defense Forme)",
+        "experience_group": "Slow"
+    },
+    "deoxys-speed": {
+        "name": "Deoxys (Speed Forme)",
+        "experience_group": "Slow"
+    },
+    "turtwig": {
+        "name": "Turtwig",
+        "experience_group": "Medium Slow"
+    },
+    "grotle": {
+        "name": "Grotle",
+        "experience_group": "Medium Slow"
+    },
+    "torterra": {
+        "name": "Torterra",
+        "experience_group": "Medium Slow"
+    },
+    "chimchar": {
+        "name": "Chimchar",
+        "experience_group": "Medium Slow"
+    },
+    "monferno": {
+        "name": "Monferno",
+        "experience_group": "Medium Slow"
+    },
+    "infernape": {
+        "name": "Infernape",
+        "experience_group": "Medium Slow"
+    },
+    "piplup": {
+        "name": "Piplup",
+        "experience_group": "Medium Slow"
+    },
+    "prinplup": {
+        "name": "Prinplup",
+        "experience_group": "Medium Slow"
+    },
+    "empoleon": {
+        "name": "Empoleon",
+        "experience_group": "Medium Slow"
+    },
+    "starly": {
+        "name": "Starly",
+        "experience_group": "Medium Slow"
+    },
+    "staravia": {
+        "name": "Staravia",
+        "experience_group": "Medium Slow"
+    },
+    "staraptor": {
+        "name": "Staraptor",
+        "experience_group": "Medium Slow"
+    },
+    "bidoof": {
+        "name": "Bidoof",
+        "experience_group": "Medium Fast"
+    },
+    "bibarel": {
+        "name": "Bibarel",
+        "experience_group": "Medium Fast"
+    },
+    "kricketot": {
+        "name": "Kricketot",
+        "experience_group": "Medium Slow"
+    },
+    "kricketune": {
+        "name": "Kricketune",
+        "experience_group": "Medium Slow"
+    },
+    "shinx": {
+        "name": "Shinx",
+        "experience_group": "Medium Slow"
+    },
+    "luxio": {
+        "name": "Luxio",
+        "experience_group": "Medium Slow"
+    },
+    "luxray": {
+        "name": "Luxray",
+        "experience_group": "Medium Slow"
+    },
+    "budew": {
+        "name": "Budew",
+        "experience_group": "Medium Slow"
+    },
+    "roserade": {
+        "name": "Roserade",
+        "experience_group": "Medium Slow"
+    },
+    "cranidos": {
+        "name": "Cranidos",
+        "experience_group": "Erratic"
+    },
+    "rampardos": {
+        "name": "Rampardos",
+        "experience_group": "Erratic"
+    },
+    "shieldon": {
+        "name": "Shieldon",
+        "experience_group": "Erratic"
+    },
+    "bastiodon": {
+        "name": "Bastiodon",
+        "experience_group": "Erratic"
+    },
+    "burmy": {
+        "name": "Burmy",
+        "experience_group": "Medium Fast"
+    },
+    "burmy-sandy": {
+        "name": "Burmy (Sandy Cloak)",
+        "experience_group": "Medium Fast"
+    },
+    "burmy-trash": {
+        "name": "Burmy (Trash Cloak)",
+        "experience_group": "Medium Fast"
+    },
+    "wormadam": {
+        "name": "Wormadam",
+        "experience_group": "Medium Fast"
+    },
+    "wormadam-sandy": {
+        "name": "Wormadam (Sandy Cloak)",
+        "experience_group": "Medium Fast"
+    },
+    "wormadam-trash": {
+        "name": "Wormadam (Trash Cloak)",
+        "experience_group": "Medium Fast"
+    },
+    "mothim": {
+        "name": "Mothim",
+        "experience_group": "Medium Fast"
+    },
+    "combee": {
+        "name": "Combee",
+        "experience_group": "Medium Slow"
+    },
+    "vespiquen": {
+        "name": "Vespiquen",
+        "experience_group": "Medium Slow"
+    },
+    "pachirisu": {
+        "name": "Pachirisu",
+        "experience_group": "Medium Fast"
+    },
+    "buizel": {
+        "name": "Buizel",
+        "experience_group": "Medium Fast"
+    },
+    "floatzel": {
+        "name": "Floatzel",
+        "experience_group": "Medium Fast"
+    },
+    "cherubi": {
+        "name": "Cherubi",
+        "experience_group": "Medium Fast"
+    },
+    "cherrim-sunshine": {
+        "name": "Cherrim (Sunshine Form)",
+        "experience_group": "Medium Fast"
+    },
+    "shellos": {
+        "name": "Shellos",
+        "experience_group": "Medium Fast"
+    },
+    "shellos-east": {
+        "name": "Shellos (East Sea)",
+        "experience_group": "Medium Fast"
+    },
+    "gastrodon": {
+        "name": "Gastrodon",
+        "experience_group": "Medium Fast"
+    },
+    "gastrodon-east": {
+        "name": "Gastrodon (East Sea)",
+        "experience_group": "Medium Fast"
+    },
+    "ambipom": {
+        "name": "Ambipom",
+        "experience_group": "Fast"
+    },
+    "drifloon": {
+        "name": "Drifloon",
+        "experience_group": "Fluctuating"
+    },
+    "drifblim": {
+        "name": "Drifblim",
+        "experience_group": "Fluctuating"
+    },
+    "buneary": {
+        "name": "Buneary",
+        "experience_group": "Medium Fast"
+    },
+    "lopunny": {
+        "name": "Lopunny",
+        "experience_group": "Medium Fast"
+    },
+    "mismagius": {
+        "name": "Mismagius",
+        "experience_group": "Fast"
+    },
+    "honchkrow": {
+        "name": "Honchkrow",
+        "experience_group": "Medium Slow"
+    },
+    "glameow": {
+        "name": "Glameow",
+        "experience_group": "Fast"
+    },
+    "purugly": {
+        "name": "Purugly",
+        "experience_group": "Fast"
+    },
+    "chingling": {
+        "name": "Chingling",
+        "experience_group": "Fast"
+    },
+    "stunky": {
+        "name": "Stunky",
+        "experience_group": "Medium Fast"
+    },
+    "skuntank": {
+        "name": "Skuntank",
+        "experience_group": "Medium Fast"
+    },
+    "bronzor": {
+        "name": "Bronzor",
+        "experience_group": "Medium Fast"
+    },
+    "bronzong": {
+        "name": "Bronzong",
+        "experience_group": "Medium Fast"
+    },
+    "bonsly": {
+        "name": "Bonsly",
+        "experience_group": "Medium Fast"
+    },
+    "mime-jr": {
+        "name": "Mime Jr.",
+        "experience_group": "Medium Fast"
+    },
+    "happiny": {
+        "name": "Happiny",
+        "experience_group": "Fast"
+    },
+    "chatot": {
+        "name": "Chatot",
+        "experience_group": "Medium Slow"
+    },
+    "spiritomb": {
+        "name": "Spiritomb",
+        "experience_group": "Medium Fast"
+    },
+    "gible": {
+        "name": "Gible",
+        "experience_group": "Slow"
+    },
+    "gabite": {
+        "name": "Gabite",
+        "experience_group": "Slow"
+    },
+    "garchomp": {
+        "name": "Garchomp",
+        "experience_group": "Slow"
+    },
+    "munchlax": {
+        "name": "Munchlax",
+        "experience_group": "Slow"
+    },
+    "riolu": {
+        "name": "Riolu",
+        "experience_group": "Medium Slow"
+    },
+    "lucario": {
+        "name": "Lucario",
+        "experience_group": "Medium Slow"
+    },
+    "hippopotas": {
+        "name": "Hippopotas",
+        "experience_group": "Slow"
+    },
+    "hippowdon": {
+        "name": "Hippowdon",
+        "experience_group": "Slow"
+    },
+    "skorupi": {
+        "name": "Skorupi",
+        "experience_group": "Slow"
+    },
+    "drapion": {
+        "name": "Drapion",
+        "experience_group": "Slow"
+    },
+    "croagunk": {
+        "name": "Croagunk",
+        "experience_group": "Medium Fast"
+    },
+    "toxicroak": {
+        "name": "Toxicroak",
+        "experience_group": "Medium Fast"
+    },
+    "carnivine": {
+        "name": "Carnivine",
+        "experience_group": "Slow"
+    },
+    "finneon": {
+        "name": "Finneon",
+        "experience_group": "Erratic"
+    },
+    "lumineon": {
+        "name": "Lumineon",
+        "experience_group": "Erratic"
+    },
+    "mantyke": {
+        "name": "Mantyke",
+        "experience_group": "Slow"
+    },
+    "snover": {
+        "name": "Snover",
+        "experience_group": "Slow"
+    },
+    "abomasnow": {
+        "name": "Abomasnow",
+        "experience_group": "Slow"
+    },
+    "weavile": {
+        "name": "Weavile",
+        "experience_group": "Medium Slow"
+    },
+    "magnezone": {
+        "name": "Magnezone",
+        "experience_group": "Medium Fast"
+    },
+    "lickilicky": {
+        "name": "Lickilicky",
+        "experience_group": "Medium Fast"
+    },
+    "rhyperior": {
+        "name": "Rhyperior",
+        "experience_group": "Slow"
+    },
+    "tangrowth": {
+        "name": "Tangrowth",
+        "experience_group": "Medium Fast"
+    },
+    "electivire": {
+        "name": "Electivire",
+        "experience_group": "Medium Fast"
+    },
+    "magmortar": {
+        "name": "Magmortar",
+        "experience_group": "Medium Fast"
+    },
+    "togekiss": {
+        "name": "Togekiss",
+        "experience_group": "Fast"
+    },
+    "yanmega": {
+        "name": "Yanmega",
+        "experience_group": "Medium Fast"
+    },
+    "leafeon": {
+        "name": "Leafeon",
+        "experience_group": "Medium Fast"
+    },
+    "glaceon": {
+        "name": "Glaceon",
+        "experience_group": "Medium Fast"
+    },
+    "gliscor": {
+        "name": "Gliscor",
+        "experience_group": "Medium Slow"
+    },
+    "mamoswine": {
+        "name": "Mamoswine",
+        "experience_group": "Slow"
+    },
+    "porygon-z": {
+        "name": "Porygon-Z",
+        "experience_group": "Medium Fast"
+    },
+    "gallade": {
+        "name": "Gallade",
+        "experience_group": "Slow"
+    },
+    "probopass": {
+        "name": "Probopass",
+        "experience_group": "Medium Fast"
+    },
+    "dusknoir": {
+        "name": "Dusknoir",
+        "experience_group": "Fast"
+    },
+    "froslass": {
+        "name": "Froslass",
+        "experience_group": "Medium Fast"
+    },
+    "rotom": {
+        "name": "Rotom",
+        "experience_group": "Medium Fast"
+    },
+    "rotom-heat": {
+        "name": "Rotom (Heat Rotom)",
+        "experience_group": "Medium Fast"
+    },
+    "rotom-wash": {
+        "name": "Rotom (Wash Rotom)",
+        "experience_group": "Medium Fast"
+    },
+    "rotom-frost": {
+        "name": "Rotom (Frost Rotom)",
+        "experience_group": "Medium Fast"
+    },
+    "rotom-fan": {
+        "name": "Rotom (Fan Rotom)",
+        "experience_group": "Medium Fast"
+    },
+    "rotom-mow": {
+        "name": "Rotom (Mow Rotom)",
+        "experience_group": "Medium Fast"
+    },
+    "uxie": {
+        "name": "Uxie",
+        "experience_group": "Slow"
+    },
+    "mesprit": {
+        "name": "Mesprit",
+        "experience_group": "Slow"
+    },
+    "azelf": {
+        "name": "Azelf",
+        "experience_group": "Slow"
+    },
+    "dialga": {
+        "name": "Dialga",
+        "experience_group": "Slow"
+    },
+    "dialga-origin": {
+        "name": "Dialga (Origin Forme)",
+        "experience_group": "Slow"
+    },
+    "palkia": {
+        "name": "Palkia",
+        "experience_group": "Slow"
+    },
+    "palkia-origin": {
+        "name": "Palkia (Origin Forme)",
+        "experience_group": "Slow"
+    },
+    "heatran": {
+        "name": "Heatran",
+        "experience_group": "Slow"
+    },
+    "regigigas": {
+        "name": "Regigigas",
+        "experience_group": "Slow"
+    },
+    "giratina": {
+        "name": "Giratina",
+        "experience_group": "Slow"
+    },
+    "giratina-origin": {
+        "name": "Giratina (Origin Forme)",
+        "experience_group": "Slow"
+    },
+    "cresselia": {
+        "name": "Cresselia",
+        "experience_group": "Slow"
+    },
+    "phione": {
+        "name": "Phione",
+        "experience_group": "Slow"
+    },
+    "manaphy": {
+        "name": "Manaphy",
+        "experience_group": "Slow"
+    },
+    "darkrai": {
+        "name": "Darkrai",
+        "experience_group": "Slow"
+    },
+    "shaymin": {
+        "name": "Shaymin",
+        "experience_group": "Medium Slow"
+    },
+    "shaymin-sky": {
+        "name": "Shaymin (Sky Forme)",
+        "experience_group": "Medium Slow"
+    },
+    "arceus": {
+        "name": "Arceus",
+        "experience_group": "Slow"
+    },
+    "victini": {
+        "name": "Victini",
+        "experience_group": "Slow"
+    },
+    "snivy": {
+        "name": "Snivy",
+        "experience_group": "Medium Slow"
+    },
+    "servine": {
+        "name": "Servine",
+        "experience_group": "Medium Slow"
+    },
+    "serperior": {
+        "name": "Serperior",
+        "experience_group": "Medium Slow"
+    },
+    "tepig": {
+        "name": "Tepig",
+        "experience_group": "Medium Slow"
+    },
+    "pignite": {
+        "name": "Pignite",
+        "experience_group": "Medium Slow"
+    },
+    "emboar": {
+        "name": "Emboar",
+        "experience_group": "Medium Slow"
+    },
+    "oshawott": {
+        "name": "Oshawott",
+        "experience_group": "Medium Slow"
+    },
+    "dewott": {
+        "name": "Dewott",
+        "experience_group": "Medium Slow"
+    },
+    "samurott": {
+        "name": "Samurott",
+        "experience_group": "Medium Slow"
+    },
+    "samurott-hisui": {
+        "name": "Samurott (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "patrat": {
+        "name": "Patrat",
+        "experience_group": "Medium Fast"
+    },
+    "watchog": {
+        "name": "Watchog",
+        "experience_group": "Medium Fast"
+    },
+    "lillipup": {
+        "name": "Lillipup",
+        "experience_group": "Medium Slow"
+    },
+    "herdier": {
+        "name": "Herdier",
+        "experience_group": "Medium Slow"
+    },
+    "stoutland": {
+        "name": "Stoutland",
+        "experience_group": "Medium Slow"
+    },
+    "purrloin": {
+        "name": "Purrloin",
+        "experience_group": "Medium Fast"
+    },
+    "liepard": {
+        "name": "Liepard",
+        "experience_group": "Medium Fast"
+    },
+    "pansage": {
+        "name": "Pansage",
+        "experience_group": "Medium Fast"
+    },
+    "simisage": {
+        "name": "Simisage",
+        "experience_group": "Medium Fast"
+    },
+    "pansear": {
+        "name": "Pansear",
+        "experience_group": "Medium Fast"
+    },
+    "simisear": {
+        "name": "Simisear",
+        "experience_group": "Medium Fast"
+    },
+    "panpour": {
+        "name": "Panpour",
+        "experience_group": "Medium Fast"
+    },
+    "simipour": {
+        "name": "Simipour",
+        "experience_group": "Medium Fast"
+    },
+    "munna": {
+        "name": "Munna",
+        "experience_group": "Fast"
+    },
+    "musharna": {
+        "name": "Musharna",
+        "experience_group": "Fast"
+    },
+    "pidove": {
+        "name": "Pidove",
+        "experience_group": "Medium Slow"
+    },
+    "tranquill": {
+        "name": "Tranquill",
+        "experience_group": "Medium Slow"
+    },
+    "unfezant": {
+        "name": "Unfezant",
+        "experience_group": "Medium Slow"
+    },
+    "blitzle": {
+        "name": "Blitzle",
+        "experience_group": "Medium Fast"
+    },
+    "zebstrika": {
+        "name": "Zebstrika",
+        "experience_group": "Medium Fast"
+    },
+    "roggenrola": {
+        "name": "Roggenrola",
+        "experience_group": "Medium Slow"
+    },
+    "boldore": {
+        "name": "Boldore",
+        "experience_group": "Medium Slow"
+    },
+    "gigalith": {
+        "name": "Gigalith",
+        "experience_group": "Medium Slow"
+    },
+    "woobat": {
+        "name": "Woobat",
+        "experience_group": "Medium Fast"
+    },
+    "swoobat": {
+        "name": "Swoobat",
+        "experience_group": "Medium Fast"
+    },
+    "drilbur": {
+        "name": "Drilbur",
+        "experience_group": "Medium Fast"
+    },
+    "excadrill": {
+        "name": "Excadrill",
+        "experience_group": "Medium Fast"
+    },
+    "audino": {
+        "name": "Audino",
+        "experience_group": "Fast"
+    },
+    "timburr": {
+        "name": "Timburr",
+        "experience_group": "Medium Slow"
+    },
+    "gurdurr": {
+        "name": "Gurdurr",
+        "experience_group": "Medium Slow"
+    },
+    "conkeldurr": {
+        "name": "Conkeldurr",
+        "experience_group": "Medium Slow"
+    },
+    "tympole": {
+        "name": "Tympole",
+        "experience_group": "Medium Slow"
+    },
+    "palpitoad": {
+        "name": "Palpitoad",
+        "experience_group": "Medium Slow"
+    },
+    "seismitoad": {
+        "name": "Seismitoad",
+        "experience_group": "Medium Slow"
+    },
+    "throh": {
+        "name": "Throh",
+        "experience_group": "Medium Fast"
+    },
+    "sawk": {
+        "name": "Sawk",
+        "experience_group": "Medium Fast"
+    },
+    "sewaddle": {
+        "name": "Sewaddle",
+        "experience_group": "Medium Slow"
+    },
+    "swadloon": {
+        "name": "Swadloon",
+        "experience_group": "Medium Slow"
+    },
+    "leavanny": {
+        "name": "Leavanny",
+        "experience_group": "Medium Slow"
+    },
+    "venipede": {
+        "name": "Venipede",
+        "experience_group": "Medium Slow"
+    },
+    "whirlipede": {
+        "name": "Whirlipede",
+        "experience_group": "Medium Slow"
+    },
+    "scolipede": {
+        "name": "Scolipede",
+        "experience_group": "Medium Slow"
+    },
+    "cottonee": {
+        "name": "Cottonee",
+        "experience_group": "Medium Fast"
+    },
+    "whimsicott": {
+        "name": "Whimsicott",
+        "experience_group": "Medium Fast"
+    },
+    "petilil": {
+        "name": "Petilil",
+        "experience_group": "Medium Fast"
+    },
+    "lilligant": {
+        "name": "Lilligant",
+        "experience_group": "Medium Fast"
+    },
+    "lilligant-hisui": {
+        "name": "Lilligant (Hisuian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "basculin": {
+        "name": "Basculin",
+        "experience_group": "Medium Fast"
+    },
+    "basculin-blue-striped": {
+        "name": "Basculin (Blue-Striped Form)",
+        "experience_group": "Medium Fast"
+    },
+    "basculin-white-striped": {
+        "name": "Basculin (White-Striped Form)",
+        "experience_group": "Medium Fast"
+    },
+    "sandile": {
+        "name": "Sandile",
+        "experience_group": "Medium Slow"
+    },
+    "krokorok": {
+        "name": "Krokorok",
+        "experience_group": "Medium Slow"
+    },
+    "krookodile": {
+        "name": "Krookodile",
+        "experience_group": "Medium Slow"
+    },
+    "darumaka": {
+        "name": "Darumaka",
+        "experience_group": "Medium Slow"
+    },
+    "darumaka-galar": {
+        "name": "Darumaka (Galarian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "darmanitan": {
+        "name": "Darmanitan",
+        "experience_group": "Medium Slow"
+    },
+    "darmanitan-galar": {
+        "name": "Darmanitan (Galarian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "maractus": {
+        "name": "Maractus",
+        "experience_group": "Medium Fast"
+    },
+    "dwebble": {
+        "name": "Dwebble",
+        "experience_group": "Medium Fast"
+    },
+    "crustle": {
+        "name": "Crustle",
+        "experience_group": "Medium Fast"
+    },
+    "scraggy": {
+        "name": "Scraggy",
+        "experience_group": "Medium Fast"
+    },
+    "scrafty": {
+        "name": "Scrafty",
+        "experience_group": "Medium Fast"
+    },
+    "sigilyph": {
+        "name": "Sigilyph",
+        "experience_group": "Medium Fast"
+    },
+    "yamask": {
+        "name": "Yamask",
+        "experience_group": "Medium Fast"
+    },
+    "yamask-galar": {
+        "name": "Yamask (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "cofagrigus": {
+        "name": "Cofagrigus",
+        "experience_group": "Medium Fast"
+    },
+    "tirtouga": {
+        "name": "Tirtouga",
+        "experience_group": "Medium Fast"
+    },
+    "carracosta": {
+        "name": "Carracosta",
+        "experience_group": "Medium Fast"
+    },
+    "archen": {
+        "name": "Archen",
+        "experience_group": "Medium Fast"
+    },
+    "archeops": {
+        "name": "Archeops",
+        "experience_group": "Medium Fast"
+    },
+    "trubbish": {
+        "name": "Trubbish",
+        "experience_group": "Medium Fast"
+    },
+    "garbodor": {
+        "name": "Garbodor",
+        "experience_group": "Medium Fast"
+    },
+    "zorua": {
+        "name": "Zorua",
+        "experience_group": "Medium Slow"
+    },
+    "zorua-hisui": {
+        "name": "Zorua (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "zoroark": {
+        "name": "Zoroark",
+        "experience_group": "Medium Slow"
+    },
+    "zoroark-hisui": {
+        "name": "Zoroark (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "minccino": {
+        "name": "Minccino",
+        "experience_group": "Fast"
+    },
+    "cinccino": {
+        "name": "Cinccino",
+        "experience_group": "Fast"
+    },
+    "gothita": {
+        "name": "Gothita",
+        "experience_group": "Medium Slow"
+    },
+    "gothorita": {
+        "name": "Gothorita",
+        "experience_group": "Medium Slow"
+    },
+    "gothitelle": {
+        "name": "Gothitelle",
+        "experience_group": "Medium Slow"
+    },
+    "solosis": {
+        "name": "Solosis",
+        "experience_group": "Medium Slow"
+    },
+    "duosion": {
+        "name": "Duosion",
+        "experience_group": "Medium Slow"
+    },
+    "reuniclus": {
+        "name": "Reuniclus",
+        "experience_group": "Medium Slow"
+    },
+    "ducklett": {
+        "name": "Ducklett",
+        "experience_group": "Medium Fast"
+    },
+    "swanna": {
+        "name": "Swanna",
+        "experience_group": "Medium Fast"
+    },
+    "vanillite": {
+        "name": "Vanillite",
+        "experience_group": "Slow"
+    },
+    "vanillish": {
+        "name": "Vanillish",
+        "experience_group": "Slow"
+    },
+    "vanilluxe": {
+        "name": "Vanilluxe",
+        "experience_group": "Slow"
+    },
+    "deerling": {
+        "name": "Deerling",
+        "experience_group": "Medium Fast"
+    },
+    "sawsbuck": {
+        "name": "Sawsbuck",
+        "experience_group": "Medium Fast"
+    },
+    "emolga": {
+        "name": "Emolga",
+        "experience_group": "Medium Fast"
+    },
+    "karrablast": {
+        "name": "Karrablast",
+        "experience_group": "Medium Fast"
+    },
+    "escavalier": {
+        "name": "Escavalier",
+        "experience_group": "Medium Fast"
+    },
+    "foongus": {
+        "name": "Foongus",
+        "experience_group": "Medium Fast"
+    },
+    "amoonguss": {
+        "name": "Amoonguss",
+        "experience_group": "Medium Fast"
+    },
+    "frillish": {
+        "name": "Frillish",
+        "experience_group": "Medium Fast"
+    },
+    "jellicent": {
+        "name": "Jellicent",
+        "experience_group": "Medium Fast"
+    },
+    "alomomola": {
+        "name": "Alomomola",
+        "experience_group": "Fast"
+    },
+    "joltik": {
+        "name": "Joltik",
+        "experience_group": "Medium Fast"
+    },
+    "galvantula": {
+        "name": "Galvantula",
+        "experience_group": "Medium Fast"
+    },
+    "ferroseed": {
+        "name": "Ferroseed",
+        "experience_group": "Medium Fast"
+    },
+    "ferrothorn": {
+        "name": "Ferrothorn",
+        "experience_group": "Medium Fast"
+    },
+    "klink": {
+        "name": "Klink",
+        "experience_group": "Medium Slow"
+    },
+    "klang": {
+        "name": "Klang",
+        "experience_group": "Medium Slow"
+    },
+    "klinklang": {
+        "name": "Klinklang",
+        "experience_group": "Medium Slow"
+    },
+    "tynamo": {
+        "name": "Tynamo",
+        "experience_group": "Slow"
+    },
+    "eelektrik": {
+        "name": "Eelektrik",
+        "experience_group": "Slow"
+    },
+    "eelektross": {
+        "name": "Eelektross",
+        "experience_group": "Slow"
+    },
+    "elgyem": {
+        "name": "Elgyem",
+        "experience_group": "Medium Fast"
+    },
+    "beheeyem": {
+        "name": "Beheeyem",
+        "experience_group": "Medium Fast"
+    },
+    "litwick": {
+        "name": "Litwick",
+        "experience_group": "Medium Slow"
+    },
+    "lampent": {
+        "name": "Lampent",
+        "experience_group": "Medium Slow"
+    },
+    "chandelure": {
+        "name": "Chandelure",
+        "experience_group": "Medium Slow"
+    },
+    "axew": {
+        "name": "Axew",
+        "experience_group": "Slow"
+    },
+    "fraxure": {
+        "name": "Fraxure",
+        "experience_group": "Slow"
+    },
+    "haxorus": {
+        "name": "Haxorus",
+        "experience_group": "Slow"
+    },
+    "cubchoo": {
+        "name": "Cubchoo",
+        "experience_group": "Medium Fast"
+    },
+    "beartic": {
+        "name": "Beartic",
+        "experience_group": "Medium Fast"
+    },
+    "cryogonal": {
+        "name": "Cryogonal",
+        "experience_group": "Medium Fast"
+    },
+    "shelmet": {
+        "name": "Shelmet",
+        "experience_group": "Medium Fast"
+    },
+    "accelgor": {
+        "name": "Accelgor",
+        "experience_group": "Medium Fast"
+    },
+    "stunfisk": {
+        "name": "Stunfisk",
+        "experience_group": "Medium Fast"
+    },
+    "stunfisk-galar": {
+        "name": "Stunfisk (Galarian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "mienfoo": {
+        "name": "Mienfoo",
+        "experience_group": "Medium Slow"
+    },
+    "mienshao": {
+        "name": "Mienshao",
+        "experience_group": "Medium Slow"
+    },
+    "druddigon": {
+        "name": "Druddigon",
+        "experience_group": "Medium Fast"
+    },
+    "golett": {
+        "name": "Golett",
+        "experience_group": "Medium Fast"
+    },
+    "golurk": {
+        "name": "Golurk",
+        "experience_group": "Medium Fast"
+    },
+    "pawniard": {
+        "name": "Pawniard",
+        "experience_group": "Medium Fast"
+    },
+    "bisharp": {
+        "name": "Bisharp",
+        "experience_group": "Medium Fast"
+    },
+    "bouffalant": {
+        "name": "Bouffalant",
+        "experience_group": "Medium Fast"
+    },
+    "rufflet": {
+        "name": "Rufflet",
+        "experience_group": "Slow"
+    },
+    "braviary": {
+        "name": "Braviary",
+        "experience_group": "Slow"
+    },
+    "braviary-hisui": {
+        "name": "Braviary (Hisuian Form)",
+        "experience_group": "Slow"
+    },
+    "vullaby": {
+        "name": "Vullaby",
+        "experience_group": "Slow"
+    },
+    "mandibuzz": {
+        "name": "Mandibuzz",
+        "experience_group": "Slow"
+    },
+    "heatmor": {
+        "name": "Heatmor",
+        "experience_group": "Medium Fast"
+    },
+    "durant": {
+        "name": "Durant",
+        "experience_group": "Medium Fast"
+    },
+    "deino": {
+        "name": "Deino",
+        "experience_group": "Slow"
+    },
+    "zweilous": {
+        "name": "Zweilous",
+        "experience_group": "Slow"
+    },
+    "hydreigon": {
+        "name": "Hydreigon",
+        "experience_group": "Slow"
+    },
+    "larvesta": {
+        "name": "Larvesta",
+        "experience_group": "Slow"
+    },
+    "volcarona": {
+        "name": "Volcarona",
+        "experience_group": "Slow"
+    },
+    "cobalion": {
+        "name": "Cobalion",
+        "experience_group": "Slow"
+    },
+    "terrakion": {
+        "name": "Terrakion",
+        "experience_group": "Slow"
+    },
+    "virizion": {
+        "name": "Virizion",
+        "experience_group": "Slow"
+    },
+    "tornadus": {
+        "name": "Tornadus",
+        "experience_group": "Slow"
+    },
+    "tornadus-therian": {
+        "name": "Tornadus (Therian Forme)",
+        "experience_group": "Slow"
+    },
+    "thundurus": {
+        "name": "Thundurus",
+        "experience_group": "Slow"
+    },
+    "thundurus-therian": {
+        "name": "Thundurus (Therian Forme)",
+        "experience_group": "Slow"
+    },
+    "reshiram": {
+        "name": "Reshiram",
+        "experience_group": "Slow"
+    },
+    "zekrom": {
+        "name": "Zekrom",
+        "experience_group": "Slow"
+    },
+    "landorus": {
+        "name": "Landorus",
+        "experience_group": "Slow"
+    },
+    "landorus-therian": {
+        "name": "Landorus (Therian Forme)",
+        "experience_group": "Slow"
+    },
+    "kyurem": {
+        "name": "Kyurem",
+        "experience_group": "Slow"
+    },
+    "kyurem-white": {
+        "name": "Kyurem (White Kyurem)",
+        "experience_group": "Slow"
+    },
+    "kyurem-black": {
+        "name": "Kyurem (Black Kyurem)",
+        "experience_group": "Slow"
+    },
+    "keldeo": {
+        "name": "Keldeo",
+        "experience_group": "Slow"
+    },
+    "meloetta": {
+        "name": "Meloetta",
+        "experience_group": "Slow"
+    },
+    "genesect": {
+        "name": "Genesect",
+        "experience_group": "Slow"
+    },
+    "chespin": {
+        "name": "Chespin",
+        "experience_group": "Medium Slow"
+    },
+    "quilladin": {
+        "name": "Quilladin",
+        "experience_group": "Medium Slow"
+    },
+    "chesnaught": {
+        "name": "Chesnaught",
+        "experience_group": "Medium Slow"
+    },
+    "fennekin": {
+        "name": "Fennekin",
+        "experience_group": "Medium Slow"
+    },
+    "braixen": {
+        "name": "Braixen",
+        "experience_group": "Medium Slow"
+    },
+    "delphox": {
+        "name": "Delphox",
+        "experience_group": "Medium Slow"
+    },
+    "froakie": {
+        "name": "Froakie",
+        "experience_group": "Medium Slow"
+    },
+    "frogadier": {
+        "name": "Frogadier",
+        "experience_group": "Medium Slow"
+    },
+    "greninja": {
+        "name": "Greninja",
+        "experience_group": "Medium Slow"
+    },
+    "bunnelby": {
+        "name": "Bunnelby",
+        "experience_group": "Medium Fast"
+    },
+    "diggersby": {
+        "name": "Diggersby",
+        "experience_group": "Medium Fast"
+    },
+    "fletchling": {
+        "name": "Fletchling",
+        "experience_group": "Medium Slow"
+    },
+    "fletchinder": {
+        "name": "Fletchinder",
+        "experience_group": "Medium Slow"
+    },
+    "talonflame": {
+        "name": "Talonflame",
+        "experience_group": "Medium Slow"
+    },
+    "scatterbug": {
+        "name": "Scatterbug",
+        "experience_group": "Medium Fast"
+    },
+    "spewpa": {
+        "name": "Spewpa",
+        "experience_group": "Medium Fast"
+    },
+    "vivillon": {
+        "name": "Vivillon (Meadow Pattern)",
+        "experience_group": "Medium Fast"
+    },
+    "litleo": {
+        "name": "Litleo",
+        "experience_group": "Medium Slow"
+    },
+    "pyroar": {
+        "name": "Pyroar",
+        "experience_group": "Medium Slow"
+    },
+    "flabebe": {
+        "name": "Flabébé",
+        "experience_group": "Medium Fast"
+    },
+    "floette": {
+        "name": "Floette",
+        "experience_group": "Medium Fast"
+    },
+    "florges": {
+        "name": "Florges",
+        "experience_group": "Medium Fast"
+    },
+    "skiddo": {
+        "name": "Skiddo",
+        "experience_group": "Medium Fast"
+    },
+    "gogoat": {
+        "name": "Gogoat",
+        "experience_group": "Medium Fast"
+    },
+    "pancham": {
+        "name": "Pancham",
+        "experience_group": "Medium Fast"
+    },
+    "pangoro": {
+        "name": "Pangoro",
+        "experience_group": "Medium Fast"
+    },
+    "furfrou": {
+        "name": "Furfrou",
+        "experience_group": "Medium Fast"
+    },
+    "espurr": {
+        "name": "Espurr",
+        "experience_group": "Medium Fast"
+    },
+    "meowstic": {
+        "name": "Meowstic",
+        "experience_group": "Medium Fast"
+    },
+    "meowstic-female": {
+        "name": "Meowstic (Female)",
+        "experience_group": "Medium Fast"
+    },
+    "honedge": {
+        "name": "Honedge",
+        "experience_group": "Medium Fast"
+    },
+    "doublade": {
+        "name": "Doublade",
+        "experience_group": "Medium Fast"
+    },
+    "aegislash": {
+        "name": "Aegislash",
+        "experience_group": "Medium Fast"
+    },
+    "spritzee": {
+        "name": "Spritzee",
+        "experience_group": "Medium Fast"
+    },
+    "aromatisse": {
+        "name": "Aromatisse",
+        "experience_group": "Medium Fast"
+    },
+    "swirlix": {
+        "name": "Swirlix",
+        "experience_group": "Medium Fast"
+    },
+    "slurpuff": {
+        "name": "Slurpuff",
+        "experience_group": "Medium Fast"
+    },
+    "inkay": {
+        "name": "Inkay",
+        "experience_group": "Medium Fast"
+    },
+    "malamar": {
+        "name": "Malamar",
+        "experience_group": "Medium Fast"
+    },
+    "binacle": {
+        "name": "Binacle",
+        "experience_group": "Medium Fast"
+    },
+    "barbaracle": {
+        "name": "Barbaracle",
+        "experience_group": "Medium Fast"
+    },
+    "skrelp": {
+        "name": "Skrelp",
+        "experience_group": "Medium Fast"
+    },
+    "dragalge": {
+        "name": "Dragalge",
+        "experience_group": "Medium Fast"
+    },
+    "clauncher": {
+        "name": "Clauncher",
+        "experience_group": "Slow"
+    },
+    "clawitzer": {
+        "name": "Clawitzer",
+        "experience_group": "Slow"
+    },
+    "helioptile": {
+        "name": "Helioptile",
+        "experience_group": "Medium Fast"
+    },
+    "heliolisk": {
+        "name": "Heliolisk",
+        "experience_group": "Medium Fast"
+    },
+    "tyrunt": {
+        "name": "Tyrunt",
+        "experience_group": "Medium Fast"
+    },
+    "tyrantrum": {
+        "name": "Tyrantrum",
+        "experience_group": "Medium Fast"
+    },
+    "amaura": {
+        "name": "Amaura",
+        "experience_group": "Medium Fast"
+    },
+    "aurorus": {
+        "name": "Aurorus",
+        "experience_group": "Medium Fast"
+    },
+    "sylveon": {
+        "name": "Sylveon",
+        "experience_group": "Medium Fast"
+    },
+    "hawlucha": {
+        "name": "Hawlucha",
+        "experience_group": "Medium Fast"
+    },
+    "dedenne": {
+        "name": "Dedenne",
+        "experience_group": "Medium Fast"
+    },
+    "carbink": {
+        "name": "Carbink",
+        "experience_group": "Slow"
+    },
+    "goomy": {
+        "name": "Goomy",
+        "experience_group": "Slow"
+    },
+    "sliggoo": {
+        "name": "Sliggoo",
+        "experience_group": "Slow"
+    },
+    "sliggoo-hisui": {
+        "name": "Sliggoo (Hisuian Form)",
+        "experience_group": "Slow"
+    },
+    "goodra": {
+        "name": "Goodra",
+        "experience_group": "Slow"
+    },
+    "goodra-hisui": {
+        "name": "Goodra (Hisuian Form)",
+        "experience_group": "Slow"
+    },
+    "klefki": {
+        "name": "Klefki",
+        "experience_group": "Fast"
+    },
+    "phantump": {
+        "name": "Phantump",
+        "experience_group": "Medium Fast"
+    },
+    "trevenant": {
+        "name": "Trevenant",
+        "experience_group": "Medium Fast"
+    },
+    "pumpkaboo": {
+        "name": "Pumpkaboo",
+        "experience_group": "Medium Fast"
+    },
+    "gourgeist": {
+        "name": "Gourgeist",
+        "experience_group": "Medium Fast"
+    },
+    "bergmite": {
+        "name": "Bergmite",
+        "experience_group": "Medium Fast"
+    },
+    "avalugg": {
+        "name": "Avalugg",
+        "experience_group": "Medium Fast"
+    },
+    "avalugg-hisui": {
+        "name": "Avalugg (Hisuian Form)",
+        "experience_group": "Medium Fast"
+    },
+    "noibat": {
+        "name": "Noibat",
+        "experience_group": "Medium Fast"
+    },
+    "noivern": {
+        "name": "Noivern",
+        "experience_group": "Medium Fast"
+    },
+    "xerneas": {
+        "name": "Xerneas (Active Mode)",
+        "experience_group": "Slow"
+    },
+    "yveltal": {
+        "name": "Yveltal",
+        "experience_group": "Slow"
+    },
+    "zygarde": {
+        "name": "Zygarde",
+        "experience_group": "Slow"
+    },
+    "zygarde-10": {
+        "name": "Zygarde (10% Forme)",
+        "experience_group": "Slow"
+    },
+    "diancie": {
+        "name": "Diancie",
+        "experience_group": "Slow"
+    },
+    "hoopa": {
+        "name": "Hoopa",
+        "experience_group": "Slow"
+    },
+    "hoopa-unbound": {
+        "name": "Hoopa (Hoopa Unbound)",
+        "experience_group": "Slow"
+    },
+    "volcanion": {
+        "name": "Volcanion",
+        "experience_group": "Slow"
+    },
+    "rowlet": {
+        "name": "Rowlet",
+        "experience_group": "Medium Slow"
+    },
+    "dartrix": {
+        "name": "Dartrix",
+        "experience_group": "Medium Slow"
+    },
+    "decidueye": {
+        "name": "Decidueye",
+        "experience_group": "Medium Slow"
+    },
+    "decidueye-hisui": {
+        "name": "Decidueye (Hisuian Form)",
+        "experience_group": "Medium Slow"
+    },
+    "litten": {
+        "name": "Litten",
+        "experience_group": "Medium Slow"
+    },
+    "torracat": {
+        "name": "Torracat",
+        "experience_group": "Medium Slow"
+    },
+    "incineroar": {
+        "name": "Incineroar",
+        "experience_group": "Medium Slow"
+    },
+    "popplio": {
+        "name": "Popplio",
+        "experience_group": "Medium Slow"
+    },
+    "brionne": {
+        "name": "Brionne",
+        "experience_group": "Medium Slow"
+    },
+    "primarina": {
+        "name": "Primarina",
+        "experience_group": "Medium Slow"
+    },
+    "pikipek": {
+        "name": "Pikipek",
+        "experience_group": "Medium Fast"
+    },
+    "trumbeak": {
+        "name": "Trumbeak",
+        "experience_group": "Medium Fast"
+    },
+    "toucannon": {
+        "name": "Toucannon",
+        "experience_group": "Medium Fast"
+    },
+    "yungoos": {
+        "name": "Yungoos",
+        "experience_group": "Medium Fast"
+    },
+    "gumshoos": {
+        "name": "Gumshoos",
+        "experience_group": "Medium Fast"
+    },
+    "grubbin": {
+        "name": "Grubbin",
+        "experience_group": "Medium Fast"
+    },
+    "charjabug": {
+        "name": "Charjabug",
+        "experience_group": "Medium Fast"
+    },
+    "vikavolt": {
+        "name": "Vikavolt",
+        "experience_group": "Medium Fast"
+    },
+    "crabrawler": {
+        "name": "Crabrawler",
+        "experience_group": "Medium Fast"
+    },
+    "crabominable": {
+        "name": "Crabominable",
+        "experience_group": "Medium Fast"
+    },
+    "oricorio": {
+        "name": "Oricorio",
+        "experience_group": "Medium Fast"
+    },
+    "oricorio-pom-pom": {
+        "name": "Oricorio (Pom-Pom Style)",
+        "experience_group": "Medium Fast"
+    },
+    "oricorio-pau": {
+        "name": "Oricorio (Pau'u Style)",
+        "experience_group": "Medium Fast"
+    },
+    "oricorio-sensu": {
+        "name": "Oricorio (Sensu Style)",
+        "experience_group": "Medium Fast"
+    },
+    "cutiefly": {
+        "name": "Cutiefly",
+        "experience_group": "Medium Fast"
+    },
+    "ribombee": {
+        "name": "Ribombee",
+        "experience_group": "Medium Fast"
+    },
+    "rockruff": {
+        "name": "Rockruff",
+        "experience_group": "Medium Fast"
+    },
+    "lycanroc": {
+        "name": "Lycanroc",
+        "experience_group": "Medium Fast"
+    },
+    "lycanroc-midnight": {
+        "name": "Lycanroc (Midnight Form)",
+        "experience_group": "Medium Fast"
+    },
+    "lycanroc-dusk": {
+        "name": "Lycanroc (Dusk Form)",
+        "experience_group": "Medium Fast"
+    },
+    "wishiwashi-school": {
+        "name": "Wishiwashi (School Form)",
+        "experience_group": "Fast"
+    },
+    "mareanie": {
+        "name": "Mareanie",
+        "experience_group": "Medium Fast"
+    },
+    "toxapex": {
+        "name": "Toxapex",
+        "experience_group": "Medium Fast"
+    },
+    "mudbray": {
+        "name": "Mudbray",
+        "experience_group": "Medium Fast"
+    },
+    "mudsdale": {
+        "name": "Mudsdale",
+        "experience_group": "Medium Fast"
+    },
+    "dewpider": {
+        "name": "Dewpider",
+        "experience_group": "Medium Fast"
+    },
+    "araquanid": {
+        "name": "Araquanid",
+        "experience_group": "Medium Fast"
+    },
+    "fomantis": {
+        "name": "Fomantis",
+        "experience_group": "Medium Fast"
+    },
+    "lurantis": {
+        "name": "Lurantis",
+        "experience_group": "Medium Fast"
+    },
+    "morelull": {
+        "name": "Morelull",
+        "experience_group": "Medium Fast"
+    },
+    "shiinotic": {
+        "name": "Shiinotic",
+        "experience_group": "Medium Fast"
+    },
+    "salandit": {
+        "name": "Salandit",
+        "experience_group": "Medium Fast"
+    },
+    "salazzle": {
+        "name": "Salazzle",
+        "experience_group": "Medium Fast"
+    },
+    "stufful": {
+        "name": "Stufful",
+        "experience_group": "Medium Fast"
+    },
+    "bewear": {
+        "name": "Bewear",
+        "experience_group": "Medium Fast"
+    },
+    "bounsweet": {
+        "name": "Bounsweet",
+        "experience_group": "Medium Slow"
+    },
+    "steenee": {
+        "name": "Steenee",
+        "experience_group": "Medium Slow"
+    },
+    "tsareena": {
+        "name": "Tsareena",
+        "experience_group": "Medium Slow"
+    },
+    "comfey": {
+        "name": "Comfey",
+        "experience_group": "Fast"
+    },
+    "oranguru": {
+        "name": "Oranguru",
+        "experience_group": "Slow"
+    },
+    "passimian": {
+        "name": "Passimian",
+        "experience_group": "Slow"
+    },
+    "wimpod": {
+        "name": "Wimpod",
+        "experience_group": "Medium Fast"
+    },
+    "golisopod": {
+        "name": "Golisopod",
+        "experience_group": "Medium Fast"
+    },
+    "sandygast": {
+        "name": "Sandygast",
+        "experience_group": "Medium Fast"
+    },
+    "palossand": {
+        "name": "Palossand",
+        "experience_group": "Medium Fast"
+    },
+    "pyukumuku": {
+        "name": "Pyukumuku",
+        "experience_group": "Fast"
+    },
+    "type-null": {
+        "name": "Type: Null",
+        "experience_group": "Slow"
+    },
+    "silvally": {
+        "name": "Silvally",
+        "experience_group": "Slow"
+    },
+    "minior-meteor": {
+        "name": "Minior",
+        "experience_group": "Medium Slow"
+    },
+    "komala": {
+        "name": "Komala",
+        "experience_group": "Slow"
+    },
+    "turtonator": {
+        "name": "Turtonator",
+        "experience_group": "Medium Fast"
+    },
+    "togedemaru": {
+        "name": "Togedemaru",
+        "experience_group": "Medium Fast"
+    },
+    "mimikyu": {
+        "name": "Mimikyu",
+        "experience_group": "Medium Fast"
+    },
+    "bruxish": {
+        "name": "Bruxish",
+        "experience_group": "Medium Fast"
+    },
+    "drampa": {
+        "name": "Drampa",
+        "experience_group": "Medium Fast"
+    },
+    "dhelmise": {
+        "name": "Dhelmise",
+        "experience_group": "Medium Fast"
+    },
+    "jangmo-o": {
+        "name": "Jangmo-o",
+        "experience_group": "Slow"
+    },
+    "hakamo-o": {
+        "name": "Hakamo-o",
+        "experience_group": "Slow"
+    },
+    "kommo-o": {
+        "name": "Kommo-o",
+        "experience_group": "Slow"
+    },
+    "tapu-koko": {
+        "name": "Tapu Koko",
+        "experience_group": "Slow"
+    },
+    "tapu-lele": {
+        "name": "Tapu Lele",
+        "experience_group": "Slow"
+    },
+    "tapu-bulu": {
+        "name": "Tapu Bulu",
+        "experience_group": "Slow"
+    },
+    "tapu-fini": {
+        "name": "Tapu Fini",
+        "experience_group": "Slow"
+    },
+    "cosmog": {
+        "name": "Cosmog",
+        "experience_group": "Slow"
+    },
+    "cosmoem": {
+        "name": "Cosmoem",
+        "experience_group": "Slow"
+    },
+    "solgaleo": {
+        "name": "Solgaleo",
+        "experience_group": "Slow"
+    },
+    "lunala": {
+        "name": "Lunala",
+        "experience_group": "Slow"
+    },
+    "nihilego": {
+        "name": "Nihilego",
+        "experience_group": "Slow"
+    },
+    "buzzwole": {
+        "name": "Buzzwole",
+        "experience_group": "Slow"
+    },
+    "pheromosa": {
+        "name": "Pheromosa",
+        "experience_group": "Slow"
+    },
+    "xurkitree": {
+        "name": "Xurkitree",
+        "experience_group": "Slow"
+    },
+    "celesteela": {
+        "name": "Celesteela",
+        "experience_group": "Slow"
+    },
+    "kartana": {
+        "name": "Kartana",
+        "experience_group": "Slow"
+    },
+    "guzzlord": {
+        "name": "Guzzlord",
+        "experience_group": "Slow"
+    },
+    "necrozma": {
+        "name": "Necrozma",
+        "experience_group": "Slow"
+    },
+    "necrozma-dusk": {
+        "name": "Necrozma (Dusk Mane)",
+        "experience_group": "Slow"
+    },
+    "necrozma-dawn": {
+        "name": "Necrozma (Dawn Wings)",
+        "experience_group": "Slow"
+    },
+    "magearna": {
+        "name": "Magearna",
+        "experience_group": "Slow"
+    },
+    "marshadow": {
+        "name": "Marshadow",
+        "experience_group": "Slow"
+    },
+    "poipole": {
+        "name": "Poipole",
+        "experience_group": "Slow"
+    },
+    "naganadel": {
+        "name": "Naganadel",
+        "experience_group": "Slow"
+    },
+    "stakataka": {
+        "name": "Stakataka",
+        "experience_group": "Slow"
+    },
+    "blacephalon": {
+        "name": "Blacephalon",
+        "experience_group": "Slow"
+    },
+    "zeraora": {
+        "name": "Zeraora",
+        "experience_group": "Slow"
+    },
+    "meltan": {
+        "name": "Meltan",
+        "experience_group": "Slow"
+    },
+    "melmetal": {
+        "name": "Melmetal",
+        "experience_group": "Slow"
+    },
+    "grookey": {
+        "name": "Grookey",
+        "experience_group": "Medium Slow"
+    },
+    "thwackey": {
+        "name": "Thwackey",
+        "experience_group": "Medium Slow"
+    },
+    "rillaboom": {
+        "name": "Rillaboom",
+        "experience_group": "Medium Slow"
+    },
+    "scorbunny": {
+        "name": "Scorbunny",
+        "experience_group": "Medium Slow"
+    },
+    "raboot": {
+        "name": "Raboot",
+        "experience_group": "Medium Slow"
+    },
+    "cinderace": {
+        "name": "Cinderace",
+        "experience_group": "Medium Slow"
+    },
+    "sobble": {
+        "name": "Sobble",
+        "experience_group": "Medium Slow"
+    },
+    "drizzile": {
+        "name": "Drizzile",
+        "experience_group": "Medium Slow"
+    },
+    "inteleon": {
+        "name": "Inteleon",
+        "experience_group": "Medium Slow"
+    },
+    "skwovet": {
+        "name": "Skwovet",
+        "experience_group": "Medium Fast"
+    },
+    "greedent": {
+        "name": "Greedent",
+        "experience_group": "Medium Fast"
+    },
+    "rookidee": {
+        "name": "Rookidee",
+        "experience_group": "Medium Slow"
+    },
+    "corvisquire": {
+        "name": "Corvisquire",
+        "experience_group": "Medium Slow"
+    },
+    "corviknight": {
+        "name": "Corviknight",
+        "experience_group": "Medium Slow"
+    },
+    "blipbug": {
+        "name": "Blipbug",
+        "experience_group": "Medium Fast"
+    },
+    "dottler": {
+        "name": "Dottler",
+        "experience_group": "Medium Fast"
+    },
+    "orbeetle": {
+        "name": "Orbeetle",
+        "experience_group": "Medium Fast"
+    },
+    "nickit": {
+        "name": "Nickit",
+        "experience_group": "Fast"
+    },
+    "thievul": {
+        "name": "Thievul",
+        "experience_group": "Fast"
+    },
+    "gossifleur": {
+        "name": "Gossifleur",
+        "experience_group": "Medium Fast"
+    },
+    "eldegoss": {
+        "name": "Eldegoss",
+        "experience_group": "Medium Fast"
+    },
+    "wooloo": {
+        "name": "Wooloo",
+        "experience_group": "Medium Fast"
+    },
+    "dubwool": {
+        "name": "Dubwool",
+        "experience_group": "Medium Fast"
+    },
+    "chewtle": {
+        "name": "Chewtle",
+        "experience_group": "Medium Fast"
+    },
+    "drednaw": {
+        "name": "Drednaw",
+        "experience_group": "Medium Fast"
+    },
+    "yamper": {
+        "name": "Yamper",
+        "experience_group": "Fast"
+    },
+    "boltund": {
+        "name": "Boltund",
+        "experience_group": "Fast"
+    },
+    "rolycoly": {
+        "name": "Rolycoly",
+        "experience_group": "Medium Slow"
+    },
+    "carkol": {
+        "name": "Carkol",
+        "experience_group": "Medium Slow"
+    },
+    "coalossal": {
+        "name": "Coalossal",
+        "experience_group": "Medium Slow"
+    },
+    "applin": {
+        "name": "Applin",
+        "experience_group": "Erratic"
+    },
+    "flapple": {
+        "name": "Flapple",
+        "experience_group": "Erratic"
+    },
+    "appletun": {
+        "name": "Appletun",
+        "experience_group": "Erratic"
+    },
+    "silicobra": {
+        "name": "Silicobra",
+        "experience_group": "Medium Fast"
+    },
+    "sandaconda": {
+        "name": "Sandaconda",
+        "experience_group": "Medium Fast"
+    },
+    "cramorant": {
+        "name": "Cramorant",
+        "experience_group": "Medium Fast"
+    },
+    "arrokuda": {
+        "name": "Arrokuda",
+        "experience_group": "Slow"
+    },
+    "barraskewda": {
+        "name": "Barraskewda",
+        "experience_group": "Slow"
+    },
+    "toxel": {
+        "name": "Toxel",
+        "experience_group": "Medium Slow"
+    },
+    "toxtricity": {
+        "name": "Toxtricity",
+        "experience_group": "Medium Slow"
+    },
+    "toxtricity-low-key": {
+        "name": "Toxtricity (Low Key Form)",
+        "experience_group": "Medium Slow"
+    },
+    "sizzlipede": {
+        "name": "Sizzlipede",
+        "experience_group": "Medium Fast"
+    },
+    "centiskorch": {
+        "name": "Centiskorch",
+        "experience_group": "Medium Fast"
+    },
+    "clobbopus": {
+        "name": "Clobbopus",
+        "experience_group": "Medium Slow"
+    },
+    "grapploct": {
+        "name": "Grapploct",
+        "experience_group": "Medium Slow"
+    },
+    "sinistea": {
+        "name": "Sinistea",
+        "experience_group": "Medium Fast"
+    },
+    "polteageist": {
+        "name": "Polteageist",
+        "experience_group": "Medium Fast"
+    },
+    "hatenna": {
+        "name": "Hatenna",
+        "experience_group": "Slow"
+    },
+    "hattrem": {
+        "name": "Hattrem",
+        "experience_group": "Slow"
+    },
+    "hatterene": {
+        "name": "Hatterene",
+        "experience_group": "Slow"
+    },
+    "impidimp": {
+        "name": "Impidimp",
+        "experience_group": "Medium Fast"
+    },
+    "morgrem": {
+        "name": "Morgrem",
+        "experience_group": "Medium Fast"
+    },
+    "grimmsnarl": {
+        "name": "Grimmsnarl",
+        "experience_group": "Medium Fast"
+    },
+    "obstagoon": {
+        "name": "Obstagoon",
+        "experience_group": "Medium Fast"
+    },
+    "perrserker": {
+        "name": "Perrserker",
+        "experience_group": "Medium Fast"
+    },
+    "cursola": {
+        "name": "Cursola",
+        "experience_group": "Fast"
+    },
+    "sirfetchd": {
+        "name": "Sirfetch'd",
+        "experience_group": "Medium Fast"
+    },
+    "mr-rime": {
+        "name": "Mr. Rime",
+        "experience_group": "Medium Fast"
+    },
+    "runerigus": {
+        "name": "Runerigus",
+        "experience_group": "Medium Fast"
+    },
+    "milcery": {
+        "name": "Milcery",
+        "experience_group": "Medium Fast"
+    },
+    "alcremie": {
+        "name": "Alcremie",
+        "experience_group": "Medium Fast"
+    },
+    "falinks": {
+        "name": "Falinks",
+        "experience_group": "Medium Fast"
+    },
+    "pincurchin": {
+        "name": "Pincurchin",
+        "experience_group": "Medium Fast"
+    },
+    "snom": {
+        "name": "Snom",
+        "experience_group": "Medium Fast"
+    },
+    "frosmoth": {
+        "name": "Frosmoth",
+        "experience_group": "Medium Fast"
+    },
+    "stonjourner": {
+        "name": "Stonjourner",
+        "experience_group": "Slow"
+    },
+    "eiscue": {
+        "name": "Eiscue",
+        "experience_group": "Slow"
+    },
+    "indeedee": {
+        "name": "Indeedee",
+        "experience_group": "Fast"
+    },
+    "indeedee-female": {
+        "name": "Indeedee (Female)",
+        "experience_group": "Fast"
+    },
+    "morpeko": {
+        "name": "Morpeko",
+        "experience_group": "Medium Fast"
+    },
+    "cufant": {
+        "name": "Cufant",
+        "experience_group": "Medium Fast"
+    },
+    "copperajah": {
+        "name": "Copperajah",
+        "experience_group": "Medium Fast"
+    },
+    "dracozolt": {
+        "name": "Dracozolt",
+        "experience_group": "Slow"
+    },
+    "arctozolt": {
+        "name": "Arctozolt",
+        "experience_group": "Slow"
+    },
+    "dracovish": {
+        "name": "Dracovish",
+        "experience_group": "Slow"
+    },
+    "arctovish": {
+        "name": "Arctovish",
+        "experience_group": "Slow"
+    },
+    "duraludon": {
+        "name": "Duraludon",
+        "experience_group": "Medium Fast"
+    },
+    "dreepy": {
+        "name": "Dreepy",
+        "experience_group": "Slow"
+    },
+    "drakloak": {
+        "name": "Drakloak",
+        "experience_group": "Slow"
+    },
+    "dragapult": {
+        "name": "Dragapult",
+        "experience_group": "Slow"
+    },
+    "zacian": {
+        "name": "Zacian",
+        "experience_group": "Slow"
+    },
+    "zacian-crowned": {
+        "name": "Zacian (Crowned Sword)",
+        "experience_group": "Slow"
+    },
+    "zamazenta": {
+        "name": "Zamazenta",
+        "experience_group": "Slow"
+    },
+    "zamazenta-crowned": {
+        "name": "Zamazenta (Crowned Shield)",
+        "experience_group": "Slow"
+    },
+    "eternatus": {
+        "name": "Eternatus",
+        "experience_group": "Slow"
+    },
+    "kubfu": {
+        "name": "Kubfu",
+        "experience_group": "Slow"
+    },
+    "urshifu": {
+        "name": "Urshifu",
+        "experience_group": "Slow"
+    },
+    "urshifu-rapid-strike": {
+        "name": "Urshifu (Rapid Strike Style)",
+        "experience_group": "Slow"
+    },
+    "zarude": {
+        "name": "Zarude",
+        "experience_group": "Slow"
+    },
+    "regieleki": {
+        "name": "Regieleki",
+        "experience_group": "Slow"
+    },
+    "regidrago": {
+        "name": "Regidrago",
+        "experience_group": "Slow"
+    },
+    "glastrier": {
+        "name": "Glastrier",
+        "experience_group": "Slow"
+    },
+    "spectrier": {
+        "name": "Spectrier",
+        "experience_group": "Slow"
+    },
+    "calyrex": {
+        "name": "Calyrex",
+        "experience_group": "Slow"
+    },
+    "calyrex-ice": {
+        "name": "Calyrex (Ice Rider)",
+        "experience_group": "Slow"
+    },
+    "calyrex-shadow": {
+        "name": "Calyrex (Shadow Rider)",
+        "experience_group": "Slow"
+    },
+    "wyrdeer": {
+        "name": "Wyrdeer",
+        "experience_group": "Slow"
+    },
+    "kleavor": {
+        "name": "Kleavor",
+        "experience_group": "Medium Fast"
+    },
+    "ursaluna": {
+        "name": "Ursaluna",
+        "experience_group": "Medium Fast"
+    },
+    "basculegion": {
+        "name": "Basculegion",
+        "experience_group": "Medium Fast"
+    },
+    "basculegion-female": {
+        "name": "Basculegion (Female)",
+        "experience_group": "Medium Fast"
+    },
+    "sneasler": {
+        "name": "Sneasler",
+        "experience_group": "Medium Slow"
+    },
+    "overqwil": {
+        "name": "Overqwil",
+        "experience_group": "Medium Fast"
+    },
+    "enamorus": {
+        "name": "Enamorus",
+        "experience_group": "Slow"
+    },
+    "enamorus-therian": {
+        "name": "Enamorus (Therian Forme)",
+        "experience_group": "Slow"
+    },
+    "sprigatito": {
+        "name": "Sprigatito",
+        "experience_group": "Medium Slow"
+    },
+    "floragato": {
+        "name": "Floragato",
+        "experience_group": "Medium Slow"
+    },
+    "meowscarada": {
+        "name": "Meowscarada",
+        "experience_group": "Medium Slow"
+    },
+    "fuecoco": {
+        "name": "Fuecoco",
+        "experience_group": "Medium Slow"
+    },
+    "crocalor": {
+        "name": "Crocalor",
+        "experience_group": "Medium Slow"
+    },
+    "skeledirge": {
+        "name": "Skeledirge",
+        "experience_group": "Medium Slow"
+    },
+    "quaxly": {
+        "name": "Quaxly",
+        "experience_group": "Medium Slow"
+    },
+    "quaxwell": {
+        "name": "Quaxwell",
+        "experience_group": "Medium Slow"
+    },
+    "quaquaval": {
+        "name": "Quaquaval",
+        "experience_group": "Medium Slow"
+    },
+    "lechonk": {
+        "name": "Lechonk",
+        "experience_group": "Medium Fast"
+    },
+    "oinkologne": {
+        "name": "Oinkologne",
+        "experience_group": "Medium Fast"
+    },
+    "oinkologne-female": {
+        "name": "Oinkologne (Female)",
+        "experience_group": "Medium Fast"
+    },
+    "tarountula": {
+        "name": "Tarountula",
+        "experience_group": "Erratic"
+    },
+    "spidops": {
+        "name": "Spidops",
+        "experience_group": "Erratic"
+    },
+    "nymble": {
+        "name": "Nymble",
+        "experience_group": "Medium Fast"
+    },
+    "lokix": {
+        "name": "Lokix",
+        "experience_group": "Medium Fast"
+    },
+    "pawmi": {
+        "name": "Pawmi",
+        "experience_group": "Medium Fast"
+    },
+    "pawmo": {
+        "name": "Pawmo",
+        "experience_group": "Medium Fast"
+    },
+    "pawmot": {
+        "name": "Pawmot",
+        "experience_group": "Medium Fast"
+    },
+    "clodsire": {
+        "name": "Clodsire",
+        "experience_group": "Medium Fast"
+    },
+    "tandemaus": {
+        "name": "Tandemaus",
+        "experience_group": "Fast"
+    },
+    "maushold-four": {
+        "name": "Maushold (Family of Four)",
+        "experience_group": "Fast"
+    },
+    "fidough": {
+        "name": "Fidough",
+        "experience_group": "Medium Slow"
+    },
+    "dachsbun": {
+        "name": "Dachsbun",
+        "experience_group": "Medium Slow"
+    },
+    "smoliv": {
+        "name": "Smoliv",
+        "experience_group": "Medium Slow"
+    },
+    "dolliv": {
+        "name": "Dolliv",
+        "experience_group": "Medium Slow"
+    },
+    "arboliva": {
+        "name": "Arboliva",
+        "experience_group": "Medium Slow"
+    },
+    "squawkabilly": {
+        "name": "Squawkabilly",
+        "experience_group": "Erratic"
+    },
+    "nacli": {
+        "name": "Nacli",
+        "experience_group": "Medium Slow"
+    },
+    "naclstack": {
+        "name": "Naclstack",
+        "experience_group": "Medium Slow"
+    },
+    "garganacl": {
+        "name": "Garganacl",
+        "experience_group": "Medium Slow"
+    },
+    "annihilape": {
+        "name": "Annihilape",
+        "experience_group": "Medium Fast"
+    },
+    "charcadet": {
+        "name": "Charcadet",
+        "experience_group": "Slow"
+    },
+    "armarouge": {
+        "name": "Armarouge",
+        "experience_group": "Slow"
+    },
+    "ceruledge": {
+        "name": "Ceruledge",
+        "experience_group": "Slow"
+    },
+    "tadbulb": {
+        "name": "Tadbulb",
+        "experience_group": "Medium Fast"
+    },
+    "bellibolt": {
+        "name": "Bellibolt",
+        "experience_group": "Medium Fast"
+    },
+    "wattrel": {
+        "name": "Wattrel",
+        "experience_group": "Medium Slow"
+    },
+    "kilowattrel": {
+        "name": "Kilowattrel",
+        "experience_group": "Medium Slow"
+    },
+    "dudunsparce": {
+        "name": "Dudunsparce",
+        "experience_group": "Medium Fast"
+    },
+    "farigiraf": {
+        "name": "Farigiraf",
+        "experience_group": "Medium Fast"
+    },
+    "maschiff": {
+        "name": "Maschiff",
+        "experience_group": "Medium Slow"
+    },
+    "mabosstiff": {
+        "name": "Mabosstiff",
+        "experience_group": "Medium Slow"
+    },
+    "shroodle": {
+        "name": "Shroodle",
+        "experience_group": "Medium Slow"
+    },
+    "grafaiai": {
+        "name": "Grafaiai",
+        "experience_group": "Medium Slow"
+    },
+    "bramblin": {
+        "name": "Bramblin",
+        "experience_group": "Medium Fast"
+    },
+    "brambleghast": {
+        "name": "Brambleghast",
+        "experience_group": "Medium Fast"
+    },
+    "toedscool": {
+        "name": "Toedscool",
+        "experience_group": "Medium Slow"
+    },
+    "toedscruel": {
+        "name": "Toedscruel",
+        "experience_group": "Medium Slow"
+    },
+    "klawf": {
+        "name": "Klawf",
+        "experience_group": "Medium Fast"
+    },
+    "capsakid": {
+        "name": "Capsakid",
+        "experience_group": "Medium Fast"
+    },
+    "scovillain": {
+        "name": "Scovillain",
+        "experience_group": "Medium Fast"
+    },
+    "rellor": {
+        "name": "Rellor",
+        "experience_group": "Fast"
+    },
+    "rabsca": {
+        "name": "Rabsca",
+        "experience_group": "Fast"
+    },
+    "flittle": {
+        "name": "Flittle",
+        "experience_group": "Medium Slow"
+    },
+    "espathra": {
+        "name": "Espathra",
+        "experience_group": "Medium Slow"
+    },
+    "tinkatink": {
+        "name": "Tinkatink",
+        "experience_group": "Medium Slow"
+    },
+    "tinkatuff": {
+        "name": "Tinkatuff",
+        "experience_group": "Medium Slow"
+    },
+    "tinkaton": {
+        "name": "Tinkaton",
+        "experience_group": "Medium Slow"
+    },
+    "wiglett": {
+        "name": "Wiglett",
+        "experience_group": "Medium Fast"
+    },
+    "wugtrio": {
+        "name": "Wugtrio",
+        "experience_group": "Medium Fast"
+    },
+    "bombirdier": {
+        "name": "Bombirdier",
+        "experience_group": "Slow"
+    },
+    "finizen": {
+        "name": "Finizen",
+        "experience_group": "Slow"
+    },
+    "palafin": {
+        "name": "Palafin",
+        "experience_group": "Slow"
+    },
+    "varoom": {
+        "name": "Varoom",
+        "experience_group": "Medium Fast"
+    },
+    "revavroom": {
+        "name": "Revavroom",
+        "experience_group": "Medium Fast"
+    },
+    "cyclizar": {
+        "name": "Cyclizar",
+        "experience_group": "Medium Slow"
+    },
+    "orthworm": {
+        "name": "Orthworm",
+        "experience_group": "Slow"
+    },
+    "glimmet": {
+        "name": "Glimmet",
+        "experience_group": "Medium Slow"
+    },
+    "glimmora": {
+        "name": "Glimmora",
+        "experience_group": "Medium Slow"
+    },
+    "greavard": {
+        "name": "Greavard",
+        "experience_group": "Medium Slow"
+    },
+    "houndstone": {
+        "name": "Houndstone",
+        "experience_group": "Medium Slow"
+    },
+    "flamigo": {
+        "name": "Flamigo",
+        "experience_group": "Medium Slow"
+    },
+    "cetoddle": {
+        "name": "Cetoddle",
+        "experience_group": "Medium Slow"
+    },
+    "cetitan": {
+        "name": "Cetitan",
+        "experience_group": "Medium Slow"
+    },
+    "kingambit": {
+        "name": "Kingambit",
+        "experience_group": "Medium Fast"
+    },
+    "veluza": {
+        "name": "Veluza",
+        "experience_group": "Fast"
+    },
+    "dondozo": {
+        "name": "Dondozo",
+        "experience_group": "Slow"
+    },
+    "tatsugiri": {
+        "name": "Tatsugiri",
+        "experience_group": "Medium Slow"
+    },
+    "great-tusk": {
+        "name": "Great Tusk",
+        "experience_group": "Slow"
+    },
+    "scream-tail": {
+        "name": "Scream Tail",
+        "experience_group": "Slow"
+    },
+    "brute-bonnet": {
+        "name": "Brute Bonnet",
+        "experience_group": "Slow"
+    },
+    "flutter-mane": {
+        "name": "Flutter Mane",
+        "experience_group": "Slow"
+    },
+    "slither-wing": {
+        "name": "Slither Wing",
+        "experience_group": "Slow"
+    },
+    "sandy-shocks": {
+        "name": "Sandy Shocks",
+        "experience_group": "Slow"
+    },
+    "iron-treads": {
+        "name": "Iron Treads",
+        "experience_group": "Slow"
+    },
+    "iron-bundle": {
+        "name": "Iron Bundle",
+        "experience_group": "Slow"
+    },
+    "iron-hands": {
+        "name": "Iron Hands",
+        "experience_group": "Slow"
+    },
+    "iron-jugulis": {
+        "name": "Iron Jugulis",
+        "experience_group": "Slow"
+    },
+    "iron-moth": {
+        "name": "Iron Moth",
+        "experience_group": "Slow"
+    },
+    "iron-thorns": {
+        "name": "Iron Thorns",
+        "experience_group": "Slow"
+    },
+    "frigibax": {
+        "name": "Frigibax",
+        "experience_group": "Slow"
+    },
+    "arctibax": {
+        "name": "Arctibax",
+        "experience_group": "Slow"
+    },
+    "baxcalibur": {
+        "name": "Baxcalibur",
+        "experience_group": "Slow"
+    },
+    "gimmighoul": {
+        "name": "Gimmighoul",
+        "experience_group": "Slow"
+    },
+    "gimmighoul-roaming": {
+        "name": "Gimmighoul (Roaming Form)",
+        "experience_group": "Slow"
+    },
+    "gholdengo": {
+        "name": "Gholdengo",
+        "experience_group": "Slow"
+    },
+    "wo-chien": {
+        "name": "Wo-Chien",
+        "experience_group": "Slow"
+    },
+    "chien-pao": {
+        "name": "Chien-Pao",
+        "experience_group": "Slow"
+    },
+    "ting-lu": {
+        "name": "Ting-Lu",
+        "experience_group": "Slow"
+    },
+    "chi-yu": {
+        "name": "Chi-Yu",
+        "experience_group": "Slow"
+    },
+    "roaring-moon": {
+        "name": "Roaring Moon",
+        "experience_group": "Slow"
+    },
+    "iron-valiant": {
+        "name": "Iron Valiant",
+        "experience_group": "Slow"
+    },
+    "koraidon": {
+        "name": "Koraidon",
+        "experience_group": "Slow"
+    },
+    "miraidon": {
+        "name": "Miraidon",
+        "experience_group": "Slow"
+    }
+}
