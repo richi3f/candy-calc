@@ -631,7 +631,7 @@
         "name": "Tauros",
         "experience_group": "Slow"
     },
-    "tauros-paldea": {
+    "tauros-paldea-combat": {
         "name": "Tauros (Paldean Form)",
         "experience_group": "Slow"
     },
@@ -4091,10 +4091,6 @@
         "name": "Pawmot",
         "experience_group": "Medium Fast"
     },
-    "clodsire": {
-        "name": "Clodsire",
-        "experience_group": "Medium Fast"
-    },
     "tandemaus": {
         "name": "Tandemaus",
         "experience_group": "Fast"
@@ -4139,10 +4135,6 @@
         "name": "Garganacl",
         "experience_group": "Medium Slow"
     },
-    "annihilape": {
-        "name": "Annihilape",
-        "experience_group": "Medium Fast"
-    },
     "charcadet": {
         "name": "Charcadet",
         "experience_group": "Slow"
@@ -4170,14 +4162,6 @@
     "kilowattrel": {
         "name": "Kilowattrel",
         "experience_group": "Medium Slow"
-    },
-    "dudunsparce": {
-        "name": "Dudunsparce",
-        "experience_group": "Medium Fast"
-    },
-    "farigiraf": {
-        "name": "Farigiraf",
-        "experience_group": "Medium Fast"
     },
     "maschiff": {
         "name": "Maschiff",
@@ -4315,10 +4299,6 @@
         "name": "Cetitan",
         "experience_group": "Medium Slow"
     },
-    "kingambit": {
-        "name": "Kingambit",
-        "experience_group": "Medium Fast"
-    },
     "veluza": {
         "name": "Veluza",
         "experience_group": "Fast"
@@ -4330,6 +4310,26 @@
     "tatsugiri": {
         "name": "Tatsugiri",
         "experience_group": "Medium Slow"
+    },
+    "annihilape": {
+        "name": "Annihilape",
+        "experience_group": "Medium Fast"
+    },
+    "clodsire": {
+        "name": "Clodsire",
+        "experience_group": "Medium Fast"
+    },
+    "farigiraf": {
+        "name": "Farigiraf",
+        "experience_group": "Medium Fast"
+    },
+    "dudunsparce": {
+        "name": "Dudunsparce",
+        "experience_group": "Medium Fast"
+    },
+    "kingambit": {
+        "name": "Kingambit",
+        "experience_group": "Medium Fast"
     },
     "great-tusk": {
         "name": "Great Tusk",
@@ -4433,6 +4433,14 @@
     },
     "miraidon": {
         "name": "Miraidon",
+        "experience_group": "Slow"
+    },
+    "walking-wake": {
+        "name": "Walking Wake",
+        "experience_group": "Slow"
+    },
+    "iron-leaves": {
+        "name": "Iron Leaves",
         "experience_group": "Slow"
     }
 }
