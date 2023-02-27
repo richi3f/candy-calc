@@ -39,7 +39,7 @@ curves = {
         return Math.floor( Math.pow( n, 3 ) * ( 64 + n ) / 100 );
     }
 }
-    
+
 function log( mssg = false ) {
     var $log = $( '#log' );
     if ( mssg ) {
@@ -70,7 +70,7 @@ function validate() {
     log( disable );
     $( '[type=submit]' ).prop( 'disabled', disable.length > 0 );
 }
-    
+
 function testTimeout( start ) {
     var d, now = new Date();
     d = ( now.getTime() - start.getTime() ) / 1000;
@@ -79,7 +79,7 @@ function testTimeout( start ) {
 
 function optimize( problem ) {
     var lp, iocp, start, colname, colval, objval;
-    
+
     start = new Date();
 
     lp = glp_create_prob();
@@ -93,7 +93,7 @@ function optimize( problem ) {
     try {
         objval = glp_mip_obj_val( lp );
         testTimeout( start );
-        
+
         for( let i = 1; i <= glp_get_num_cols( lp ); i++ ){
             colname = glp_get_col_name( lp, i ),
             colval = glp_mip_col_val( lp, i );
@@ -111,12 +111,12 @@ $( document ).ready( function() {
     // read candy MILP problem
     $.get( 'problem.txt', function( problemTemplate ) {
         var i, len;
-        
+
         // read Pokémon names and experience curves
         $.getJSON( 'static/pokemon.json', function( pokemonData ) {
             var slug, slugs;
 
-            // add each Pokémon to the datalist 
+            // add each Pokémon to the datalist
             slugs = Object.keys( pokemonData );
             len = slugs.length;
             for ( i = 0; i < len; i++ ) {
@@ -126,7 +126,7 @@ $( document ).ready( function() {
                     .attr( 'data-exp-curve', pokemonData[ slug ].experience_group )
                     .appendTo( 'datalist' );
             }
-            
+
             // show the experience curve when a Pokémon name is typed
             $( '#pokemon' ).on( 'input', function() {
                 var value, $match;
@@ -179,7 +179,7 @@ $( document ).ready( function() {
                 $template.appendTo( target );
             }
         } )();
-        
+
         // restrict numerical input
         ( () => {
             $( 'input[type=number]' ).on( 'change', function() {

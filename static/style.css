@@ -74,7 +74,7 @@ input[readonly] {
 }
 
 .var {
-  font-style: italic 
+  font-style: italic
 }
 
 main {
@@ -109,7 +109,7 @@ h1:after, h1:before,
 h2:after, h2:before {
   content: '';
   width: 0;
-  height: 0; 
+  height: 0;
   position: absolute;
   top: 0;
 }
@@ -295,7 +295,7 @@ tr th[rowspan] {
 
 #calc #log {
   text-align: center;
-  padding: 0.5em; 
+  padding: 0.5em;
 }
 
 #calc #log a {
@@ -318,13 +318,13 @@ tr th[rowspan] {
 h2:after {
   left: 0;
   border-bottom: 2.5em solid transparent;
-  border-left: 1em solid #2c2125  
+  border-left: 1em solid #2c2125
 }
 
 h2:before {
   right: 0;
   border-top: 2.5em solid transparent;
-  border-right: 1em solid #2c2125  
+  border-right: 1em solid #2c2125
 }
 
 #faq table {
