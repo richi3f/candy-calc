@@ -383,3 +383,33 @@ footer {
     margin-left: 8em
   }
 }
+
+.darkButton {
+  background-color: white;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.dark-mode,
+.dark-mode .darkButton, 
+.dark-mode a {
+  background-color: #313131;
+  color: white;
+}
+
+.dark-mode #faq tbody tr:nth-of-type(2n+1) {
+  background: #222222
+}
+
+.dark-mode #calc, .dark-mode #calc a{
+  color: black;
+}
+
+.dark-mode #calc a {
+  background-color: #dc6a9d;
+}
+
+.dark-mode #faq h2 {
+  background-color: #222222;
+}
