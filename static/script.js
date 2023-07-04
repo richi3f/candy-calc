@@ -241,3 +241,30 @@ $( document ).ready( function() {
 } );
 
 } )();
+
+//Darkmode toggle button
+var darkModeButton = document.getElementById("darkModeButton");
+if(darkModeButton) {
+    darkModeButton.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+        var isDarkMode = document.body.classList.contains("dark-mode");
+        localStorage.setItem("darkMode", isDarkMode)
+
+        if(isDarkMode) {
+            darkModeButton.innerHTML = "<u>Light Mode</u>";
+        } else {
+            darkModeButton.innerHTML = "<u>Dark Mode</u>";
+        }
+      });
+}
+
+//Keeps dark mode between page loads
+window.addEventListener("load", function() {
+    var darkMode = this.localStorage.getItem("darkMode");
+    if(darkMode === "true") {
+        this.document.body.classList.add("dark-mode");
+        darkModeButton.innerHTML = "<u>Light Mode</u>";
+    } else {
+        darkModeButton.innerHTML = "<u>Dark Mode</u>";
+    }
+})
