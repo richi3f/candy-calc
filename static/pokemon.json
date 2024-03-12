@@ -3991,6 +3991,10 @@
         "name": "Ursaluna",
         "experience_group": "Medium Fast"
     },
+    "ursaluna-bloodmoon": {
+        "name": "Ursaluna (Bloodmoon)",
+        "experience_group": "Medium Fast"
+    },
     "basculegion": {
         "name": "Basculegion",
         "experience_group": "Medium Fast"
@@ -4395,10 +4399,6 @@
         "name": "Gimmighoul",
         "experience_group": "Slow"
     },
-    "gimmighoul-roaming": {
-        "name": "Gimmighoul (Roaming Form)",
-        "experience_group": "Slow"
-    },
     "gholdengo": {
         "name": "Gholdengo",
         "experience_group": "Slow"
@@ -4441,6 +4441,66 @@
     },
     "iron-leaves": {
         "name": "Iron Leaves",
+        "experience_group": "Slow"
+    },
+    "dipplin": {
+        "name": "Dipplin",
+        "experience_group": "Erratic"
+    },
+    "poltchageist": {
+        "name": "Poltchageist",
+        "experience_group": "Medium Fast"
+    },
+    "sinistcha": {
+        "name": "Sinistcha",
+        "experience_group": "Medium Fast"
+    },
+    "okidogi": {
+        "name": "Okidogi",
+        "experience_group": "Slow"
+    },
+    "munkidori": {
+        "name": "Munkidori",
+        "experience_group": "Slow"
+    },
+    "fezandipiti": {
+        "name": "Fezandipiti",
+        "experience_group": "Slow"
+    },
+    "ogerpon": {
+        "name": "Ogerpon",
+        "experience_group": "Slow"
+    },
+    "archaludon": {
+        "name": "Archaludon",
+        "experience_group": "Medium Fast"
+    },
+    "hydrapple": {
+        "name": "Hydrapple",
+        "experience_group": "Erratic"
+    },
+    "gouging-fire": {
+        "name": "Gouging Fire",
+        "experience_group": "Slow"
+    },
+    "raging-bolt": {
+        "name": "Raging Bolt",
+        "experience_group": "Slow"
+    },
+    "iron-boulder": {
+        "name": "Iron Boulder",
+        "experience_group": "Slow"
+    },
+    "iron-crown": {
+        "name": "Iron Crown",
+        "experience_group": "Slow"
+    },
+    "terapagos": {
+        "name": "Terapagos",
+        "experience_group": "Slow"
+    },
+    "pecharunt": {
+        "name": "Pecharunt",
         "experience_group": "Slow"
     }
 }
